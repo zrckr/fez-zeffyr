@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/g3.wav-3989950ed4061c29f874d4701e7a5504.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/SplitUpCube/g3.wav"
+dest_files=[ "res://.import/g3.wav-3989950ed4061c29f874d4701e7a5504.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/industrial_city.ogg-2d64769c235306f8c35effdf32cf6d9f.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/industrial_city.ogg"
+dest_files=[ "res://.import/industrial_city.ogg-2d64769c235306f8c35effdf32cf6d9f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

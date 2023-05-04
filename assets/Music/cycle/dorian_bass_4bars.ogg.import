@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian_bass_4bars.ogg-3932a03da1a1e52263ef7b3421bf0eeb.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/dorian_bass_4bars.ogg"
+dest_files=[ "res://.import/dorian_bass_4bars.ogg-3932a03da1a1e52263ef7b3421bf0eeb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

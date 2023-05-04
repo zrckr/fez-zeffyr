@@ -1,0 +1,152 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://scenes/Gomez.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Trilesets/untitled.meshlib" type="MeshLibrary" id=3]
+[ext_resource path="res://assets/Art Objects/int_ceiling_lamp_0ao.gltf" type="PackedScene" id=4]
+[ext_resource path="res://assets/Art Objects/int_ceiling_lamp_1ao.gltf" type="PackedScene" id=5]
+[ext_resource path="res://assets/Art Objects/int_chairao.gltf" type="PackedScene" id=6]
+[ext_resource path="res://assets/Art Objects/student_deskao.gltf" type="PackedScene" id=7]
+[ext_resource path="res://assets/Art Objects/teacher_deskao.gltf" type="PackedScene" id=8]
+[ext_resource path="res://assets/Background Planes/school_wall_d.png" type="Texture" id=9]
+[ext_resource path="res://assets/Background Planes/school_wall_a_3d.png" type="Texture" id=10]
+[ext_resource path="res://assets/Background Planes/school_wall_b.png" type="Texture" id=11]
+[ext_resource path="res://assets/Background Planes/school_wall_c.png" type="Texture" id=12]
+[ext_resource path="res://src/Components/NpcInstance.cs" type="Script" id=13]
+[ext_resource path="res://assets/Character Animations/Blonde/Blonde.tres" type="SpriteFrames" id=14]
+[ext_resource path="res://scenes/ChangeLevel.tscn" type="PackedScene" id=15]
+[ext_resource path="res://scenes/SmallCube.tscn" type="PackedScene" id=16]
+[ext_resource path="res://src/Components/Level.cs" type="Script" id=17]
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+
+[node name="SCHOOL" type="Spatial"]
+script = ExtResource( 17 )
+
+[node name="Triles" type="GridMap" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, 0.5 )
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+collision_layer = 0
+collision_mask = 0
+data = {
+"cells": PoolIntArray( 0, 0, 194, 9, 0, 1441986, 65536, 0, 193, 65545, 0, 1441984, 131072, 0, 192, 131081, 0, 1441984, 196608, 0, 193, 196617, 0, 1441985, 262144, 0, 192, 262153, 0, 1441985, 327680, 0, 192, 327689, 0, 1441984, 393216, 0, 193, 393225, 0, 1441984, 458752, 0, 193, 458761, 0, 1441985, 524288, 0, 192, 524297, 0, 1441984, 1, 1, 198, 2, 1, 197, 3, 1, 197, 4, 1, 198, 5, 1, 198, 6, 1, 197, 7, 1, 197, 8, 1, 198, 589825, 1, 196, 589826, 1, 196, 589827, 1, 191, 589828, 1, 196, 589829, 1, 191, 589830, 1, 196, 589831, 1, 196, 589832, 1, 191, 1, 2, 197, 2, 2, 197, 3, 2, 197, 4, 2, 197, 5, 2, 197, 6, 2, 197, 7, 2, 197, 8, 2, 198, 65538, 2, 160, 65539, 2, 160, 589825, 2, 196, 589826, 2, 196, 589827, 2, 196, 589828, 2, 196, 589829, 2, 196, 589830, 2, 196, 589831, 2, 196, 589832, 2, 196, 1, 3, 198, 2, 3, 197, 3, 3, 197, 4, 3, 197, 5, 3, 197, 6, 3, 197, 7, 3, 197, 8, 3, 197, 589825, 3, 191, 589826, 3, 196, 589827, 3, 196, 589828, 3, 196, 589829, 3, 196, 589830, 3, 196, 589831, 3, 196, 589832, 3, 196, 1, 4, 198, 2, 4, 197, 3, 4, 197, 4, 4, 197, 5, 4, 197, 6, 4, 197, 7, 4, 197, 8, 4, 198, 589825, 4, 196, 589826, 4, 196, 589827, 4, 196, 589828, 4, 196, 589829, 4, 196, 589830, 4, 196, 589831, 4, 196, 589832, 4, 191, 1, 5, 197, 2, 5, 197, 3, 5, 197, 4, 5, 197, 5, 5, 197, 6, 5, 197, 7, 5, 197, 8, 5, 198, 65541, 5, 160, 589825, 5, 191, 589826, 5, 196, 589827, 5, 196, 589828, 5, 196, 589829, 5, 196, 589830, 5, 196, 589831, 5, 196, 589832, 5, 196, 1, 6, 198, 2, 6, 197, 3, 6, 197, 4, 6, 197, 5, 6, 197, 6, 6, 197, 7, 6, 197, 8, 6, 197, 589825, 6, 191, 589826, 6, 196, 589827, 6, 196, 589828, 6, 196, 589829, 6, 196, 589830, 6, 196, 589831, 6, 196, 589832, 6, 196, 1, 7, 198, 2, 7, 197, 3, 7, 197, 4, 7, 197, 5, 7, 197, 6, 7, 197, 7, 7, 197, 8, 7, 197, 65543, 7, 160, 589825, 7, 196, 589826, 7, 196, 589827, 7, 196, 589828, 7, 196, 589829, 7, 196, 589830, 7, 196, 589831, 7, 196, 589832, 7, 191, 1, 8, 197, 2, 8, 198, 3, 8, 197, 4, 8, 197, 5, 8, 198, 6, 8, 198, 7, 8, 197, 8, 8, 198, 589825, 8, 191, 589826, 8, 196, 589827, 8, 196, 589828, 8, 196, 589829, 8, 191, 589830, 8, 196, 589831, 8, 191, 589832, 8, 191, 0, 9, 1048770, 9, 9, 655554, 65536, 9, 1048769, 65545, 9, 655552, 131072, 9, 1048769, 131081, 9, 655552, 196608, 9, 1048768, 196617, 9, 655553, 262144, 9, 1048769, 262153, 9, 655552, 327680, 9, 1048768, 327689, 9, 655552, 393216, 9, 1048769, 393225, 9, 655553, 458752, 9, 1048768, 458761, 9, 655552, 524288, 9, 1048769, 524297, 9, 655553 )
+}
+
+[node name="Gomez" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4, 1.5, 4 )
+
+[node name="GameCamera" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 5, 0 )
+PixelsPerTrixel = 2
+TargetPath = NodePath("../Gomez")
+
+[node name="Items" type="Spatial" parent="."]
+
+[node name="SmallCube" parent="Items" instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 3.5, 7.5 )
+
+[node name="Arts" type="Spatial" parent="."]
+
+[node name="1" parent="Arts" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 3, 3, 2.5 )
+
+[node name="2" parent="Arts" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 2, 5.5 )
+
+[node name="3" parent="Arts" instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 3, 1.5, 1.6875 )
+
+[node name="5" parent="Arts" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 2, 7.5 )
+
+[node name="8" parent="Arts" instance=ExtResource( 6 )]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 7.5, 1.5, 8.3125 )
+
+[node name="10" parent="Arts" instance=ExtResource( 6 )]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 5.5, 1.5, 6.25 )
+
+[node name="11" parent="Arts" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4375, 7.5, 3.5 )
+
+[node name="12" parent="Arts" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4375, 8.5, 6.5 )
+
+[node name="13" parent="Arts" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4375, 7.5, 6.5 )
+
+[node name="14" parent="Arts" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4375, 8.5, 3.5 )
+
+[node name="Planes" type="Spatial" parent="."]
+
+[node name="school_wall_a_3d" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 9, 5, 5 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 10 )
+
+[node name="school_wall_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1, 5, 5 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 11 )
+
+[node name="school_wall_d" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 5, 5, 9 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 9 )
+
+[node name="school_wall_c" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 5, 1 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 12 )
+
+[node name="Volumes" type="Spatial" parent="."]
+
+[node name="0" parent="Volumes" instance=ExtResource( 15 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 8.5, 2, 4 )
+VolumeId = 3
+NextLevel = "villageville_3d"
+
+[node name="Npcs" type="Spatial" parent="."]
+
+[node name="Blonde" type="AnimatedSprite3D" parent="Npcs"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 1.75, 5.5 )
+pixel_size = 0.0625
+frames = ExtResource( 14 )
+animation = "idle"
+script = ExtResource( 13 )
+SpeechTags = PoolStringArray( "TEACHER_3D_A", "TEACHER_3D_B", "TEACHER_3D_C" )
+DestinationOffset = Vector3( 0, 0, 2 )
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
+
+[node name="Sun" type="DirectionalLight" parent="."]
+transform = Transform( 0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 9.875, 10.125, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Sun2" type="DirectionalLight" parent="Sun"]
+transform = Transform( 0.883022, -0.321394, 0.34202, -0.34202, -0.939693, 0, 0.321394, -0.116978, -0.939692, 0, 0, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0

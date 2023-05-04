@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" load_steps=176 format=2]
+[ext_resource path="res://assets/Character Animations/Oldy/idle.ani.png" type="Texture" id=79]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 79 )
+region = Rect2( 0, 0, 15, 16 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 79 )
+region = Rect2( 16, 0, 15, 16 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 8.57
+}, {
+} ]

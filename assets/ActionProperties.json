@@ -1,0 +1,632 @@
+{
+  "Idle": {
+    "Animation": "idle_wink",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "IdleLookAround": {
+    "Animation": "idle_look_around",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "IdlePlay": {
+    "Animation": "idle_play",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "IdleSleep": {
+    "Animation": "idle_sleep",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "IdleYawn": {
+    "Animation": "idle_yawn",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "CarryIdle": {
+    "Animation": "carry_stand",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "CarryHeavyIdle": {
+    "Animation": "carry_heavy_stand",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "Teeter": {
+    "Animation": "teeter",
+    "Group": "Idle",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true
+  },
+  "TeeterPaul": {
+    "Animation": "teeter_paul",
+    "Group": "Idle",
+    "AllowsDirectionChange": true
+  },
+  "WalkTo": {
+    "Animation": "walk_1",
+    "Group": "None",
+    "DisallowsRespawn": true
+  },
+  "Walk": {
+    "Animation": "walk_1",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "Run": {
+    "Animation": "run",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "RunSwitch": {
+    "Animation": "run_switch",
+    "Group": "None",
+    "DisallowsRespawn": true
+  },
+  "CarryWalk": {
+    "Animation": "carry_walk",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "CarryHeavyWalk": {
+    "Animation": "carry_heavy_walk",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "Slide": {
+    "Animation": "walk_1",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "CarrySlide": {
+    "Animation": "carry_walk",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "CarryHeavySlide": {
+    "Animation": "carry_heavy_walk",
+    "Group": "Carry",
+    "AllowsDirectionChange": true
+  },
+  "Jump": {
+    "Animation": "jump",
+    "Group": "None",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "CarryJump": {
+    "Animation": "carry_jump",
+    "Group": "Carry",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true
+  },
+  "CarryHeavyJump": {
+    "Animation": "carry_heavy_jump",
+    "Group": "Carry",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true
+  },
+  "Bounce": {
+    "Animation": "jump",
+    "Group": "None",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true
+  },
+  "Fly": {
+    "Animation": "_entry",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "Fall": {
+    "Animation": "fall",
+    "Group": "None",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true
+  },
+  "Land": {
+    "Animation": "land",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "DropDown": {
+    "Animation": "drop",
+    "Group": "None",
+    "AllowsDirectionChange": true
+  },
+  "AirPanic": {
+    "Animation": "air_panic",
+    "Group": "Defeated",
+    "AllowsDirectionChange": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true,
+    "PreventsRotation": true
+  },
+  "Dying": {
+    "Animation": "die",
+    "Group": "Defeated",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "SuckedIn": {
+    "Animation": "sucked_in",
+    "Group": "Defeated",
+    "PreventsFall": true,
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "NeedsAlwaysOnTop": false
+  },
+  "Hurt": {
+    "Animation": "hurt",
+    "Group": "Defeated",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "CrushHorz": {
+    "Animation": "crush_horizontal",
+    "Group": "Defeated",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "NeedsAlwaysOnTop": false,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "CrushVert": {
+    "Animation": "crush_vertical",
+    "Group": "Defeated",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "NeedsAlwaysOnTop": false,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "Grab": {
+    "Animation": "grab",
+    "Group": "None",
+    "DisallowsRespawn": true
+  },
+  "Push": {
+    "Animation": "push",
+    "Group": "None",
+    "DisallowsRespawn": true
+  },
+  "GrabTombstone": {
+    "Animation": "grab_tombstone",
+    "Group": "None",
+    "PreventsRotation": false
+  },
+  "LetGoOfTombstone": {
+    "Animation": "let_go_tombstone",
+    "Group": "None"
+  },
+  "PivotTombstone": {
+    "Animation": "pivot_tombstone",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "PreventsFall": true
+  },
+  "PushPivot": {
+    "Animation": "push_spin_fall",
+    "Group": "None",
+    "DisallowsRespawn": true
+  },
+  "HitBell": {
+    "Animation": "hit_bell",
+    "Group": "None"
+  },
+  "TurnAwayFromBell": {
+    "Animation": "let_go_tombstone",
+    "Group": "None"
+  },
+  "TurnToBell": {
+    "Animation": "grab_tombstone",
+    "Group": "None"
+  },
+  "OpenDoor": {
+    "Animation": "unlock_door",
+    "Group": "None"
+  },
+  "LiftTrile": {
+    "Animation": "lift",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true
+  },
+  "ThrowTrile": {
+    "Animation": "throw",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "DropTrile": {
+    "Animation": "drop_trile",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true
+  },
+  "LiftHeavy": {
+    "Animation": "lift_heavy",
+    "Group": "None",
+    "HandlesDepthChange": true
+  },
+  "ThrowHeavy": {
+    "Animation": "throw_heavy",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "DropHeavy": {
+    "Animation": "drop_heavy_trile",
+    "Group": "None",
+    "HandlesDepthChange": true
+  },
+  "LookUp": {
+    "Animation": "look_up",
+    "Group": "Look",
+    "PreventsRotation": false
+  },
+  "LookDown": {
+    "Animation": "look_down",
+    "Group": "Look",
+    "PreventsRotation": false
+  },
+  "LookLeft": {
+    "Animation": "look_left",
+    "Group": "Look",
+    "PreventsRotation": false
+  },
+  "LookRight": {
+    "Animation": "look_right",
+    "Group": "Look",
+    "PreventsRotation": false
+  },
+  "DrumsCrash": {
+    "Animation": "drums_crash",
+    "Group": "Drums"
+  },
+  "DrumsHiHat": {
+    "Animation": "drums_hihat",
+    "Group": "Drums"
+  },
+  "DrumsIdle": {
+    "Animation": "drums_idle",
+    "Group": "Drums"
+  },
+  "DrumsTom": {
+    "Animation": "drums_tom",
+    "Group": "Drums"
+  },
+  "DrumsTom2": {
+    "Animation": "drums_tom2",
+    "Group": "Drums"
+  },
+  "DrumsToss": {
+    "Animation": "drums_toss",
+    "Group": "Drums"
+  },
+  "DrumsTwirl": {
+    "Animation": "drums_twirl",
+    "Group": "Drums"
+  },
+  "EnterDoor": {
+    "Animation": "enter_door",
+    "Group": "Enter",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "SkipSilhouette": true
+  },
+  "EnterDoorSpin": {
+    "Animation": "walk_1",
+    "Group": "Enter",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "EnterPipe": {
+    "Animation": "walk_1",
+    "Group": "Enter",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "EnterTunnel": {
+    "Animation": "walk_1",
+    "Group": "Enter",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "SkipSilhouette": true
+  },
+  "ExitDoor": {
+    "Animation": "exit_door",
+    "Group": "Enter",
+    "PreventsFall": true,
+    "DisallowsRespawn": true
+  },
+  "CarryEnter": {
+    "Animation": "carry_enter",
+    "Group": "Carry",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "SkipSilhouette": true
+  },
+  "CarryEnterDoorSpin": {
+    "Animation": "carry_walk",
+    "Group": "Carry",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "CarryEnterTunnel": {
+    "Animation": "carry_walk",
+    "Group": "Carry"
+  },
+  "CarryExit": {
+    "Animation": "carry_exit",
+    "Group": "Carry",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "CarryHeavyEnter": {
+    "Animation": "carry_heavy_enter",
+    "Group": "Carry",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "CarryHeavyEnterDoorSpin": {
+    "Animation": "carry_heavy_walk",
+    "Group": "Carry",
+    "DisallowsRespawn": true,
+    "HandlesDepthChange": true,
+    "PreventsFall": true
+  },
+  "CarryHeavyEnterTunnel": {
+    "Animation": "carry_heavy_walk",
+    "Group": "Carry"
+  },
+  "CarryHeavyExit": {
+    "Animation": "carry_heavy_exit",
+    "Group": "Carry",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "GateWarp": {
+    "Animation": "warp",
+    "Group": "Enter",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "LesserWarp": {
+    "Animation": "warp",
+    "Group": "Enter",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true,
+    "SkipSilhouette": true
+  },
+  "IdleToClimbBack": {
+    "Animation": "idle_to_back_climb",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "IdleToClimbFront": {
+    "Animation": "idle_to_front_climb",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "IdleToClimbSide": {
+    "Animation": "idle_to_side_climb",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "ClimbFront": {
+    "Animation": "climb_front",
+    "Group": "Climb",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true
+  },
+  "ClimbBack": {
+    "Animation": "climb_rear",
+    "Group": "Climb",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true,
+    "FacesBack": true
+  },
+  "ClimbSide": {
+    "Animation": "climb_side",
+    "Group": "Climb",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "PreventsRotation": false
+  },
+  "ClimbFrontSideways": {
+    "Animation": "climb_front_sideways",
+    "Group": "Climb",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true
+  },
+  "ClimbBackSideways": {
+    "Animation": "climb_back_sideways",
+    "Group": "Climb",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true,
+    "FacesBack": true
+  },
+  "ClimbOver": {
+    "Animation": "climb_over_ladder",
+    "Group": "None",
+    "IgnoresGravity": true
+  },
+  "JumpToClimb": {
+    "Animation": "jump_to_back_climb",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "JumpToClimbSide": {
+    "Animation": "jump_to_side_climb",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "CornerPullUp": {
+    "Animation": "corner_ledge_pull_up",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "NoBackgroundDarkening": true
+  },
+  "CornerLowerTo": {
+    "Animation": "corner_ledge_lower",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "NoBackgroundDarkening": true
+  },
+  "CornerGrab": {
+    "Animation": "corner_ledge_grab",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "NoBackgroundDarkening": true,
+    "PreventsRotation": false
+  },
+  "LedgeGrabFront": {
+    "Animation": "ledge_grab_front",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "NoBackgroundDarkening": true
+  },
+  "LedgeGrabBack": {
+    "Animation": "ledge_grab_back",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "FacesBack": true,
+    "HandlesDepthChange": true,
+    "NoBackgroundDarkening": true
+  },
+  "LedgePullUpFront": {
+    "Animation": "ledge_pull_up_front",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "NoBackgroundDarkening": true
+  },
+  "LedgePullUpBack": {
+    "Animation": "ledge_pull_up_back",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "FacesBack": true,
+    "NoBackgroundDarkening": true
+  },
+  "LedgeLowerTo": {
+    "Animation": "lower_to_ledge",
+    "Group": "Ledge",
+    "IgnoresGravity": true,
+    "FacesBack": true,
+    "NoBackgroundDarkening": true
+  },
+  "ShimmyFront": {
+    "Animation": "ledge_shimmy_front",
+    "Group": "Ledge",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true,
+    "HandlesDepthChange": true,
+    "NoBackgroundDarkening": true,
+    "PreventsRotation": true
+  },
+  "ShimmyBack": {
+    "Animation": "ledge_shimmy_back",
+    "Group": "Ledge",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true,
+    "FacesBack": true,
+    "NoBackgroundDarkening": true,
+    "PreventsRotation": true
+  },
+  "ToCornerFront": {
+    "Animation": "front_to_corner_grab",
+    "Group": "Ledge",
+    "IgnoresGravity": true
+  },
+  "ToCornerBack": {
+    "Animation": "back_to_corner_grab",
+    "Group": "Ledge",
+    "IgnoresGravity": true
+  },
+  "FromCornerBack": {
+    "Animation": "corner_to_back_grab",
+    "Group": "Ledge",
+    "IgnoresGravity": true
+  },
+  "Float": {
+    "Animation": "tread",
+    "Group": "Swim",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "Swim": {
+    "Animation": "swim",
+    "Group": "Swim",
+    "AllowsDirectionChange": true,
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "HurtSwim": {
+    "Animation": "flail",
+    "Group": "Defeated",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "Sink": {
+    "Animation": "flail",
+    "Group": "Defeated",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "OpenTreasure": {
+    "Animation": "open_treasure",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "FindTreasure": {
+    "Animation": "victory",
+    "Group": "None",
+    "IgnoresGravity": true,
+    "DisallowsRespawn": true
+  },
+  "WakingUp": {
+    "Animation": "wake_up",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "PreventsFall": true
+  },
+  "FirstPerson": {
+    "Animation": "_entry",
+    "Group": "None",
+    "DisallowsRespawn": true,
+    "IgnoresGravity": true
+  },
+  "ReadListen": {
+    "Animation": "idle_wink",
+    "Group": "None",
+    "PreventsFall": true
+  }
+}

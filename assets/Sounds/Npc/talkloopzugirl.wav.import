@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/talkloopzugirl.wav-fbefb5e41c05df086ce46af001df1ffd.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Npc/talkloopzugirl.wav"
+dest_files=[ "res://.import/talkloopzugirl.wav-fbefb5e41c05df086ce46af001df1ffd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

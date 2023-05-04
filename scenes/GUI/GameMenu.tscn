@@ -1,0 +1,705 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://scenes/GUI/MenuBorder.tres" type="StyleBox" id=1]
+[ext_resource path="res://assets/Sounds/Ui/Menu/advancelevel.wav" type="AudioStream" id=2]
+[ext_resource path="res://assets/Sounds/Ui/Menu/slidervalueincrease.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/Sounds/Ui/Menu/returnlevel.wav" type="AudioStream" id=4]
+[ext_resource path="res://assets/Sounds/Ui/Menu/slidervaluedecrease.wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/Sounds/Ui/Menu/screennarrowen.wav" type="AudioStream" id=6]
+[ext_resource path="res://assets/Sounds/Ui/Menu/confirm.wav" type="AudioStream" id=7]
+[ext_resource path="res://assets/Sounds/Ui/Menu/cursorup.wav" type="AudioStream" id=8]
+[ext_resource path="res://assets/Sounds/Ui/Menu/screenwiden.wav" type="AudioStream" id=9]
+[ext_resource path="res://assets/Sounds/Ui/Menu/startgame.wav" type="AudioStream" id=10]
+[ext_resource path="res://assets/Sounds/Ui/Menu/cancel.wav" type="AudioStream" id=11]
+[ext_resource path="res://assets/Sounds/Ui/Menu/cursordown.wav" type="AudioStream" id=12]
+[ext_resource path="res://assets/Sounds/Ui/Menu/exitgame.wav" type="AudioStream" id=13]
+[ext_resource path="res://assets/Sounds/Ui/Menu/disappear.wav" type="AudioStream" id=14]
+[ext_resource path="res://assets/Sounds/Ui/Menu/appear.wav" type="AudioStream" id=15]
+[ext_resource path="res://assets/Other Textures/how_to_play/howtoplay.png" type="Texture" id=16]
+[ext_resource path="res://src/Components/GUI/GameMenu.cs" type="Script" id=18]
+[ext_resource path="res://assets/Fonts/default.ttf" type="DynamicFontData" id=20]
+[ext_resource path="res://scenes/GUI/MenuButton.tscn" type="PackedScene" id=21]
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 16.0
+content_margin_bottom = 16.0
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.933333, 0.933333, 0.933333, 1 )
+border_blend = true
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=3]
+resource_local_to_scene = true
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=4]
+resource_local_to_scene = true
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=5]
+resource_local_to_scene = true
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=7]
+resource_local_to_scene = true
+font_data = ExtResource( 20 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+content_margin_left = 4.0
+content_margin_right = 4.0
+bg_color = Color( 0.768627, 0.705882, 0.541176, 1 )
+border_color = Color( 0.894118, 0.866667, 0.682353, 1 )
+shadow_offset = Vector2( 0, 1 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 8
+use_mipmaps = true
+font_data = ExtResource( 20 )
+
+[sub_resource type="Animation" id=10]
+length = 0.24
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("VBox:visible")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.02 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.24 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0, 0 ) ]
+}
+
+[node name="GameMenu" type="PanelContainer"]
+pause_mode = 2
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -240.0
+margin_top = -160.0
+margin_right = 240.0
+margin_bottom = 160.0
+rect_pivot_offset = Vector2( 240, 160 )
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 18 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="."]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 464.0
+margin_bottom = 304.0
+custom_constants/separation = 8
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Header" type="Label" parent="VBox"]
+margin_right = 448.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 2 )
+text = "HEADER"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Hierarchy" type="Node" parent="VBox"]
+
+[node name="Root" type="Node" parent="VBox/Hierarchy"]
+
+[node name="StartNewGame" type="Node" parent="VBox/Hierarchy/Root"]
+
+[node name="SelectSlot" type="Node" parent="VBox/Hierarchy/Root/StartNewGame"]
+
+[node name="Options" type="Node" parent="VBox/Hierarchy/Root"]
+
+[node name="HowToPlay" type="Node" parent="VBox/Hierarchy/Root/Options"]
+
+[node name="GameSetup" type="Node" parent="VBox/Hierarchy/Root/Options"]
+
+[node name="Language" type="Node" parent="VBox/Hierarchy/Root/Options/GameSetup"]
+
+[node name="VideoSetup" type="Node" parent="VBox/Hierarchy/Root/Options"]
+
+[node name="AudioSetup" type="Node" parent="VBox/Hierarchy/Root/Options"]
+
+[node name="QuitGame" type="Node" parent="VBox/Hierarchy/Root"]
+
+[node name="Menus" type="PanelContainer" parent="VBox"]
+pause_mode = 2
+margin_top = 35.0
+margin_right = 448.0
+margin_bottom = 271.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="PauseMenuTitle" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resume" parent="VBox/Menus/PauseMenuTitle" instance=ExtResource( 21 )]
+margin_left = 148.0
+margin_top = 68.0
+margin_right = 296.0
+margin_bottom = 86.0
+custom_fonts/font = SubResource( 3 )
+text = "ResumeGame"
+
+[node name="Start" parent="VBox/Menus/PauseMenuTitle" instance=ExtResource( 21 )]
+margin_left = 140.0
+margin_top = 94.0
+margin_right = 304.0
+margin_bottom = 112.0
+custom_fonts/font = SubResource( 4 )
+text = "StartNewGame"
+
+[node name="Options" parent="VBox/Menus/PauseMenuTitle" instance=ExtResource( 21 )]
+margin_left = 156.0
+margin_top = 120.0
+margin_right = 288.0
+margin_bottom = 138.0
+custom_fonts/font = SubResource( 5 )
+text = "HelpOptions"
+
+[node name="Quit" parent="VBox/Menus/PauseMenuTitle" instance=ExtResource( 21 )]
+margin_left = 136.0
+margin_top = 146.0
+margin_right = 308.0
+margin_bottom = 164.0
+custom_fonts/font = SubResource( 3 )
+text = "ReturnToArcade"
+
+[node name="StartNewGameTitle" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="New" parent="VBox/Menus/StartNewGameTitle" instance=ExtResource( 21 )]
+margin_left = 159.0
+margin_top = 81.0
+margin_right = 285.0
+margin_bottom = 99.0
+custom_fonts/font = SubResource( 3 )
+text = "NEW GAME"
+
+[node name="Load" parent="VBox/Menus/StartNewGameTitle" instance=ExtResource( 21 )]
+margin_left = 156.0
+margin_top = 107.0
+margin_right = 288.0
+margin_bottom = 125.0
+custom_fonts/font = SubResource( 4 )
+text = "LOAD GAME"
+
+[node name="Erase" parent="VBox/Menus/StartNewGameTitle" instance=ExtResource( 21 )]
+margin_left = 149.0
+margin_top = 133.0
+margin_right = 295.0
+margin_bottom = 151.0
+custom_fonts/font = SubResource( 4 )
+text = "ERASE GAME"
+
+[node name="ExitConfirmationTitle" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Warning" type="Label" parent="VBox/Menus/ExitConfirmationTitle"]
+margin_top = 107.0
+margin_right = 444.0
+margin_bottom = 125.0
+custom_fonts/font = SubResource( 6 )
+text = "ReturnToArcadeTextLine"
+align = 1
+valign = 1
+
+[node name="SaveSlotTitle" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Slot 1" parent="VBox/Menus/SaveSlotTitle" instance=ExtResource( 21 )]
+margin_left = 170.0
+margin_top = 81.0
+margin_right = 274.0
+margin_bottom = 99.0
+custom_fonts/font = SubResource( 3 )
+text = "NewSlot"
+
+[node name="Slot 2" parent="VBox/Menus/SaveSlotTitle" instance=ExtResource( 21 )]
+margin_left = 170.0
+margin_top = 107.0
+margin_right = 274.0
+margin_bottom = 125.0
+custom_fonts/font = SubResource( 7 )
+text = "NewSlot"
+
+[node name="Slot 3" parent="VBox/Menus/SaveSlotTitle" instance=ExtResource( 21 )]
+margin_left = 170.0
+margin_top = 133.0
+margin_right = 274.0
+margin_bottom = 151.0
+custom_fonts/font = SubResource( 4 )
+text = "NewSlot"
+
+[node name="SettingsTitle" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HowToPlay" parent="VBox/Menus/SettingsTitle" instance=ExtResource( 21 )]
+margin_left = 158.0
+margin_top = 68.0
+margin_right = 286.0
+margin_bottom = 86.0
+custom_fonts/font = SubResource( 3 )
+text = "HowToPlay"
+
+[node name="GameSetup" parent="VBox/Menus/SettingsTitle" instance=ExtResource( 21 )]
+margin_left = 146.0
+margin_top = 94.0
+margin_right = 298.0
+margin_bottom = 112.0
+custom_fonts/font = SubResource( 3 )
+text = "GameSettings"
+
+[node name="VideoSetup" parent="VBox/Menus/SettingsTitle" instance=ExtResource( 21 )]
+margin_left = 147.0
+margin_top = 120.0
+margin_right = 297.0
+margin_bottom = 138.0
+custom_fonts/font = SubResource( 7 )
+text = "VideoSettings"
+
+[node name="AudioSetup" parent="VBox/Menus/SettingsTitle" instance=ExtResource( 21 )]
+margin_left = 147.0
+margin_top = 146.0
+margin_right = 297.0
+margin_bottom = 164.0
+custom_fonts/font = SubResource( 4 )
+text = "AudioSettings"
+
+[node name="HowToPlay" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="VBox/Menus/HowToPlay"]
+margin_top = 15.0
+margin_right = 444.0
+margin_bottom = 216.0
+rect_min_size = Vector2( 444, 201 )
+texture = ExtResource( 16 )
+expand = true
+
+[node name="GameSettings" type="VBoxContainer" parent="VBox/Menus"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LostFocus" parent="VBox/Menus/GameSettings" instance=ExtResource( 21 )]
+margin_left = 124.0
+margin_top = 81.0
+margin_right = 320.0
+margin_bottom = 99.0
+custom_fonts/font = SubResource( 3 )
+text = "PauseOnLostFocus"
+
+[node name="Language" parent="VBox/Menus/GameSettings" instance=ExtResource( 21 )]
+margin_left = 166.0
+margin_top = 107.0
+margin_right = 278.0
+margin_bottom = 125.0
+custom_fonts/font = SubResource( 3 )
+text = "Language"
+
+[node name="Reset" parent="VBox/Menus/GameSettings" instance=ExtResource( 21 )]
+margin_left = 140.0
+margin_top = 133.0
+margin_right = 304.0
+margin_bottom = 151.0
+custom_fonts/font = SubResource( 7 )
+text = "ResetToDefault"
+
+[node name="VideoSettings" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resolution" parent="VBox/Menus/VideoSettings" instance=ExtResource( 21 )]
+margin_left = 162.0
+margin_top = 68.0
+margin_right = 282.0
+margin_bottom = 86.0
+custom_fonts/font = SubResource( 3 )
+text = "Resolution"
+
+[node name="Fullscreen" parent="VBox/Menus/VideoSettings" instance=ExtResource( 21 )]
+margin_left = 162.0
+margin_top = 94.0
+margin_right = 282.0
+margin_bottom = 112.0
+custom_fonts/font = SubResource( 3 )
+text = "Fullscreen"
+
+[node name="VSync" parent="VBox/Menus/VideoSettings" instance=ExtResource( 21 )]
+margin_left = 179.0
+margin_top = 120.0
+margin_right = 265.0
+margin_bottom = 138.0
+custom_fonts/font = SubResource( 3 )
+text = "VSync"
+
+[node name="Reset" parent="VBox/Menus/VideoSettings" instance=ExtResource( 21 )]
+margin_left = 140.0
+margin_top = 146.0
+margin_right = 304.0
+margin_bottom = 164.0
+custom_fonts/font = SubResource( 7 )
+text = "ResetToDefault"
+
+[node name="AudioSettings" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sound" parent="VBox/Menus/AudioSettings" instance=ExtResource( 21 )]
+margin_left = 149.0
+margin_top = 81.0
+margin_right = 295.0
+margin_bottom = 99.0
+custom_fonts/font = SubResource( 3 )
+text = "SoundVolume"
+
+[node name="Music" parent="VBox/Menus/AudioSettings" instance=ExtResource( 21 )]
+margin_left = 152.0
+margin_top = 107.0
+margin_right = 292.0
+margin_bottom = 125.0
+custom_fonts/font = SubResource( 3 )
+text = "MusicVolume"
+
+[node name="Reset" parent="VBox/Menus/AudioSettings" instance=ExtResource( 21 )]
+margin_left = 140.0
+margin_top = 133.0
+margin_right = 304.0
+margin_bottom = 151.0
+custom_fonts/font = SubResource( 7 )
+text = "ResetToDefault"
+
+[node name="Language" type="VBoxContainer" parent="VBox/Menus"]
+visible = false
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 446.0
+margin_bottom = 234.0
+custom_constants/separation = 8
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="English" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 136.0
+margin_top = 42.0
+margin_right = 308.0
+margin_bottom = 60.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguageEnglish"
+
+[node name="French" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 136.0
+margin_top = 68.0
+margin_right = 308.0
+margin_bottom = 86.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguageFrench"
+
+[node name="Italian" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 141.0
+margin_top = 94.0
+margin_right = 303.0
+margin_bottom = 112.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguageItalian"
+
+[node name="German" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 133.0
+margin_top = 120.0
+margin_right = 311.0
+margin_bottom = 138.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguageGerman"
+
+[node name="Spanish" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 133.0
+margin_top = 146.0
+margin_right = 311.0
+margin_bottom = 164.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguageSpanish"
+
+[node name="Portuguese" parent="VBox/Menus/Language" instance=ExtResource( 21 )]
+margin_left = 117.0
+margin_top = 172.0
+margin_right = 327.0
+margin_bottom = 190.0
+custom_fonts/font = SubResource( 3 )
+text = "LanguagePortuguese"
+
+[node name="Navigation" type="HBoxContainer" parent="VBox"]
+margin_top = 279.0
+margin_right = 448.0
+margin_bottom = 288.0
+custom_constants/separation = 16
+alignment = 2
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Change" type="HBoxContainer" parent="VBox/Navigation"]
+margin_left = 201.0
+margin_right = 273.0
+margin_bottom = 9.0
+custom_constants/separation = 4
+alignment = 1
+
+[node name="Dec" type="Label" parent="VBox/Navigation/Change"]
+margin_right = 14.0
+margin_bottom = 9.0
+custom_styles/normal = SubResource( 8 )
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "←"
+align = 1
+valign = 1
+
+[node name="Inc" type="Label" parent="VBox/Navigation/Change"]
+margin_left = 18.0
+margin_right = 32.0
+margin_bottom = 9.0
+custom_styles/normal = SubResource( 8 )
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "→"
+align = 1
+valign = 1
+
+[node name="Change" type="Label" parent="VBox/Navigation/Change"]
+margin_left = 36.0
+margin_right = 72.0
+margin_bottom = 9.0
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0.823529, 0.8, 0.45098, 1 )
+text = "CHANGE"
+align = 1
+valign = 1
+
+[node name="Confirm" type="HBoxContainer" parent="VBox/Navigation"]
+margin_left = 289.0
+margin_right = 360.0
+margin_bottom = 9.0
+custom_constants/separation = 4
+alignment = 1
+
+[node name="Button" type="Label" parent="VBox/Navigation/Confirm"]
+margin_right = 38.0
+margin_bottom = 9.0
+custom_styles/normal = SubResource( 8 )
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "ENTER"
+align = 1
+valign = 1
+
+[node name="Confirm" type="Label" parent="VBox/Navigation/Confirm"]
+margin_left = 42.0
+margin_right = 71.0
+margin_bottom = 9.0
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0.52549, 0.823529, 0.45098, 1 )
+text = "APPLY"
+align = 1
+valign = 1
+
+[node name="Back" type="HBoxContainer" parent="VBox/Navigation"]
+margin_left = 376.0
+margin_right = 448.0
+margin_bottom = 9.0
+custom_constants/separation = 4
+
+[node name="Button" type="Label" parent="VBox/Navigation/Back"]
+margin_right = 44.0
+margin_bottom = 9.0
+custom_styles/normal = SubResource( 8 )
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "ESCAPE"
+
+[node name="Back" type="Label" parent="VBox/Navigation/Back"]
+margin_left = 48.0
+margin_right = 72.0
+margin_bottom = 9.0
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 1, 0.498039, 0.498039, 1 )
+text = "BACK"
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+anims/fade = SubResource( 10 )
+
+[node name="Sounds" type="Node" parent="."]
+
+[node name="AdvanceLevel" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 2 )
+bus = "Sounds"
+
+[node name="Cancel" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 11 )
+bus = "Sounds"
+
+[node name="Confirm" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 7 )
+bus = "Sounds"
+
+[node name="CursorUp" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 8 )
+bus = "Sounds"
+
+[node name="CursorDown" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 12 )
+bus = "Sounds"
+
+[node name="ExitGame" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 13 )
+bus = "Sounds"
+
+[node name="ReturnLevel" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 4 )
+bus = "Sounds"
+
+[node name="ScreenNarrow" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 6 )
+bus = "Sounds"
+
+[node name="ScreenWiden" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 9 )
+bus = "Sounds"
+
+[node name="SliderInc" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 3 )
+bus = "Sounds"
+
+[node name="SliderDec" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 5 )
+bus = "Sounds"
+
+[node name="StartGame" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 10 )
+bus = "Sounds"
+
+[node name="Appear" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 15 )
+bus = "Sounds"
+
+[node name="Disappear" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 14 )
+bus = "Sounds"

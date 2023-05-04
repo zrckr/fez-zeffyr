@@ -1,0 +1,82 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=2]
+[ext_resource path="res://assets/Background Planes/wind.ani.png" type="Texture" id=25]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 0, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 22, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 44, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 66, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 88, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 25 )
+region = Rect2( 65, 0, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 25 )
+region = Rect2( 65, 22, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 25 )
+region = Rect2( 65, 44, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 25 )
+region = Rect2( 130, 0, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 25 )
+region = Rect2( 65, 66, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 25 )
+region = Rect2( 130, 22, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 25 )
+region = Rect2( 65, 88, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 25 )
+region = Rect2( 130, 44, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 25 )
+region = Rect2( 130, 66, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 25 )
+region = Rect2( 130, 88, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 110, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 132, 64, 21 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 154, 64, 21 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
+"loop": true,
+"name": "wind",
+"speed": 15.00
+} ]

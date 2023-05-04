@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aeolian_consequent_3bars.ogg-7efbd73010baef42e1b1d2d4656aa27f.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/aeolian_consequent_3bars.ogg"
+dest_files=[ "res://.import/aeolian_consequent_3bars.ogg-7efbd73010baef42e1b1d2d4656aa27f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

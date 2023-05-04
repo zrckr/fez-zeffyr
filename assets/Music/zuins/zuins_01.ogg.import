@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/zuins_01.ogg-250a2643134d6fa2c4d4c0a652c58d3f.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/zuins/zuins_01.ogg"
+dest_files=[ "res://.import/zuins_01.ogg-250a2643134d6fa2c4d4c0a652c58d3f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/screenwiden.wav-0c87996e0d5ee122504e6e43652ae782.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/Menu/screenwiden.wav"
+dest_files=[ "res://.import/screenwiden.wav-0c87996e0d5ee122504e6e43652ae782.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

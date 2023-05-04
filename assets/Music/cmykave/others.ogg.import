@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/others.ogg-7a5e53b958e51418459e5d4dacb6a111.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cmykave/others.ogg"
+dest_files=[ "res://.import/others.ogg-7a5e53b958e51418459e5d4dacb6a111.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

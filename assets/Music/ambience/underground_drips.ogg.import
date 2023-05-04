@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/underground_drips.ogg-6c0ff2519c6baa01294772705ab29b6b.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/underground_drips.ogg"
+dest_files=[ "res://.import/underground_drips.ogg-6c0ff2519c6baa01294772705ab29b6b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

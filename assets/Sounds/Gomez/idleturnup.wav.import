@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/idleturnup.wav-7173d592f18bcbed1e642079cc31ad4b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/idleturnup.wav"
+dest_files=[ "res://.import/idleturnup.wav-7173d592f18bcbed1e642079cc31ad4b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

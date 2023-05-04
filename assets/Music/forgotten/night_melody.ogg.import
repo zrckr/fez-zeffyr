@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/night_melody.ogg-91657d63445fab6a59db6964af075015.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/forgotten/night_melody.ogg"
+dest_files=[ "res://.import/night_melody.ogg-91657d63445fab6a59db6964af075015.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

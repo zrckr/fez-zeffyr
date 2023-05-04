@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/wind_01.ogg-b94e586192aa339a8d72dfb70a30bd3f.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/wind_01.ogg"
+dest_files=[ "res://.import/wind_01.ogg-b94e586192aa339a8d72dfb70a30bd3f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

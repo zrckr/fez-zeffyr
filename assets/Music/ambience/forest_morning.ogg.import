@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/forest_morning.ogg-6fb64452348b006a21915c3ba34f4ce4.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/forest_morning.ogg"
+dest_files=[ "res://.import/forest_morning.ogg-6fb64452348b006a21915c3ba34f4ce4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bluejaysing.wav-8c525ff80e39ec4c9d3115b1c68234c6.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/bluejaysing.wav"
+dest_files=[ "res://.import/bluejaysing.wav-8c525ff80e39ec4c9d3115b1c68234c6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

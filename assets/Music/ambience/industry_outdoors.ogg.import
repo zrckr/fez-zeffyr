@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/industry_outdoors.ogg-99156bf82a416003ba066c993ef88390.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/industry_outdoors.ogg"
+dest_files=[ "res://.import/industry_outdoors.ogg-99156bf82a416003ba066c993ef88390.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

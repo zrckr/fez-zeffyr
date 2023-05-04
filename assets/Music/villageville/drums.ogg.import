@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/drums.ogg-6e61ee42973f8675afbda22896c7e770.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/villageville/drums.ogg"
+dest_files=[ "res://.import/drums.ogg-6e61ee42973f8675afbda22896c7e770.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/birdtakeoff.wav-762cf84b456d4c26451515e14adef69e.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/birdtakeoff.wav"
+dest_files=[ "res://.import/birdtakeoff.wav-762cf84b456d4c26451515e14adef69e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

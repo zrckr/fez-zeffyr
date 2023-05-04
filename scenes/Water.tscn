@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/Shaders/water.shader" type="Shader" id=1]
+[ext_resource path="res://src/Components/Water.cs" type="Script" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/blue_tint = Color( 0, 0.647059, 1, 1 )
+shader_param/speed = 1.0
+shader_param/sprite_scale = Vector2( 8, 16 )
+shader_param/scale_x = 0.5
+
+[node name="Water" type="CanvasLayer"]
+pause_mode = 1
+layer = 64
+script = ExtResource( 2 )
+
+[node name="LiquidBody" type="ColorRect" parent="."]
+material = SubResource( 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]

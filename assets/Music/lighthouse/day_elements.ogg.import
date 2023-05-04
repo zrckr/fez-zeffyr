@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/day_elements.ogg-48d4cc0214e29e78bc34fe2c519f64ed.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/lighthouse/day_elements.ogg"
+dest_files=[ "res://.import/day_elements.ogg-48d4cc0214e29e78bc34fe2c519f64ed.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

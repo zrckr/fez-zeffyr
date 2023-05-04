@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pivot3_dawn.ogg-08b7328f043d750c6a202b3f75433db6.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/industrial/pivot3_dawn.ogg"
+dest_files=[ "res://.import/pivot3_dawn.ogg-08b7328f043d750c6a202b3f75433db6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

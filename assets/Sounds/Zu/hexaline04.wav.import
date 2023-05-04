@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hexaline04.wav-35dca7466351794e8ec9be8a7ed23fdc.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Zu/hexaline04.wav"
+dest_files=[ "res://.import/hexaline04.wav-35dca7466351794e8ec9be8a7ed23fdc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

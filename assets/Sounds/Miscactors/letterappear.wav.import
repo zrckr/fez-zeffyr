@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/letterappear.wav-ec010e941f72eca9eea39c35224c365a.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Miscactors/letterappear.wav"
+dest_files=[ "res://.import/letterappear.wav-ec010e941f72eca9eea39c35224c365a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

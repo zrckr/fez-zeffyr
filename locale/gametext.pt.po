@@ -1,0 +1,1244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1252\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "DOT_16_DOOR_A"
+msgstr "CONSEGUES VÊ-LA?"
+
+msgid "DOT_16_DOOR_B"
+msgstr "AQUELA CIDADE NO CÉU---"
+
+msgid "DOT_16_DOOR_C"
+msgstr "ESTE SELO LEVA-NOS LÁ."
+
+msgid "DOT_16_DOOR_D"
+msgstr "PRECISAMOS DE PELO MENOS 16 CUBOS PARA A ABRIR."
+
+msgid "DOT_16_DOOR_E"
+msgstr "É MELHOR IRMOS ANDANDO!"
+
+msgid "DOT_32_DOOR_A"
+msgstr "É AQUI."
+
+msgid "DOT_32_DOOR_B"
+msgstr "O ÚLTIMO SELO."
+
+msgid "DOT_32_DOOR_C"
+msgstr "PRECISAS DE 32 CUBOS PARA A ABRIR."
+
+msgid "DOT_32_DOOR_D"
+msgstr "A NOSSA VIAGEM ACABA DEPOIS DESTA PORTA."
+
+msgid "DOT_32_DOOR_E"
+msgstr "ESPERO QUE ESTEJAS PRONTO."
+
+msgid "DOT_64_DOOR_A"
+msgstr "ESTÁ BEM."
+
+msgid "DOT_64_DOOR_B"
+msgstr "EU MENTI."
+
+msgid "DOT_64_DOOR_C"
+msgstr "*ESTE* É O ÚLTIMO SELO."
+
+msgid "DOT_64_DOOR_D"
+msgstr "PROMETO."
+
+msgid "DOT_64_DOOR_E"
+msgstr "MAS, A SÉRIO, NEM EU SEI O QUE ESTÁ ATRÁS DESTA."
+
+msgid "DOT_64_DOOR_F"
+msgstr "SÓ HÁ UMA MANEIRA DE DESCOBRIR!"
+
+msgid "DOT_8_DOOR_A"
+msgstr "OUTRO SELO!"
+
+msgid "DOT_8_DOOR_B"
+msgstr "ESTA PRECISA DE 8 CUBOS PARA SER ABERTA."
+
+msgid "DOT_8_DOOR_C"
+msgstr "ONDE SERÁ QUE VAI DAR?"
+
+msgid "DOT_8_DOOR_D"
+msgstr "HA HA HA!"
+
+msgid "DOT_8_DOOR_E"
+msgstr "ESTOU A BRINCAR, EU SEI ONDE VAI DAR!"
+
+msgid "DOT_8_DOOR_F"
+msgstr "MAS NÃO TE QUERO ESTRAGAR A SURPRESA..."
+
+msgid "DOT_A_CRATE"
+msgstr "UMA CAIXA?"
+
+msgid "DOT_ALPHABET_A"
+msgstr "ACHO QUE ERA USADA PARA ESCREVER."
+
+msgid "DOT_AMAZING"
+msgstr "FASCINANTE!"
+
+msgid "DOT_ANCIENT_ARTIFACT"
+msgstr "ENCONTRASTE UM ARTEFACTO ANTIGO!"
+
+msgid "DOT_ANOTHER_WARP"
+msgstr "ENCONTRASTE OUTRO PORTAL DE TRANSPORTE!"
+
+msgid "DOT_ANTI_A"
+msgstr "ENCONTRASTE O TEU PRIMEIRO ANTICUBO!"
+
+msgid "DOT_ANTI_B"
+msgstr "EXISTE UM ANTICUBO PARA CADA CUBO."
+
+msgid "DOT_ANTI_C"
+msgstr "UM NEGATIVO PARA CADA POSITIVO."
+
+msgid "DOT_ANTI_D"
+msgstr "OS ANTICUBOS SÃO MAIS DIFÍCEIS DE ENCONTRAR DO QUE OS NORMAIS."
+
+msgid "DOT_BELL_A"
+msgstr "DLIM-DLÃO!"
+
+msgid "DOT_BELL_B"
+msgstr "PARA TOCARES À CAMPAINHA, PÕE-TE EM FRENTE À MESMA E PRIME {X}."
+
+msgid "DOT_BIT_A"
+msgstr "OLHA SÓ PARA AQUILO!"
+
+msgid "DOT_BIT_B"
+msgstr "ENCONTRASTE UMA PARTE DE UM CUBO!"
+
+msgid "DOT_BIT_C"
+msgstr "SE ENCONTRARES 8 PARTES, TERÁS UM CUBO GRANDE!"
+
+msgid "DOT_BIT_D"
+msgstr "PODES ENCONTRÁ-LAS ESPALHADAS PELO MUNDO INTEIRO."
+
+msgid "DOT_BIT_DOOR"
+msgstr "DÁ UMA REVIRAVOLTA!"
+
+msgid "DOT_BLACKHOLE_A"
+msgstr "GOMEZ, CUIDADO!"
+
+msgid "DOT_BLACKHOLE_B"
+msgstr "BURACOS NEGROS!"
+
+msgid "DOT_BLACKHOLE_C"
+msgstr "OS BURACOS NEGROS SÃO MAUS!"
+
+msgid "DOT_BLACKHOLE_D"
+msgstr "SEM O HEXAEDRO, O MUNDO FICA INSTÁVEL."
+
+msgid "DOT_BLACKHOLE_F"
+msgstr "O ESPAÇO SÓ PODE SER DOBRADO ALGUMAS VEZES ATÉ RASGAR."
+
+msgid "DOT_BOMB_A"
+msgstr "OLHA SÓ PARA ISTO!"
+
+msgid "DOT_BOMB_B"
+msgstr "É UMA BOMBA!"
+
+msgid "DOT_BOMB_C"
+msgstr "PARA APANHARES E ATIRARES UMA BOMBA, PRIME {X}."
+
+msgid "DOT_BOMB_D"
+msgstr "MAS TEM CUIDADO! "
+
+msgid "DOT_BOMB_E"
+msgstr "TAMBÉM PODES LARGAR UMA BOMBA DEVAGAR, PREMINDO {DOWN} E {X}."
+
+msgid "DOT_CANT_REMEMBER"
+msgstr "NÃO ME LEMBRO DO QUE É ISSO."
+
+msgid "DOT_CHECK_THIS_OUT"
+msgstr "OLHA SÓ!"
+
+msgid "DOT_CLOCK_A"
+msgstr "SABES QUE HORAS SÃO?"
+
+msgid "DOT_CLOCK_B"
+msgstr "SÃO HORAS DO CUBO!"
+
+msgid "DOT_CORE_A"
+msgstr "OLHA-ME SÓ PARA ESTE SÍTIO!"
+
+msgid "DOT_CORE_B"
+msgstr "PARECE IMPORTANTE, NÃO?"
+
+msgid "DOT_CORE_C"
+msgstr "QUE TAL DARMOS UMA VISTA DE OLHOS?"
+
+msgid "DOT_CORE_D"
+msgstr "ESTA PRECISA DE 4 CUBOS..."
+
+msgid "DOT_CORE_E"
+msgstr "ESTA DE 8..."
+
+msgid "DOT_CORE_F"
+msgstr "E ESTA DE 16!"
+
+msgid "DOT_CORE_G"
+msgstr "NÃO PODE!"
+
+msgid "DOT_CORE_H"
+msgstr "É OUTRA PORTA!"
+
+msgid "DOT_CORE_I"
+msgstr "EU DISSE-TE QUE HAVIA MUITAS PORTAS!"
+
+msgid "DOT_CORE_J"
+msgstr "ESTE SÍTIO, É TIPO UM SÍTIO... DE PORTAS... IMPORTANTE..."
+
+msgid "DOT_CORE_K"
+msgstr "NÃO SEI!"
+
+msgid "DOT_CORE_L"
+msgstr "É POR ISSO QUE ESTÁS AQUI."
+
+msgid "DOT_CORE_M"
+msgstr "AGORA, VAI À PROCURA DOS CUBOS!"
+
+msgid "DOT_COSMOS_A"
+msgstr "EU SINTO..."
+
+msgid "DOT_COSMOS_B"
+msgstr "EU SINTO O COSMOS!"
+
+msgid "DOT_CRASH_A"
+msgstr "OH NÃO!"
+
+msgid "DOT_CRASH_B"
+msgstr "VOU DESPENHAR-ME!"
+
+msgid "DOT_CRATE_A"
+msgstr "ISTO, COMO SE PODE VER, É UMA CAIXA."
+
+msgid "DOT_CRATE_B"
+msgstr "PARA EMPURRARES UMA CAIXA, ENCOSTA-TE A ELA."
+
+msgid "DOT_CRATE_C"
+msgstr "TAMBÉM A PODES APANHAR E ATIRAR, PREMINDO {X}."
+
+msgid "DOT_CRATE_D"
+msgstr "PARA A LARGARES DEVAGAR, PRIME {DOWN} E {X}."
+
+msgid "DOT_CUBES_EIGHT_A"
+msgstr "ENCONTRASTE 8 CUBOS!"
+
+msgid "DOT_CUBES_EIGHT_B"
+msgstr "VAMOS VOLTAR ÀQUELE SÍTIO COM AS PORTAS TODAS!"
+
+msgid "DOT_CUBES_FOUR_A"
+msgstr "ENCONTRASTE 4 CUBOS!"
+
+msgid "DOT_CUBES_FOUR_B"
+msgstr "AGORA PODES ABRIR AQUELA PORTA QUE VIMOS ANTES."
+
+msgid "DOT_CUBES_FOUR_C"
+msgstr "SABES, AQUELA À SAÍDA DA TUA ALDEIA."
+
+msgid "DOT_CUBES_GET_A"
+msgstr "CONSEGUISTE!"
+
+msgid "DOT_CUBES_GET_B"
+msgstr "AGORA PODES ABRIR A PORTA."
+
+msgid "DOT_CUBES_GET_C"
+msgstr "VAMOS!"
+
+msgid "DOT_CUBES_SIXTEEN_A"
+msgstr "ENCONTRASTE 16 CUBOS!"
+
+msgid "DOT_CUBES_SIXTEEN_B"
+msgstr "TU SABES O QUE TENS DE FAZER."
+
+msgid "DOT_CUBES_SIXTEEN_C"
+msgstr "AGORA PODES ABRIR AQUELA ÚLTIMA PORTA!"
+
+msgid "DOT_CUBES_SIXTEEN_D"
+msgstr "PELO MENOS EU ACHO QUE É A ÚLTIMA..."
+
+msgid "DOT_CUBES_SIXTYFOUR_A"
+msgstr "INACREDITÁVEL!"
+
+msgid "DOT_CUBES_SIXTYFOUR_B"
+msgstr "ENCONTRASTE OS CUBOS E OS ANTICUBOS TODOS!"
+
+msgid "DOT_CUBES_SIXTYFOUR_C"
+msgstr "É UM GRANDE FEITO, SEM DÚVIDA!"
+
+msgid "DOT_CUBES_SIXTYFOUR_D"
+msgstr "SE EU FOSSE A TI VOLTAVA PARA AQUELE PORTAL ASTRAL."
+
+msgid "DOT_CUBES_THIRTYTWO_A"
+msgstr "TRINTA E DOIS CUBOS!"
+
+msgid "DOT_CUBES_THIRTYTWO_B"
+msgstr "CONSEGUISTE!"
+
+msgid "DOT_CUBES_THIRTYTWO_C"
+msgstr "AGORA JÁ PODES ABRIR AQUELA PORTA NA CIDADE ANTIGA."
+
+msgid "DOT_DONT_KNOW"
+msgstr "ALGO DO GÉNERO, NÃO SEI..."
+
+msgid "DOT_DOOR"
+msgstr "ESTA PORTA ANTIGA CONDUZ AO MUNDO EXTERIOR.\r\nPRECISAS DE 4 FRAGMENTOS DE CUBO PARA A ABRIR."
+
+msgid "DOT_DOOR_OPEN_A"
+msgstr "A PORTA ESTÁ ABERTA!"
+
+msgid "DOT_DOOR_OPEN_B"
+msgstr "ESTÁS PRONTO PARA COMEÇAR A TUA AVENTURA?"
+
+msgid "DOT_DOOR_SIXTYFOUR_A"
+msgstr "O QUÊ?"
+
+msgid "DOT_DOOR_SIXTYFOUR_B"
+msgstr "OUTRA PORTA?"
+
+msgid "DOT_DOOR_SIXTYFOUR_C"
+msgstr "MAS QUANTAS PORTAS EXISTEM?"
+
+msgid "DOT_DOOR_SIXTYFOUR_D"
+msgstr "ESTA TEM DE SER A ÚLTIMA..."
+
+msgid "DOT_DOOR_SIXTYFOUR_E"
+msgstr "TENHO A CERTEZA ABSOLUTA."
+
+msgid "DOT_DOOR_SIXTYFOUR_F"
+msgstr "SEJA COMO FOR, PRECISAS DE 64 CUBOS PARA A ABRIR."
+
+msgid "DOT_DOOR_SIXTYFOUR_G"
+msgstr "EXACTO!"
+
+msgid "DOT_DOOR_SIXTYFOUR_H"
+msgstr "OS CUBOS TODOS! TODINHOS!"
+
+msgid "DOT_DOOR_SIXTYFOUR_I"
+msgstr "É MELHOR DESPACHARES-TE!"
+
+msgid "DOT_DOOR_THIRTYTWO_A"
+msgstr "ENA!"
+
+msgid "DOT_DOOR_THIRTYTWO_B"
+msgstr "MAIS UMA PORTA!"
+
+msgid "DOT_DOOR_THIRTYTWO_C"
+msgstr "ESTA PRECISA DE 1... 2..."
+
+msgid "DOT_DOOR_THIRTYTWO_D"
+msgstr "32 CUBOS!"
+
+msgid "DOT_DOOR_THIRTYTWO_E"
+msgstr "DEVE ESTAR ALGO MUITO ESPECIAL ATRÁS DAQUELA PORTA!"
+
+msgid "DOT_FEEL"
+msgstr "ESTÁS A SENTIR?"
+
+msgid "DOT_FIRST_CUBE_A"
+msgstr "O TEU PRIMEIRO FRAGMENTO DE CUBO!"
+
+msgid "DOT_FIRST_CUBE_B"
+msgstr "JÁ SÓ FALTAM 31!"
+
+msgid "DOT_FORGET_A"
+msgstr "ESQUECI-ME..."
+
+msgid "DOT_FORGET_B"
+msgstr "A MINHA MEMÓRIA JÁ NÃO É O QUE ERA."
+
+msgid "DOT_FPS_WONDER"
+msgstr "O QUE SERÁ ISTO..."
+
+msgid "DOT_FRACTAL_A"
+msgstr "O QUÊ?!"
+
+msgid "DOT_FRACTAL_B"
+msgstr "ALGO ESTÁ A IMPEDIR-TE DE ALTERARES A TUA PERSPECTIVA NESTA ÁREA."
+
+msgid "DOT_FRACTAL_C"
+msgstr "APOSTO QUE É ESTA COISA COM AR DE TOTEM."
+
+msgid "DOT_FRACTAL_D"
+msgstr "SIM, É ISTO!"
+
+msgid "DOT_GIFT"
+msgstr "RECEBESTE UM PRESENTE.\r\nFOI-TE REVELADO UM GRANDE SEGREDO.\r\nEXISTEM DIMENSÕES PARA ALÉM DAS QUE CONHECES."
+
+msgid "DOT_GLOBE_A"
+msgstr "APOSTO QUE CONSEGUES RODAR ESTE GLOBO GIGANTE COMO UM PIÃO!"
+
+msgid "DOT_HAPPENED"
+msgstr "O QUE SE PASSOU?"
+
+msgid "DOT_HEART_A"
+msgstr "ENCONTRASTE UM..."
+
+msgid "DOT_HEART_B"
+msgstr "O QUE É ISTO?"
+
+msgid "DOT_HEART_C"
+msgstr "EU NEM..."
+
+msgid "DOT_HELP"
+msgstr "PRECISO DA TUA AJUDA.\r\nALGO CORREU MAL.\r\nEU GUIO-TE."
+
+msgid "DOT_HEY"
+msgstr "OLÁ, GOMEZ!"
+
+msgid "DOT_INTRO"
+msgstr "EU SOU O DOT"
+
+msgid "DOT_INTRO_A"
+msgstr "GOMEZ..."
+
+msgid "DOT_INTRO_B"
+msgstr "ALGO CORREU MAL."
+
+msgid "DOT_INTRO_C"
+msgstr "PRECISO DA TUA AJUDA!"
+
+msgid "DOT_INTRO_D"
+msgstr "FUI ENVIADO PARA TE GUIAR."
+
+msgid "DOT_INTRO_DOOR_A"
+msgstr "ESTA PORTA CONDUZ AO MUNDO EXTERIOR, MAS, POR ORA, ESTÁ FECHADA."
+
+msgid "DOT_INTRO_DOOR_B"
+msgstr "O SINAL NA PORTA INDICA QUE ESTA SÓ ABRIRÁ DEPOIS DE APANHARES PELO MENOS UM CUBO."
+
+msgid "DOT_INTRO_DOOR_C"
+msgstr "HÁ TANTAS PORTAS DESTAS NO MUNDO."
+
+msgid "DOT_INTRO_DOOR_D"
+msgstr "CADA UMA DELAS REQUER MAIS CUBOS DO QUE A ANTERIOR."
+
+msgid "DOT_INTRO_DOOR_E"
+msgstr "PARA CHEGARES AO FIM DESTA VIAGEM PRECISAS DE ENCONTRAR TODOS OS 32 CUBOS."
+
+msgid "DOT_INTRO_DOOR_F"
+msgstr "MAS, PARA JÁ, TENS DE SAIR DAQUI."
+
+msgid "DOT_INTRO_DOOR_G"
+msgstr "EXISTEM 8 PARTES DE CUBO NESTA ALDEIA"
+
+msgid "DOT_INTRO_DOOR_G_2"
+msgstr "IGUAIS A ESTE AQUI!"
+
+msgid "DOT_INTRO_DOOR_H"
+msgstr "JUNTOS FORMA UM CUBO INTEIRO, QUE PODES USAR PARA ABRIR A PORTA."
+
+msgid "DOT_INTRO_DOOR_H_2"
+msgstr "ENCONTRA-OS!"
+
+msgid "DOT_INTRO_DOOR_I"
+msgstr "E LEMBRA-TE..."
+
+msgid "DOT_INTRO_DOOR_J"
+msgstr "USA {RT} {LT} PARA ALTERARES A PERSPECTIVA!"
+
+msgid "DOT_INTRO_E"
+msgstr "EU SOU O DOT."
+
+msgid "DOT_INTRO_F"
+msgstr "O HEXAEDRO FOI FRAGMENTADO."
+
+msgid "DOT_INTRO_F2"
+msgstr "ESTILHAÇADO E ESPALHADO PELO MUNDO INTEIRO!"
+
+msgid "DOT_INTRO_FINAL_A"
+msgstr "RECAPITULANDO:"
+
+msgid "DOT_INTRO_FINAL_B"
+msgstr "CUBOS DOURADOS RELUZENTES."
+
+msgid "DOT_INTRO_FINAL_C"
+msgstr "MUITO IMPORTANTE."
+
+msgid "DOT_INTRO_FINAL_D"
+msgstr "TENS DE OS ENCONTRAR A TODOS!"
+
+msgid "DOT_INTRO_FINAL_E"
+msgstr "OU O UNIVERSO COLAPSA CONTIGO LÁ!"
+
+msgid "DOT_INTRO_FINAL_F"
+msgstr "MAS NÃO TE QUERO PRESSIONAR!"
+
+msgid "DOT_INTRO_FINAL_G"
+msgstr "VÁ, PÕE-TE A ANDAR!"
+
+msgid "DOT_INTRO_G"
+msgstr "TENS DE O RECUPERAR!"
+
+msgid "DOT_INTRO_H"
+msgstr "SEM ELE, SERÁ O COLAPSO TOTAL."
+
+msgid "DOT_INTRO_I"
+msgstr "TENS DE ENCONTRAR OS 32 FRAGMENTOS DE CUBO,"
+
+msgid "DOT_INTRO_J"
+msgstr "IGUAIS A ESTE AQUI,"
+
+msgid "DOT_INTRO_K"
+msgstr "E REPOR O EQUILÍBRIO."
+
+msgid "DOT_INTRO_L"
+msgstr "RECEBESTE UM PRESENTE."
+
+msgid "DOT_INTRO_M"
+msgstr "FOI-TE REVELADO UM GRANDE SEGREDO."
+
+msgid "DOT_INTRO_N"
+msgstr "EXISTE UM MUNDO PARA ALÉM DA TUA ALDEIA"
+
+msgid "DOT_INTRO_O"
+msgstr "E DIMENSÕES PARA ALÉM DESTA QUE OCUPAS."
+
+msgid "DOT_INTRO_P"
+msgstr "ESTA PORTA ANTIGA CONDUZ AO MUNDO EXTERIOR."
+
+msgid "DOT_INTRO_Q"
+msgstr "EXISTE UM CUBO ALGURES NESTA ALDEIA."
+
+msgid "DOT_INTRO_R"
+msgstr "ENCONTRA-O PARA ABRIRES A PORTA"
+
+msgid "DOT_INTRO_S"
+msgstr "E SAÍRES DE CASA."
+
+msgid "DOT_INVENTORY_A"
+msgstr "E MAIS UMA COISA!"
+
+msgid "DOT_INVENTORY_B"
+msgstr "SE PREMIRES {Y}, ABRES O INVENTÁRIO."
+
+msgid "DOT_INVENTORY_C"
+msgstr "O INVENTÁRIO REGISTA TUDO O QUE ENCONTRAS."
+
+msgid "DOT_INVENTORY_D"
+msgstr "JÁ ACABEI, A SÉRIO!"
+
+msgid "DOT_KEY_A"
+msgstr "ENCONTRASTE UMA CHAVE!"
+
+msgid "DOT_KEY_B"
+msgstr "AS CHAVES PODEM ABRIR QUALQUER PORTA FECHADA,\r\nMAS SÓ PODEM SER USADAS UMA VEZ."
+
+msgid "DOT_LESSER_A"
+msgstr "É UM PORTALZINHO!"
+
+msgid "DOT_LESSER_B"
+msgstr "ELES PODEM LEVAR-TE DE VOLTA AO PORTAL DE TRANSPORTE MAIS PRÓXIMO,"
+
+msgid "DOT_LESSER_C"
+msgstr "MAS SÓ FUNCIONAM NUM SENTIDO."
+
+msgid "DOT_LOCKED_DOOR_A"
+msgstr "ESTA PORTA ESTÁ FECHADA."
+
+msgid "DOT_LOCKED_DOOR_B"
+msgstr "PRECISAS DE UMA CHAVE PARA A ABRIR."
+
+msgid "DOT_LOOK"
+msgstr "OLHA!"
+
+msgid "DOT_LOOK_INVENTORY"
+msgstr "PRIME {Y} PARA O VERES NO CUBO INVENTÁRIO."
+
+msgid "DOT_MAP_A"
+msgstr "ESTE É O MAPA-MUNDO."
+
+msgid "DOT_MAP_B"
+msgstr "MOSTRA-TE ONDE ESTIVESTE."
+
+msgid "DOT_MAP_C"
+msgstr "PODES APROXIMAR E AFASTAR COM O {LB} E O {RB}"
+
+msgid "DOT_MAP_D"
+msgstr "E RODAR COM O {LT} E O {RT}."
+
+msgid "DOT_MAP_E"
+msgstr "CADA PONTO REPRESENTA UM SÍTIO NO MUNDO."
+
+msgid "DOT_MAP_F"
+msgstr "UM PONTO DOURADO SIGNIFICA QUE ENCONTRASTE TODOS OS OBJECTOS, SEGREDOS OU PASSAGENS NESSE PONTO."
+
+msgid "DOT_MAP_INFO_A"
+msgstr "OUVE!"
+
+msgid "DOT_MAP_INFO_B"
+msgstr "EU SEI QUE É A TUA PRIMEIRA VEZ FORA DA ALDEIA."
+
+msgid "DOT_MAP_INFO_C"
+msgstr "POR ISSO, SE TE PERDERES, PODES USAR O MAPA-MUNDO."
+
+msgid "DOT_MAP_INFO_D"
+msgstr "PRIME {BACK} PARA ABRIRES O MAPA-MUNDO."
+
+msgid "DOT_MEANS"
+msgstr "O QUE SERÁ QUE ISTO QUER DIZER..."
+
+msgid "DOT_MEMORY_A"
+msgstr "TODAS ESTAS PORTAS LEVAM A SÍTIOS COMO AQUELE DE ONDE VENS."
+
+msgid "DOT_MEMORY_B"
+msgstr "NÃO TE ESQUEÇAS DE VOLTAR QUANDO TIVERES MAIS CUBOS."
+
+msgid "DOT_MENU_A"
+msgstr "AH, E ANTES QUE ME ESQUEÇA..."
+
+msgid "DOT_MENU_B"
+msgstr "PRIME {Y} PARA ABRIRES O INVENTÁRIO."
+
+msgid "DOT_MENU_C"
+msgstr "O INVENTÁRIO É ONDE GUARDAS AS TUAS COISAS."
+
+msgid "DOT_MENU_D"
+msgstr "PARA NAVEGARES PELO INVENTÁRIO PRIME {LT} E {RT}."
+
+msgid "DOT_NICE"
+msgstr "FIXE!"
+
+msgid "DOT_NUMBERS_A"
+msgstr "ACHO QUE ERA USADO PARA CONTAR."
+
+msgid "DOT_NUT_N_BOLT_A"
+msgstr "PRECISAS DE BOLEIA?"
+
+msgid "DOT_NUT_N_BOLT_B"
+msgstr "AS PORCAS E OS PARAFUSOS SÃO USADOS PARA VIAJAR VERTICALMENTE."
+
+msgid "DOT_NUT_N_BOLT_C"
+msgstr "AGARRA-TE À PEGA COM O {X}\r\nE RODA O {RT} {LT} PARA IRES PARA CIMA OU PARA BAIXO."
+
+msgid "DOT_OH_LOOK"
+msgstr "OLHA!"
+
+msgid "DOT_OH_MY"
+msgstr "UAU!"
+
+msgid "DOT_OH_NICE"
+msgstr "FIXE!"
+
+msgid "DOT_OH_NO"
+msgstr "NÃO!"
+
+msgid "DOT_OWLS"
+msgstr "AS CORUJAS ARREPIAM-ME."
+
+msgid "DOT_OWLS_B"
+msgstr "OUVE AS CORUJAS."
+
+msgid "DOT_OWLS_C"
+msgstr "CONVOQUEM O PARLAMENTO."
+
+msgid "DOT_OWLS_D"
+msgstr "VÊ A EFÍGIE DELES."
+
+msgid "DOT_PIVOT_A"
+msgstr "ISTO É UM EIXO."
+
+msgid "DOT_PIVOT_B"
+msgstr "PRIME {X} EM QUALQUER PEGA \r\nPARA RODARES O EIXO PARA UM LADO OU PARA O OUTRO."
+
+msgid "DOT_REMEMBER"
+msgstr "NÃO ME LEMBRO..."
+
+msgid "DOT_SECRET_A"
+msgstr "OLÁ, O QUE É ISTO?"
+
+msgid "DOT_SECRET_B"
+msgstr "ENCONTRASTE UMA PASSAGEM SECRETA!"
+
+msgid "DOT_SECRET_C"
+msgstr "SABES ONDE VAI DAR?"
+
+msgid "DOT_SECRET_D"
+msgstr "EU NÃO SEI."
+
+msgid "DOT_SENTINEL_A"
+msgstr "UMA SENTINELA!"
+
+msgid "DOT_SENTINEL_B"
+msgstr "ISTO SIGNIFICA QUE ESTA ÁREA FOI FECHADA."
+
+msgid "DOT_SENTINEL_C"
+msgstr "NÃO PODES RODAR AQUI."
+
+msgid "DOT_SENTINEL_D"
+msgstr "VAIS TER DE ENCONTRAR UMA FORMA DE DESACTIVAR A SENTINELA."
+
+msgid "DOT_SHARDS"
+msgstr "O HEXAEDRO FOI FRAGMENTADO.\r\nTENS DE ENCONTRAR OS 32 FRAGMENTOS DE CUBO\r\nE REPOR O EQUILÍBRIO."
+
+msgid "DOT_SILENCE"
+msgstr "..."
+
+msgid "DOT_SPLIT_A"
+msgstr "ENCONTRASTE UMA PARTE DE UM CUBO!"
+
+msgid "DOT_SPLIT_B"
+msgstr "APANHA 8 PARTES PARA OBTERES UM CUBO."
+
+msgid "DOT_SPLIT_C"
+msgstr "AS PARTES PODEM SER ENCONTRADAS EM QUALQUER LADO!"
+
+msgid "DOT_TELESCOPE_A"
+msgstr "QUE GRANDE TELESCÓPIO!"
+
+msgid "DOT_TELESCOPE_B"
+msgstr "PRIME {X} NUMA DAS DUAS PEGAS \r\nPARA RODAR O TELESCÓPIO PARA UM LADO OU PARA O OUTRO."
+
+msgid "DOT_TELESCOPE_C"
+msgstr "PARA OLHARES PELO TELESCÓPIO, PRIME {X} PERTO DO OCULAR."
+
+msgid "DOT_TEMPLE_A"
+msgstr "ESTOU TÃO CONFUSO COMO TU."
+
+msgid "DOT_TEMPLE_B"
+msgstr "NÃO FAÇO IDEIA."
+
+msgid "DOT_THANKS_A"
+msgstr "OBRIGADO, GOMEZ."
+
+msgid "DOT_THANKS_B"
+msgstr "NUNCA ME ESQUECEREI..."
+
+msgid "DOT_TIME_SWITCH_A"
+msgstr "UMA ALTERAÇÃO DO TEMPO!"
+
+msgid "DOT_TIME_SWITCH_B"
+msgstr "AS ALTERAÇÕES DO TEMPO PODEM SER INVERTIDAS."
+
+msgid "DOT_TIME_SWITCH_C"
+msgstr "AGARRA A PEGA COM {X},\r\nE RODA COM {RT} {LT} ATÉ SER INVERTIDA."
+
+msgid "DOT_TIME_SWITCH_D"
+msgstr "DEPOIS LARGA-A."
+
+msgid "DOT_TIME_SWITCH_E"
+msgstr "RÁPIDO, ANTES QUE SE VOLTE A ALTERAR!"
+
+msgid "DOT_TOMBSTONE_A"
+msgstr "ESTAS LÁPIDES TÊM ASPECTO DE QUE PODEM SER RODADAS..."
+
+msgid "DOT_TOMBSTONE_B"
+msgstr "TALVEZ AGARRÁ-LAS COM {X} E RODÁ-LAS COM {RT} {LT}?"
+
+msgid "DOT_TOMBSTONE_C"
+msgstr "PELO MENOS COSTUMA SER ASSIM."
+
+msgid "DOT_TOME_A"
+msgstr "PARECE UM LIVRO."
+
+msgid "DOT_TOME_B"
+msgstr "SIM!\r\nÉ UM LIVRO!"
+
+msgid "DOT_TREASURE"
+msgstr "OS TESOUROS SÃO PRECIOSOS.\r\nNUNCA SE SABE O QUE CONTÊM!\r\nTALVEZ UM FRAGMENTO!"
+
+msgid "DOT_TREASURE_B"
+msgstr "PARA A ABRIRES,\r\nPÕE-TE À FRENTE DELA,\r\nE PRIME {X}."
+
+msgid "DOT_TREASURE_C"
+msgstr "UMA ARCA DO TESOURO!"
+
+msgid "DOT_TREASURE_MAP_A"
+msgstr "ENCONTRASTE UM MAPA DO TESOURO!"
+
+msgid "DOT_TREASURE_MAP_B"
+msgstr "UM MAPA DO QUÊ?\r\nPARA ONDE?"
+
+msgid "DOT_TREASURE_MAP_C"
+msgstr "NÃO SEI!"
+
+msgid "DOT_TREASURE_MAP_D"
+msgstr "DESENRASCA-TE SOZINHO!"
+
+msgid "DOT_TRISKULL_A"
+msgstr "INACREDITÁVEL!"
+
+msgid "DOT_TRISKULL_B"
+msgstr "..."
+
+msgid "DOT_TRISKULL_C"
+msgstr "ENTÃO, AS LENDAS ERAM VERDADEIRAS."
+
+msgid "DOT_TRISKULL_D"
+msgstr "ELES VIERAM MESMO CÁ..."
+
+msgid "DOT_UH"
+msgstr "O QUÊ?"
+
+msgid "DOT_VALVE_A"
+msgstr "É UMA VÁLVULA."
+
+msgid "DOT_VALVE_B"
+msgstr "AS VÁLVULAS PODEM CONTROLAR O NÍVEL DA ÁGUA."
+
+msgid "DOT_VALVE_C"
+msgstr "AGARRA-TE A ELA COM {X}\r\nE RODA PARA A ESQUERDA OU PARA A DIREITA."
+
+msgid "DOT_WARP_A"
+msgstr "OLHA!"
+
+msgid "DOT_WARP_B"
+msgstr "UM PORTAL DE TRANSPORTE!"
+
+msgid "DOT_WARP_C"
+msgstr "MAS ESTE AINDA NÃO ESTÁ A FUNCIONAR."
+
+msgid "DOT_WARP_CONNECT"
+msgstr "ELE LIGA-SE A TODOS OS OUTROS PORTAIS QUE ENCONTRASTE ATÉ AGORA."
+
+msgid "DOT_WARP_D"
+msgstr "PRIMEIRO, TENS DE ENCONTRAR OUTROS PORTAIS."
+
+msgid "DOT_WARP_E"
+msgstr "DEPOIS, ELES LIGAM-SE UNS AOS OUTROS."
+
+msgid "DOT_WARP_UP"
+msgstr "ESCOLHE UM DESTINO E PRIME {UP} PARA TRANSPORTE."
+
+msgid "DOT_WEIGHT_SWITCH_A"
+msgstr "PRECISARÁS DE ALGO MAIS PESADO."
+
+msgid "DOT_WEIGHT_SWITCH_B"
+msgstr "NÃO PESAS O SUFICIENTE PARA PUXARES ESTE INTERRUPTOR."
+
+msgid "DOT_WELL_A"
+msgstr "ORA POÇAS..."
+
+msgid "DOT_WELL_B"
+msgstr "O QUE TEMOS NÓS AQUI?"
+
+msgid "DOT_WELL_C"
+msgstr "PERCEBESTE?"
+
+msgid "DOT_WELL_D"
+msgstr "É UM POÇO."
+
+msgid "DOT_WHAT"
+msgstr "O QUE SIGNIFICA?"
+
+msgid "DOT_WOAH"
+msgstr "ENA!"
+
+msgid "DOT_WORKING"
+msgstr "UM PORTAL ASTRAL A FUNCIONAR!"
+
+msgid "DOT_YES"
+msgstr "SIM!"
+
+msgid "FPVIEW_INSTRUCTIONS"
+msgstr "Prime {LS} para vista na primeira pessoa."
+
+msgid "GEEZER_3D"
+msgstr "TU ÉS A AVENTURA! POR FAVOR, ENCONTRA OS FRAGMENTOS DO CUBO. RECUPERA O HEXAEDRO!"
+
+msgid "GEEZER_3D2"
+msgstr "EU EXPLICO-TE DEPOIS. AGORA, VAI!"
+
+msgid "GEEZER_3D3"
+msgstr "QUE COMECE A AVENTURA 3D!"
+
+msgid "GEEZER_HOUSE_A"
+msgstr "JÁ PASSOU TANTO TEMPO."
+
+msgid "GEEZER_HOUSE_B"
+msgstr "AGORA É A TUA VEZ."
+
+msgid "GEEZER_HOUSE_C"
+msgstr "ESTOU CANSADO."
+
+msgid "GEEZER_HOUSE_D"
+msgstr "JÁ PARA NÃO FALAR DO OLHO."
+
+msgid "GEEZER_LETTER"
+msgstr "Caro Gomez,\r\n\r\nVai ter comigo ao topo da vila. Tenho uma coisa muito importante para te dizer.\r\n\r\nHoje é um dia especial.\r\n\r\n- Geezer"
+
+msgid "GEEZER_TOP_A"
+msgstr "AQUI ESTÁS TU!"
+
+msgid "GEEZER_TOP_B"
+msgstr "HOJE É UM DIA ESPECIAL."
+
+msgid "GEEZER_TOP_C"
+msgstr "A AVENTURA AGUARDA-TE!\r\nESTÁ NA HORA DO GOMEZ!"
+
+msgid "GEEZER_TOP_D"
+msgstr "..."
+
+msgid "GEEZER_TOP_E"
+msgstr "QUANDO QUISERES..."
+
+msgid "GEEZER_TOP_F"
+msgstr "...SÓ TU- !"
+
+msgid "GEEZER_TOP_J"
+msgstr "AQUI TENS."
+
+msgid "GHOST_A"
+msgstr "LÁ PORQUE NÃO VÊS NADA, \r\nNÃO QUER DIZER QUE NÃO ESTEJA LÁ."
+
+msgid "GHOST_B"
+msgstr "PROCURA AS CORUJAS."
+
+msgid "GHOST_C"
+msgstr "JÁ ENCONTRASTE A CRIPTA?"
+
+msgid "GHOST_D"
+msgstr "AQUELE SÍTIO NÃO TEM LÓGICA!"
+
+msgid "GHOST_GATE"
+msgstr "PODIA SER PIOR,\r\nEU PODIA ESTAR MORTO."
+
+msgid "GHOST_OWL_A"
+msgstr "ENA PÁ!"
+
+msgid "GHOST_OWL_B"
+msgstr "SABES O QUE ADORO?"
+
+msgid "GHOST_OWL_C"
+msgstr "CORUJAS!"
+
+msgid "GHOST_OWL_D"
+msgstr "AS CORUJAS SÃO DO MELHOR!"
+
+msgid "GHOST_OWL_E"
+msgstr "CRIATURAS DA NOITE, TAL COMO EU!"
+
+msgid "GHOST_OWL_F"
+msgstr "POR ISSO É QUE ANDO SEMPRE POR AQUI."
+
+msgid "GRAVE_GATE_FLASH"
+msgstr "ALGUMAS COISAS ESTÃO LÁ, MAS NEM SEMPRE DÁ PARA AS VER"
+
+msgid "GRAVE_GHOST_A"
+msgstr "VIDA DEPOIS DA MORTE"
+
+msgid "GRAVE_GHOST_B"
+msgstr "ESPAÇO SIDERAL"
+
+msgid "GRAVE_GHOST_C"
+msgstr "PARA ALÉM DO ESPAÇO"
+
+msgid "GRAVE_GHOST_D"
+msgstr "VIDA EXTERIOR"
+
+msgid "GRAVE_GHOST_E"
+msgstr "AS CORUJAS ARREPIAM-ME..."
+
+msgid "GRAVE_GHOST_F"
+msgstr "MAS NÃO ME LEMBRO PORQUÊ..."
+
+msgid "GRAVE_GHOST_G"
+msgstr "NÃO ACREDITES NO HIPERCUBO."
+
+msgid "HEX_A"
+msgstr "OLÁ, COMO ESTÁS\r\nEU SEREI\r\nO TEU HEXAEDRO HOJE"
+
+msgid "HEX_B"
+msgstr "ISTO É APENAS UM\r\nPROCEDIMENTO DE ROTINA,\r\nMAS EU PRECISO\r\nDE ALGUÉM AQUI,\r\nPARA O CASO DE ALGO\r\nCORRER MAL"
+
+msgid "HEX_C"
+msgstr "SE ALGO \r\nCORRER MAL \r\nTU VAIS TER DE \r\nLIMPAR A PORCARIA"
+
+msgid "HEX_D"
+msgstr "ESPERA AÍ \r\nSERÁ QUE \r\nCOMPREENDES \r\nO QUE ESTOU A DIZER \r\nE O QUE SE PASSA \r\nCOM A TUA CABEÇA"
+
+msgid "HEX_E"
+msgstr "BEM, ESTÁS \r\nAQUI AGORA, \r\nMAIS VALE FAZER ISTO \r\nPREPARA-TE PARA FICAR \r\nBOQUIABERTO"
+
+msgid "HEX_F"
+msgstr "MUITO BEM\r\nBEM-VINDO AO\r\nCLUBE, ESPERO QUE GOSTES\r\nDO CHAPÉU DE OFERTA"
+
+msgid "HEX_G"
+msgstr "EU AINDA PENSEI\r\nQUE ISTO\r\nNÃO IA FUNCIONAR, POR CAUSA\r\nDA TUA CABEÇA ESQUISITA,\r\nMAS DAQUI\r\nPARECE ESTAR BEM"
+
+msgid "HEX_H"
+msgstr "OBRIGADO PELA AJUDA\r\nPODES IR PARA CASA\r\nFOI UM PRAZER\r\nCONHECER-TE"
+
+msgid "IZAAC_3D"
+msgstr "CHAPÉU CHEIO DE ESTILO!"
+
+msgid "IZAAK_3D2"
+msgstr "ONDE É QUE O ARRANJASTE?"
+
+msgid "MAYOR_3D"
+msgstr "COMO É QUE FIZESTE AQUILO?"
+
+msgid "MAYOR_3D_3"
+msgstr "MAS NÃO O FAÇAS OUTRA VEZ!"
+
+msgid "MAYOR_3D2"
+msgstr "FOI MESMO BONITO!"
+
+msgid "MAYOR_A"
+msgstr "HOJE ESTÁS COM BOM ASPECTO."
+
+msgid "NUTNBOLT_A"
+msgstr "DESENRASCA-TE SOZINHO!"
+
+msgid "OLDY_3D"
+msgstr "ISTO OUTRA VEZ?"
+
+msgid "OLDY_A"
+msgstr "A REALIDADE É PERCEPÇÃO."
+
+msgid "OWL_A"
+msgstr "OS MUITOS SÃO UM."
+
+msgid "OWL_A_2"
+msgstr "UM SÃO MUITOS."
+
+msgid "OWL_B"
+msgstr "OS TREZE CÍRCULOS."
+
+msgid "OWL_B_2"
+msgstr "O NOME DE DEUS DE 64 BITS."
+
+msgid "OWL_C"
+msgstr "HEXAEDRO. OCTAEDRO. DODECAEDRO."
+
+msgid "OWL_C_2"
+msgstr "A SUA GEOMETRIA SAGRADA."
+
+msgid "OWL_D"
+msgstr "PONTO DE ORIGEM."
+
+msgid "OWL_D_2"
+msgstr "ANTES E DEPOIS."
+
+msgid "PIVOT_ZERO"
+msgstr "EMPURRA AS PEGAS"
+
+msgid "ROTATE_INSTRUCTIONS"
+msgstr "Usa {LT} {RT} para alterares a perspectiva"
+
+msgid "SEWER_A"
+msgstr "PRIME SEM LARGAR {X}\r\nPARA AGARRARES A VÁLVULA,\r\nDEPOIS RODA-A."
+
+msgid "STEREO_INSTRUCTIONS"
+msgstr "Podes activar a estereoscopia nas opções"
+
+msgid "TEACHER_3D_A"
+msgstr "SERÁ?"
+
+msgid "TEACHER_3D_B"
+msgstr "UMA NOVA DIRECÇÃO?"
+
+msgid "TEACHER_3D_C"
+msgstr "ENA!"
+
+msgid "TEACHER_A"
+msgstr "CIMA, BAIXO, ESQUERDA, DIREITA.\r\nX E Y, \r\nE É TUDO."
+
+msgid "TEACHER_B"
+msgstr "OS QUADRADOS DIABÓLICOS NÃO EXISTEM."
+
+msgid "TEACHER_C"
+msgstr "SÓ QUADRADOS NORMAIS."
+
+msgid "TEACHER_VIDEO"
+msgstr "A PERCEPÇÃO É SUBJECTIVA."
+
+msgid "TUTO_CLIMB_OVER_LADDER"
+msgstr "Aproxima-te do escadote para o subires."
+
+msgid "TUTO_DROP_LEDGE"
+msgstr "Prime {DOWN} e {A} para largares."
+
+msgid "TUTO_ENTER_DOOR"
+msgstr "Prime {UP} para entrares numa porta."
+
+msgid "TUTO_GRAB_LEDGE"
+msgstr "Mantém {UP} premido enquanto estás no ar para te agarrares às saliências."
+
+msgid "Tuto_GrabBomb"
+msgstr "Também podes levantar e atirar bombas!"
+
+msgid "Tuto_GrabCrate"
+msgstr "Prime {X} para levantares uma caixa e {X} atirá-la"
+
+msgid "TUTO_JUMP"
+msgstr "Prime {A} para saltares."
+
+msgid "TUTO_LADDER"
+msgstr "Mantém {UP} premido para subires escadotes."
+
+msgid "TUTO_LOCKED_DOOR"
+msgstr "Para abrires uma porta fechada precisas de uma chave."
+
+msgid "TUTO_LOOKAROUND"
+msgstr "Usa {RS} para olhares em redor e prime-o para voltar ao normal."
+
+msgid "TUTO_MAIL"
+msgstr "Vai até à caixa de correio."
+
+msgid "TUTO_MAIL_2"
+msgstr "Prime {X} para leres o correio."
+
+msgid "TUTO_MENUCUBE"
+msgstr "Prime {Y} para abrires o inventário."
+
+msgid "TUTO_OPEN_DOOR"
+msgstr "Prime {UP} para abrires e entrares numa porta."
+
+msgid "TUTO_PICKUP"
+msgstr "Prime {X} para agarrares objectos."
+
+msgid "TUTO_READ_SIGN"
+msgstr "Prime {B} para leres letreiros."
+
+msgid "TUTO_SHIMMY"
+msgstr "Prime {LEFT} ou {RIGHT} para oscilares, {DOWN} para te largares, {A} ou {UP} para te içares."
+
+msgid "TUTO_TALK"
+msgstr "Prime {B} para falares com os aldeões."
+
+msgid "TUTO_THROW"
+msgstr "Prime {X} para atirar o objecto ou {DOWN} e {X} para o largares."
+
+msgid "TUTO_VINE"
+msgstr "Prime {UP} e uma direcção para trepares as trepadeiras."
+
+msgid "VILLAGE_SIGN"
+msgstr "BEM-VINDO A VILLAGEVILLE."
+
+msgid "VILLAGER_A"
+msgstr "GOMEZ!"
+
+msgid "VILLAGER_B"
+msgstr "EU ADORO A ALDEIA!"
+
+msgid "VILLAGER_C"
+msgstr "VIVI AQUI A MINHA VIDA TODA!"
+
+msgid "VILLAGER_D"
+msgstr "QUAL É A TUA FORMA PREFERIDA?"
+
+msgid "VILLAGER_E"
+msgstr "A MINHA É O QUADRADO!"
+
+msgid "VILLAGER_F"
+msgstr "O CUBO É QUE NÃO!"
+
+msgid "VILLAGER_G"
+msgstr "PORQUE ISSO NÃO EXISTE."
+
+msgid "VILLAGER_H"
+msgstr "VOLTASTE!"
+
+msgid "VILLAGER_I"
+msgstr "DESAPARECESTE DURANTE TANTO TEMPO!"
+
+msgid "VILLAGER_K"
+msgstr "AQUILO ERA UM CUBO!"
+
+msgid "VILLAGER_L"
+msgstr "MAS ISSO NÃO É POSSÍVEL!"
+
+msgid "VILLAGER_M"
+msgstr "BELO CHAPÉU."
+
+msgid "VILLAGER_N"
+msgstr "OLÁ GOMEZ!"
+
+msgid "VILLAGER_O"
+msgstr "PODIA CORRER O DIA INTEIRO!"
+
+msgid "VILLAGER_P"
+msgstr "ALIÁS, É O QUE VOU FAZER!"
+
+msgid "XAVIER_3D"
+msgstr "EU VI UM QUADRADO DIABÓLICO!"
+
+msgid "XAVIER_A"
+msgstr "SOMOS TODOS 2D, É SABIDO!"
+
+msgid "ZOE_3D"
+msgstr "ONDE FOSTE?"
+
+msgid "ZOE_3D_2"
+msgstr "TROUXESTE-ME ALGO DE LÁ?"
+
+msgid "ZU_A"
+msgstr "ENA!\r\nCOMO É QUE\r\nENTRASTE AQUI?"
+
+msgid "ZU_B"
+msgstr "DE ONDE\r\nVIESTE?"
+
+msgid "ZU_C"
+msgstr "O QUE SE PASSA\r\nCOM A TUA\r\nCABEÇA?"
+
+msgid "ZU_D"
+msgstr "ONDE\r\nARRANJASTE\r\nESSE CHAPÉU?"
+
+msgid "ZU_E"
+msgstr "ELE ESTÁ A USAR\r\nO FEZ!"
+
+msgid "ZU_F"
+msgstr "HA HA HA!\r\nOLHA ALI\r\nO SR. CABEÇA\r\nDE RECTÂNGULO!"
+
+msgid "ZU_G"
+msgstr "SERÁ\r\nQUE ESTÁS\r\nA PERCEBER\r\nALGUMA COISA?"
+
+msgid "ZU_H"
+msgstr "É BOM\r\nTER\r\nUMA VISITA\r\nFINALMENTE."
+
+msgid "ZU_I"
+msgstr "BEM-VINDO\r\nA ZU."
+
+msgid "ZU_J"
+msgstr "É UM PRAZER\r\nCONHECER-TE!"
+
+msgid "ZU_K"
+msgstr "COMO\r\nESTÁS?"
+
+msgid "DOT_TRIAL_A"
+msgstr "OLÁ!"
+
+msgid "DOT_TRIAL_B"
+msgstr "CHAMO-ME DOT."
+
+msgid "DOT_TRIAL_C"
+msgstr "RESUMINDO:"
+
+msgid "DOT_TRIAL_D"
+msgstr "ACONTECEU UMA COISA MÁ E UM CUBO MUITO IMPORTANTE EXPLODIU!"
+
+msgid "DOT_TRIAL_E"
+msgstr "E AGORA TENS DE ENCONTRAR TODOS OS FRAGMENTOS DO CUBO."
+
+msgid "DOT_TRIAL_F"
+msgstr "OU O UNIVERSO DEIXARÁ DE EXISTIR!"
+
+msgid "DOT_TRIAL_G"
+msgstr "ESPERO QUE GOSTES DE INEXISTIR!"
+
+msgid "DOT_TRIAL_H"
+msgstr "PORQUE É O QUE VAIS FAZER SE NÃO ENCONTRARES AQUELES CUBOS."
+
+msgid "DOT_TRIAL_I"
+msgstr "É VERDADE, OS CUBOS TAMBÉM ABREM PORTAS!"
+
+msgid "DOT_TRIAL_J"
+msgstr "VAIS ENCONTRAR MUITAS PORTAS."
+
+msgid "DOT_INTRO_FINAL_G_2"
+msgstr "ISTO É, BOA SORTE!"
+
+msgid "TUTO_LOCKED_TRIAL"
+msgstr "Esta porta está fechada na versão de avaliação."
+
+msgid "GOMEZ_HOUSE"
+msgstr "A CASA DO GOMEZ."
+

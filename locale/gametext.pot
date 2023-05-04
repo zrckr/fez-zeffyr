@@ -1,0 +1,1239 @@
+msgid ""
+msgstr ""
+
+msgid "DOT_16_DOOR_A"
+msgstr ""
+
+msgid "DOT_16_DOOR_B"
+msgstr ""
+
+msgid "DOT_16_DOOR_C"
+msgstr ""
+
+msgid "DOT_16_DOOR_D"
+msgstr ""
+
+msgid "DOT_16_DOOR_E"
+msgstr ""
+
+msgid "DOT_32_DOOR_A"
+msgstr ""
+
+msgid "DOT_32_DOOR_B"
+msgstr ""
+
+msgid "DOT_32_DOOR_C"
+msgstr ""
+
+msgid "DOT_32_DOOR_D"
+msgstr ""
+
+msgid "DOT_32_DOOR_E"
+msgstr ""
+
+msgid "DOT_64_DOOR_A"
+msgstr ""
+
+msgid "DOT_64_DOOR_B"
+msgstr ""
+
+msgid "DOT_64_DOOR_C"
+msgstr ""
+
+msgid "DOT_64_DOOR_D"
+msgstr ""
+
+msgid "DOT_64_DOOR_E"
+msgstr ""
+
+msgid "DOT_64_DOOR_F"
+msgstr ""
+
+msgid "DOT_8_DOOR_A"
+msgstr ""
+
+msgid "DOT_8_DOOR_B"
+msgstr ""
+
+msgid "DOT_8_DOOR_C"
+msgstr ""
+
+msgid "DOT_8_DOOR_D"
+msgstr ""
+
+msgid "DOT_8_DOOR_E"
+msgstr ""
+
+msgid "DOT_8_DOOR_F"
+msgstr ""
+
+msgid "DOT_A_CRATE"
+msgstr ""
+
+msgid "DOT_ALPHABET_A"
+msgstr ""
+
+msgid "DOT_AMAZING"
+msgstr ""
+
+msgid "DOT_ANCIENT_ARTIFACT"
+msgstr ""
+
+msgid "DOT_ANOTHER_WARP"
+msgstr ""
+
+msgid "DOT_ANTI_A"
+msgstr ""
+
+msgid "DOT_ANTI_B"
+msgstr ""
+
+msgid "DOT_ANTI_C"
+msgstr ""
+
+msgid "DOT_ANTI_D"
+msgstr ""
+
+msgid "DOT_BELL_A"
+msgstr ""
+
+msgid "DOT_BELL_B"
+msgstr ""
+
+msgid "DOT_BIT_A"
+msgstr ""
+
+msgid "DOT_BIT_B"
+msgstr ""
+
+msgid "DOT_BIT_C"
+msgstr ""
+
+msgid "DOT_BIT_D"
+msgstr ""
+
+msgid "DOT_BIT_DOOR"
+msgstr ""
+
+msgid "DOT_BLACKHOLE_A"
+msgstr ""
+
+msgid "DOT_BLACKHOLE_B"
+msgstr ""
+
+msgid "DOT_BLACKHOLE_C"
+msgstr ""
+
+msgid "DOT_BLACKHOLE_D"
+msgstr ""
+
+msgid "DOT_BLACKHOLE_F"
+msgstr ""
+
+msgid "DOT_BOMB_A"
+msgstr ""
+
+msgid "DOT_BOMB_B"
+msgstr ""
+
+msgid "DOT_BOMB_C"
+msgstr ""
+
+msgid "DOT_BOMB_D"
+msgstr ""
+
+msgid "DOT_BOMB_E"
+msgstr ""
+
+msgid "DOT_CANT_REMEMBER"
+msgstr ""
+
+msgid "DOT_CHECK_THIS_OUT"
+msgstr ""
+
+msgid "DOT_CLOCK_A"
+msgstr ""
+
+msgid "DOT_CLOCK_B"
+msgstr ""
+
+msgid "DOT_CORE_A"
+msgstr ""
+
+msgid "DOT_CORE_B"
+msgstr ""
+
+msgid "DOT_CORE_C"
+msgstr ""
+
+msgid "DOT_CORE_D"
+msgstr ""
+
+msgid "DOT_CORE_E"
+msgstr ""
+
+msgid "DOT_CORE_F"
+msgstr ""
+
+msgid "DOT_CORE_G"
+msgstr ""
+
+msgid "DOT_CORE_H"
+msgstr ""
+
+msgid "DOT_CORE_I"
+msgstr ""
+
+msgid "DOT_CORE_J"
+msgstr ""
+
+msgid "DOT_CORE_K"
+msgstr ""
+
+msgid "DOT_CORE_L"
+msgstr ""
+
+msgid "DOT_CORE_M"
+msgstr ""
+
+msgid "DOT_COSMOS_A"
+msgstr ""
+
+msgid "DOT_COSMOS_B"
+msgstr ""
+
+msgid "DOT_CRASH_A"
+msgstr ""
+
+msgid "DOT_CRASH_B"
+msgstr ""
+
+msgid "DOT_CRATE_A"
+msgstr ""
+
+msgid "DOT_CRATE_B"
+msgstr ""
+
+msgid "DOT_CRATE_C"
+msgstr ""
+
+msgid "DOT_CRATE_D"
+msgstr ""
+
+msgid "DOT_CUBES_EIGHT_A"
+msgstr ""
+
+msgid "DOT_CUBES_EIGHT_B"
+msgstr ""
+
+msgid "DOT_CUBES_FOUR_A"
+msgstr ""
+
+msgid "DOT_CUBES_FOUR_B"
+msgstr ""
+
+msgid "DOT_CUBES_FOUR_C"
+msgstr ""
+
+msgid "DOT_CUBES_GET_A"
+msgstr ""
+
+msgid "DOT_CUBES_GET_B"
+msgstr ""
+
+msgid "DOT_CUBES_GET_C"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTEEN_A"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTEEN_B"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTEEN_C"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTEEN_D"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTYFOUR_A"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTYFOUR_B"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTYFOUR_C"
+msgstr ""
+
+msgid "DOT_CUBES_SIXTYFOUR_D"
+msgstr ""
+
+msgid "DOT_CUBES_THIRTYTWO_A"
+msgstr ""
+
+msgid "DOT_CUBES_THIRTYTWO_B"
+msgstr ""
+
+msgid "DOT_CUBES_THIRTYTWO_C"
+msgstr ""
+
+msgid "DOT_DONT_KNOW"
+msgstr ""
+
+msgid "DOT_DOOR"
+msgstr ""
+
+msgid "DOT_DOOR_OPEN_A"
+msgstr ""
+
+msgid "DOT_DOOR_OPEN_B"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_A"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_B"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_C"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_D"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_E"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_F"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_G"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_H"
+msgstr ""
+
+msgid "DOT_DOOR_SIXTYFOUR_I"
+msgstr ""
+
+msgid "DOT_DOOR_THIRTYTWO_A"
+msgstr ""
+
+msgid "DOT_DOOR_THIRTYTWO_B"
+msgstr ""
+
+msgid "DOT_DOOR_THIRTYTWO_C"
+msgstr ""
+
+msgid "DOT_DOOR_THIRTYTWO_D"
+msgstr ""
+
+msgid "DOT_DOOR_THIRTYTWO_E"
+msgstr ""
+
+msgid "DOT_FEEL"
+msgstr ""
+
+msgid "DOT_FIRST_CUBE_A"
+msgstr ""
+
+msgid "DOT_FIRST_CUBE_B"
+msgstr ""
+
+msgid "DOT_FORGET_A"
+msgstr ""
+
+msgid "DOT_FORGET_B"
+msgstr ""
+
+msgid "DOT_FPS_WONDER"
+msgstr ""
+
+msgid "DOT_FRACTAL_A"
+msgstr ""
+
+msgid "DOT_FRACTAL_B"
+msgstr ""
+
+msgid "DOT_FRACTAL_C"
+msgstr ""
+
+msgid "DOT_FRACTAL_D"
+msgstr ""
+
+msgid "DOT_GIFT"
+msgstr ""
+
+msgid "DOT_GLOBE_A"
+msgstr ""
+
+msgid "DOT_HAPPENED"
+msgstr ""
+
+msgid "DOT_HEART_A"
+msgstr ""
+
+msgid "DOT_HEART_B"
+msgstr ""
+
+msgid "DOT_HEART_C"
+msgstr ""
+
+msgid "DOT_HELP"
+msgstr ""
+
+msgid "DOT_HEY"
+msgstr ""
+
+msgid "DOT_INTRO"
+msgstr ""
+
+msgid "DOT_INTRO_A"
+msgstr ""
+
+msgid "DOT_INTRO_B"
+msgstr ""
+
+msgid "DOT_INTRO_C"
+msgstr ""
+
+msgid "DOT_INTRO_D"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_A"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_B"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_C"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_D"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_E"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_F"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_G"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_G_2"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_H"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_H_2"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_I"
+msgstr ""
+
+msgid "DOT_INTRO_DOOR_J"
+msgstr ""
+
+msgid "DOT_INTRO_E"
+msgstr ""
+
+msgid "DOT_INTRO_F"
+msgstr ""
+
+msgid "DOT_INTRO_F2"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_A"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_B"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_C"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_D"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_E"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_F"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_G"
+msgstr ""
+
+msgid "DOT_INTRO_FINAL_G_2"
+msgstr ""
+
+msgid "DOT_INTRO_G"
+msgstr ""
+
+msgid "DOT_INTRO_H"
+msgstr ""
+
+msgid "DOT_INTRO_I"
+msgstr ""
+
+msgid "DOT_INTRO_J"
+msgstr ""
+
+msgid "DOT_INTRO_K"
+msgstr ""
+
+msgid "DOT_INTRO_L"
+msgstr ""
+
+msgid "DOT_INTRO_M"
+msgstr ""
+
+msgid "DOT_INTRO_N"
+msgstr ""
+
+msgid "DOT_INTRO_O"
+msgstr ""
+
+msgid "DOT_INTRO_P"
+msgstr ""
+
+msgid "DOT_INTRO_Q"
+msgstr ""
+
+msgid "DOT_INTRO_R"
+msgstr ""
+
+msgid "DOT_INTRO_S"
+msgstr ""
+
+msgid "DOT_INVENTORY_A"
+msgstr ""
+
+msgid "DOT_INVENTORY_B"
+msgstr ""
+
+msgid "DOT_INVENTORY_C"
+msgstr ""
+
+msgid "DOT_INVENTORY_D"
+msgstr ""
+
+msgid "DOT_KEY_A"
+msgstr ""
+
+msgid "DOT_KEY_B"
+msgstr ""
+
+msgid "DOT_LESSER_A"
+msgstr ""
+
+msgid "DOT_LESSER_B"
+msgstr ""
+
+msgid "DOT_LESSER_C"
+msgstr ""
+
+msgid "DOT_LOCKED_DOOR_A"
+msgstr ""
+
+msgid "DOT_LOCKED_DOOR_B"
+msgstr ""
+
+msgid "DOT_LOOK"
+msgstr ""
+
+msgid "DOT_LOOK_INVENTORY"
+msgstr ""
+
+msgid "DOT_MAP_A"
+msgstr ""
+
+msgid "DOT_MAP_B"
+msgstr ""
+
+msgid "DOT_MAP_C"
+msgstr ""
+
+msgid "DOT_MAP_D"
+msgstr ""
+
+msgid "DOT_MAP_E"
+msgstr ""
+
+msgid "DOT_MAP_F"
+msgstr ""
+
+msgid "DOT_MAP_INFO_A"
+msgstr ""
+
+msgid "DOT_MAP_INFO_B"
+msgstr ""
+
+msgid "DOT_MAP_INFO_C"
+msgstr ""
+
+msgid "DOT_MAP_INFO_D"
+msgstr ""
+
+msgid "DOT_MEANS"
+msgstr ""
+
+msgid "DOT_MEMORY_A"
+msgstr ""
+
+msgid "DOT_MEMORY_B"
+msgstr ""
+
+msgid "DOT_MENU_A"
+msgstr ""
+
+msgid "DOT_MENU_B"
+msgstr ""
+
+msgid "DOT_MENU_C"
+msgstr ""
+
+msgid "DOT_MENU_D"
+msgstr ""
+
+msgid "DOT_NICE"
+msgstr ""
+
+msgid "DOT_NUMBERS_A"
+msgstr ""
+
+msgid "DOT_NUT_N_BOLT_A"
+msgstr ""
+
+msgid "DOT_NUT_N_BOLT_B"
+msgstr ""
+
+msgid "DOT_NUT_N_BOLT_C"
+msgstr ""
+
+msgid "DOT_OH_LOOK"
+msgstr ""
+
+msgid "DOT_OH_MY"
+msgstr ""
+
+msgid "DOT_OH_NICE"
+msgstr ""
+
+msgid "DOT_OH_NO"
+msgstr ""
+
+msgid "DOT_OWLS"
+msgstr ""
+
+msgid "DOT_OWLS_B"
+msgstr ""
+
+msgid "DOT_OWLS_C"
+msgstr ""
+
+msgid "DOT_OWLS_D"
+msgstr ""
+
+msgid "DOT_PIVOT_A"
+msgstr ""
+
+msgid "DOT_PIVOT_B"
+msgstr ""
+
+msgid "DOT_REMEMBER"
+msgstr ""
+
+msgid "DOT_SECRET_A"
+msgstr ""
+
+msgid "DOT_SECRET_B"
+msgstr ""
+
+msgid "DOT_SECRET_C"
+msgstr ""
+
+msgid "DOT_SECRET_D"
+msgstr ""
+
+msgid "DOT_SENTINEL_A"
+msgstr ""
+
+msgid "DOT_SENTINEL_B"
+msgstr ""
+
+msgid "DOT_SENTINEL_C"
+msgstr ""
+
+msgid "DOT_SENTINEL_D"
+msgstr ""
+
+msgid "DOT_SHARDS"
+msgstr ""
+
+msgid "DOT_SILENCE"
+msgstr ""
+
+msgid "DOT_SPLIT_A"
+msgstr ""
+
+msgid "DOT_SPLIT_B"
+msgstr ""
+
+msgid "DOT_SPLIT_C"
+msgstr ""
+
+msgid "DOT_TELESCOPE_A"
+msgstr ""
+
+msgid "DOT_TELESCOPE_B"
+msgstr ""
+
+msgid "DOT_TELESCOPE_C"
+msgstr ""
+
+msgid "DOT_TEMPLE_A"
+msgstr ""
+
+msgid "DOT_TEMPLE_B"
+msgstr ""
+
+msgid "DOT_THANKS_A"
+msgstr ""
+
+msgid "DOT_THANKS_B"
+msgstr ""
+
+msgid "DOT_TIME_SWITCH_A"
+msgstr ""
+
+msgid "DOT_TIME_SWITCH_B"
+msgstr ""
+
+msgid "DOT_TIME_SWITCH_C"
+msgstr ""
+
+msgid "DOT_TIME_SWITCH_D"
+msgstr ""
+
+msgid "DOT_TIME_SWITCH_E"
+msgstr ""
+
+msgid "DOT_TOMBSTONE_A"
+msgstr ""
+
+msgid "DOT_TOMBSTONE_B"
+msgstr ""
+
+msgid "DOT_TOMBSTONE_C"
+msgstr ""
+
+msgid "DOT_TOME_A"
+msgstr ""
+
+msgid "DOT_TOME_B"
+msgstr ""
+
+msgid "DOT_TREASURE"
+msgstr ""
+
+msgid "DOT_TREASURE_B"
+msgstr ""
+
+msgid "DOT_TREASURE_C"
+msgstr ""
+
+msgid "DOT_TREASURE_MAP_A"
+msgstr ""
+
+msgid "DOT_TREASURE_MAP_B"
+msgstr ""
+
+msgid "DOT_TREASURE_MAP_C"
+msgstr ""
+
+msgid "DOT_TREASURE_MAP_D"
+msgstr ""
+
+msgid "DOT_TRIAL_A"
+msgstr ""
+
+msgid "DOT_TRIAL_B"
+msgstr ""
+
+msgid "DOT_TRIAL_C"
+msgstr ""
+
+msgid "DOT_TRIAL_D"
+msgstr ""
+
+msgid "DOT_TRIAL_E"
+msgstr ""
+
+msgid "DOT_TRIAL_F"
+msgstr ""
+
+msgid "DOT_TRIAL_G"
+msgstr ""
+
+msgid "DOT_TRIAL_H"
+msgstr ""
+
+msgid "DOT_TRIAL_I"
+msgstr ""
+
+msgid "DOT_TRIAL_J"
+msgstr ""
+
+msgid "DOT_TRISKULL_A"
+msgstr ""
+
+msgid "DOT_TRISKULL_B"
+msgstr ""
+
+msgid "DOT_TRISKULL_C"
+msgstr ""
+
+msgid "DOT_TRISKULL_D"
+msgstr ""
+
+msgid "DOT_UH"
+msgstr ""
+
+msgid "DOT_VALVE_A"
+msgstr ""
+
+msgid "DOT_VALVE_B"
+msgstr ""
+
+msgid "DOT_VALVE_C"
+msgstr ""
+
+msgid "DOT_WARP_A"
+msgstr ""
+
+msgid "DOT_WARP_B"
+msgstr ""
+
+msgid "DOT_WARP_C"
+msgstr ""
+
+msgid "DOT_WARP_CONNECT"
+msgstr ""
+
+msgid "DOT_WARP_D"
+msgstr ""
+
+msgid "DOT_WARP_E"
+msgstr ""
+
+msgid "DOT_WARP_UP"
+msgstr ""
+
+msgid "DOT_WEIGHT_SWITCH_A"
+msgstr ""
+
+msgid "DOT_WEIGHT_SWITCH_B"
+msgstr ""
+
+msgid "DOT_WELL_A"
+msgstr ""
+
+msgid "DOT_WELL_B"
+msgstr ""
+
+msgid "DOT_WELL_C"
+msgstr ""
+
+msgid "DOT_WELL_D"
+msgstr ""
+
+msgid "DOT_WHAT"
+msgstr ""
+
+msgid "DOT_WOAH"
+msgstr ""
+
+msgid "DOT_WORKING"
+msgstr ""
+
+msgid "DOT_YES"
+msgstr ""
+
+msgid "FPVIEW_INSTRUCTIONS"
+msgstr ""
+
+msgid "GEEZER_3D"
+msgstr ""
+
+msgid "GEEZER_3D2"
+msgstr ""
+
+msgid "GEEZER_3D3"
+msgstr ""
+
+msgid "GEEZER_HOUSE_A"
+msgstr ""
+
+msgid "GEEZER_HOUSE_B"
+msgstr ""
+
+msgid "GEEZER_HOUSE_C"
+msgstr ""
+
+msgid "GEEZER_HOUSE_D"
+msgstr ""
+
+msgid "GEEZER_LETTER"
+msgstr ""
+
+msgid "GEEZER_TOP_A"
+msgstr ""
+
+msgid "GEEZER_TOP_B"
+msgstr ""
+
+msgid "GEEZER_TOP_C"
+msgstr ""
+
+msgid "GEEZER_TOP_D"
+msgstr ""
+
+msgid "GEEZER_TOP_E"
+msgstr ""
+
+msgid "GEEZER_TOP_F"
+msgstr ""
+
+msgid "GEEZER_TOP_J"
+msgstr ""
+
+msgid "GHOST_A"
+msgstr ""
+
+msgid "GHOST_B"
+msgstr ""
+
+msgid "GHOST_C"
+msgstr ""
+
+msgid "GHOST_D"
+msgstr ""
+
+msgid "GHOST_GATE"
+msgstr ""
+
+msgid "GHOST_OWL_A"
+msgstr ""
+
+msgid "GHOST_OWL_B"
+msgstr ""
+
+msgid "GHOST_OWL_C"
+msgstr ""
+
+msgid "GHOST_OWL_D"
+msgstr ""
+
+msgid "GHOST_OWL_E"
+msgstr ""
+
+msgid "GHOST_OWL_F"
+msgstr ""
+
+msgid "GOMEZ_HOUSE"
+msgstr ""
+
+msgid "GRAVE_GATE_FLASH"
+msgstr ""
+
+msgid "GRAVE_GHOST_A"
+msgstr ""
+
+msgid "GRAVE_GHOST_B"
+msgstr ""
+
+msgid "GRAVE_GHOST_C"
+msgstr ""
+
+msgid "GRAVE_GHOST_D"
+msgstr ""
+
+msgid "GRAVE_GHOST_E"
+msgstr ""
+
+msgid "GRAVE_GHOST_F"
+msgstr ""
+
+msgid "GRAVE_GHOST_G"
+msgstr ""
+
+msgid "HEX_A"
+msgstr ""
+
+msgid "HEX_B"
+msgstr ""
+
+msgid "HEX_C"
+msgstr ""
+
+msgid "HEX_D"
+msgstr ""
+
+msgid "HEX_E"
+msgstr ""
+
+msgid "HEX_F"
+msgstr ""
+
+msgid "HEX_G"
+msgstr ""
+
+msgid "HEX_H"
+msgstr ""
+
+msgid "IZAAC_3D"
+msgstr ""
+
+msgid "IZAAK_3D2"
+msgstr ""
+
+msgid "MAYOR_3D"
+msgstr ""
+
+msgid "MAYOR_3D_3"
+msgstr ""
+
+msgid "MAYOR_3D2"
+msgstr ""
+
+msgid "MAYOR_A"
+msgstr ""
+
+msgid "NUTNBOLT_A"
+msgstr ""
+
+msgid "OLDY_3D"
+msgstr ""
+
+msgid "OLDY_A"
+msgstr ""
+
+msgid "OWL_A"
+msgstr ""
+
+msgid "OWL_A_2"
+msgstr ""
+
+msgid "OWL_B"
+msgstr ""
+
+msgid "OWL_B_2"
+msgstr ""
+
+msgid "OWL_C"
+msgstr ""
+
+msgid "OWL_C_2"
+msgstr ""
+
+msgid "OWL_D"
+msgstr ""
+
+msgid "OWL_D_2"
+msgstr ""
+
+msgid "PIVOT_ZERO"
+msgstr ""
+
+msgid "ROTATE_INSTRUCTIONS"
+msgstr ""
+
+msgid "SEWER_A"
+msgstr ""
+
+msgid "STEREO_INSTRUCTIONS"
+msgstr ""
+
+msgid "TEACHER_3D_A"
+msgstr ""
+
+msgid "TEACHER_3D_B"
+msgstr ""
+
+msgid "TEACHER_3D_C"
+msgstr ""
+
+msgid "TEACHER_A"
+msgstr ""
+
+msgid "TEACHER_B"
+msgstr ""
+
+msgid "TEACHER_C"
+msgstr ""
+
+msgid "TEACHER_VIDEO"
+msgstr ""
+
+msgid "TUTO_CLIMB_OVER_LADDER"
+msgstr ""
+
+msgid "TUTO_DROP_LEDGE"
+msgstr ""
+
+msgid "TUTO_ENTER_DOOR"
+msgstr ""
+
+msgid "TUTO_GRAB_LEDGE"
+msgstr ""
+
+msgid "Tuto_GrabBomb"
+msgstr ""
+
+msgid "Tuto_GrabCrate"
+msgstr ""
+
+msgid "TUTO_JUMP"
+msgstr ""
+
+msgid "TUTO_LADDER"
+msgstr ""
+
+msgid "TUTO_LOCKED_DOOR"
+msgstr ""
+
+msgid "TUTO_LOCKED_TRIAL"
+msgstr ""
+
+msgid "TUTO_LOOKAROUND"
+msgstr ""
+
+msgid "TUTO_MAIL"
+msgstr ""
+
+msgid "TUTO_MAIL_2"
+msgstr ""
+
+msgid "TUTO_MENUCUBE"
+msgstr ""
+
+msgid "TUTO_OPEN_DOOR"
+msgstr ""
+
+msgid "TUTO_PICKUP"
+msgstr ""
+
+msgid "TUTO_READ_SIGN"
+msgstr ""
+
+msgid "TUTO_SHIMMY"
+msgstr ""
+
+msgid "TUTO_TALK"
+msgstr ""
+
+msgid "TUTO_THROW"
+msgstr ""
+
+msgid "TUTO_VINE"
+msgstr ""
+
+msgid "VILLAGE_SIGN"
+msgstr ""
+
+msgid "VILLAGER_A"
+msgstr ""
+
+msgid "VILLAGER_B"
+msgstr ""
+
+msgid "VILLAGER_C"
+msgstr ""
+
+msgid "VILLAGER_D"
+msgstr ""
+
+msgid "VILLAGER_E"
+msgstr ""
+
+msgid "VILLAGER_F"
+msgstr ""
+
+msgid "VILLAGER_G"
+msgstr ""
+
+msgid "VILLAGER_H"
+msgstr ""
+
+msgid "VILLAGER_I"
+msgstr ""
+
+msgid "VILLAGER_K"
+msgstr ""
+
+msgid "VILLAGER_L"
+msgstr ""
+
+msgid "VILLAGER_M"
+msgstr ""
+
+msgid "VILLAGER_N"
+msgstr ""
+
+msgid "VILLAGER_O"
+msgstr ""
+
+msgid "VILLAGER_P"
+msgstr ""
+
+msgid "XAVIER_3D"
+msgstr ""
+
+msgid "XAVIER_A"
+msgstr ""
+
+msgid "ZOE_3D"
+msgstr ""
+
+msgid "ZOE_3D_2"
+msgstr ""
+
+msgid "ZU_A"
+msgstr ""
+
+msgid "ZU_B"
+msgstr ""
+
+msgid "ZU_C"
+msgstr ""
+
+msgid "ZU_D"
+msgstr ""
+
+msgid "ZU_E"
+msgstr ""
+
+msgid "ZU_F"
+msgstr ""
+
+msgid "ZU_G"
+msgstr ""
+
+msgid "ZU_H"
+msgstr ""
+
+msgid "ZU_I"
+msgstr ""
+
+msgid "ZU_J"
+msgstr ""
+
+msgid "ZU_K"
+msgstr ""
+
+msgid "GLYPH_TEST"
+msgstr ""
+

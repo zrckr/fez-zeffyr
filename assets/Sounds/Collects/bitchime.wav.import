@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bitchime.wav-cc508155c71b3d3fb4837ffba21c7332.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/bitchime.wav"
+dest_files=[ "res://.import/bitchime.wav-cc508155c71b3d3fb4837ffba21c7332.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

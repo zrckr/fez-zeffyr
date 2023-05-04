@@ -1,0 +1,3851 @@
+[gd_scene load_steps=293 format=2]
+
+[ext_resource path="res://src/Components/Trile.cs" type="Script" id=1]
+[ext_resource path="res://assets/Trilesets/Dev/top_only.png" type="Texture" id=2]
+[ext_resource path="res://assets/Trilesets/Dev/all_sides.png" type="Texture" id=3]
+[ext_resource path="res://assets/Trilesets/Dev/background.png" type="Texture" id=4]
+[ext_resource path="res://assets/Trilesets/Untitled/Og.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://assets/Trilesets/Untitled/O.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://assets/Trilesets/Untitled/Ods.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://assets/Trilesets/Untitled/Omds.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://assets/Trilesets/Untitled/Om.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://assets/Trilesets/Untitled/Odds.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://assets/Trilesets/Untitled/Od.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://assets/Trilesets/Untitled/Gd.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://assets/Trilesets/Untitled/Gdds.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://assets/Trilesets/Untitled/Gm.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://assets/Trilesets/Untitled/Gmds.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://assets/Trilesets/Untitled/Gds.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://assets/Trilesets/Untitled/Go.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://assets/Trilesets/Untitled/G.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://assets/Trilesets/Untitled/Gg.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 07.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 05.mesh" type="ArrayMesh" id=22]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 06.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 04.mesh" type="ArrayMesh" id=24]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 03.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 02.mesh" type="ArrayMesh" id=26]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe 01.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://assets/Trilesets/Untitled/Pipe Ds.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://assets/Trilesets/Untitled/Bench.mesh" type="ArrayMesh" id=29]
+[ext_resource path="res://assets/Trilesets/Untitled/Ladder Bottom B.mesh" type="ArrayMesh" id=30]
+[ext_resource path="res://assets/Trilesets/Untitled/Ladder Middle.mesh" type="ArrayMesh" id=31]
+[ext_resource path="res://assets/Trilesets/Untitled/Ladder Top.mesh" type="ArrayMesh" id=32]
+[ext_resource path="res://assets/Trilesets/Untitled/Grass.mesh" type="ArrayMesh" id=33]
+[ext_resource path="res://assets/Trilesets/Untitled/Vase.mesh" type="ArrayMesh" id=34]
+[ext_resource path="res://assets/Trilesets/Untitled/Crate.mesh" type="ArrayMesh" id=35]
+[ext_resource path="res://assets/Trilesets/Untitled/Small Golden Cube.mesh" type="ArrayMesh" id=36]
+[ext_resource path="res://assets/Trilesets/Untitled/Shrooms Red.mesh" type="ArrayMesh" id=37]
+[ext_resource path="res://assets/Trilesets/Untitled/Carpet D.mesh" type="ArrayMesh" id=38]
+[ext_resource path="res://assets/Trilesets/Untitled/Carpet C.mesh" type="ArrayMesh" id=39]
+[ext_resource path="res://assets/Trilesets/Untitled/Carpet B.mesh" type="ArrayMesh" id=40]
+[ext_resource path="res://assets/Trilesets/Untitled/Carpet A.mesh" type="ArrayMesh" id=41]
+[ext_resource path="res://assets/Trilesets/Untitled/Rope.mesh" type="ArrayMesh" id=42]
+[ext_resource path="res://assets/Trilesets/Untitled/Mailbox.mesh" type="ArrayMesh" id=43]
+[ext_resource path="res://assets/Trilesets/Untitled/Roots A.mesh" type="ArrayMesh" id=44]
+[ext_resource path="res://assets/Trilesets/Untitled/Roots C.mesh" type="ArrayMesh" id=45]
+[ext_resource path="res://assets/Trilesets/Untitled/Roots B.mesh" type="ArrayMesh" id=46]
+[ext_resource path="res://assets/Trilesets/Untitled/Sign TEXT.mesh" type="ArrayMesh" id=47]
+[ext_resource path="res://assets/Trilesets/Untitled/Sign UP.mesh" type="ArrayMesh" id=48]
+[ext_resource path="res://assets/Trilesets/Untitled/Rocks B.mesh" type="ArrayMesh" id=49]
+[ext_resource path="res://assets/Trilesets/Untitled/Rocks A.mesh" type="ArrayMesh" id=50]
+[ext_resource path="res://assets/Trilesets/Untitled/New Bomb.mesh" type="ArrayMesh" id=51]
+[ext_resource path="res://assets/Trilesets/Untitled/Cubic Grass B.mesh" type="ArrayMesh" id=52]
+[ext_resource path="res://assets/Trilesets/Untitled/Growth B.mesh" type="ArrayMesh" id=53]
+[ext_resource path="res://assets/Trilesets/Untitled/Growth A.mesh" type="ArrayMesh" id=54]
+[ext_resource path="res://assets/Trilesets/Untitled/Gray V Grass.mesh" type="ArrayMesh" id=55]
+[ext_resource path="res://assets/Trilesets/Untitled/Gray V.mesh" type="ArrayMesh" id=56]
+[ext_resource path="res://assets/Trilesets/Untitled/Gray H.mesh" type="ArrayMesh" id=57]
+[ext_resource path="res://assets/Trilesets/Untitled/Gray H Grass.mesh" type="ArrayMesh" id=58]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 028.mesh" type="ArrayMesh" id=59]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 027.mesh" type="ArrayMesh" id=60]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 023.mesh" type="ArrayMesh" id=61]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 022.mesh" type="ArrayMesh" id=62]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 021.mesh" type="ArrayMesh" id=63]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 020.mesh" type="ArrayMesh" id=64]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 019.mesh" type="ArrayMesh" id=65]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 018.mesh" type="ArrayMesh" id=66]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 017.mesh" type="ArrayMesh" id=67]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 016.mesh" type="ArrayMesh" id=68]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 015.mesh" type="ArrayMesh" id=69]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 013.mesh" type="ArrayMesh" id=70]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 09.mesh" type="ArrayMesh" id=71]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 08.mesh" type="ArrayMesh" id=72]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 07.mesh" type="ArrayMesh" id=73]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 06.mesh" type="ArrayMesh" id=74]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 05.mesh" type="ArrayMesh" id=75]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 04.mesh" type="ArrayMesh" id=76]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 03.mesh" type="ArrayMesh" id=77]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 02.mesh" type="ArrayMesh" id=78]
+[ext_resource path="res://assets/Trilesets/Untitled/YU 01.mesh" type="ArrayMesh" id=79]
+[ext_resource path="res://assets/Trilesets/Untitled/Beam Support.mesh" type="ArrayMesh" id=80]
+[ext_resource path="res://assets/Trilesets/Untitled/Platform Beam.mesh" type="ArrayMesh" id=81]
+[ext_resource path="res://assets/Trilesets/Untitled/Platform.mesh" type="ArrayMesh" id=82]
+[ext_resource path="res://assets/Trilesets/Untitled/Platform Support.mesh" type="ArrayMesh" id=83]
+[ext_resource path="res://assets/Trilesets/Untitled/Door A Up.mesh" type="ArrayMesh" id=84]
+[ext_resource path="res://assets/Trilesets/Untitled/Door A Down.mesh" type="ArrayMesh" id=85]
+[ext_resource path="res://assets/Trilesets/Untitled/Window B.mesh" type="ArrayMesh" id=86]
+[ext_resource path="res://assets/Trilesets/Untitled/Beam Support Growth.mesh" type="ArrayMesh" id=87]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 01.mesh" type="ArrayMesh" id=88]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 02.mesh" type="ArrayMesh" id=89]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 03.mesh" type="ArrayMesh" id=90]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 04.mesh" type="ArrayMesh" id=91]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 05.mesh" type="ArrayMesh" id=92]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 06.mesh" type="ArrayMesh" id=93]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 07.mesh" type="ArrayMesh" id=94]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 08.mesh" type="ArrayMesh" id=95]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 09.mesh" type="ArrayMesh" id=96]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 010.mesh" type="ArrayMesh" id=97]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 011.mesh" type="ArrayMesh" id=98]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 012.mesh" type="ArrayMesh" id=99]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 013.mesh" type="ArrayMesh" id=100]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 014.mesh" type="ArrayMesh" id=101]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 015.mesh" type="ArrayMesh" id=102]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 016.mesh" type="ArrayMesh" id=103]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 017.mesh" type="ArrayMesh" id=104]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 018.mesh" type="ArrayMesh" id=105]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 019.mesh" type="ArrayMesh" id=106]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 020.mesh" type="ArrayMesh" id=107]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 021.mesh" type="ArrayMesh" id=108]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 022.mesh" type="ArrayMesh" id=109]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 023.mesh" type="ArrayMesh" id=110]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 024.mesh" type="ArrayMesh" id=111]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 025.mesh" type="ArrayMesh" id=112]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 026.mesh" type="ArrayMesh" id=113]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 027.mesh" type="ArrayMesh" id=114]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 028.mesh" type="ArrayMesh" id=115]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 029.mesh" type="ArrayMesh" id=116]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 030.mesh" type="ArrayMesh" id=117]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 031.mesh" type="ArrayMesh" id=118]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 032.mesh" type="ArrayMesh" id=119]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 033.mesh" type="ArrayMesh" id=120]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 034.mesh" type="ArrayMesh" id=121]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 035.mesh" type="ArrayMesh" id=122]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 036.mesh" type="ArrayMesh" id=123]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 038.mesh" type="ArrayMesh" id=124]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 039.mesh" type="ArrayMesh" id=125]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 040.mesh" type="ArrayMesh" id=126]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 041.mesh" type="ArrayMesh" id=127]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 042.mesh" type="ArrayMesh" id=128]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 043.mesh" type="ArrayMesh" id=129]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU 045.mesh" type="ArrayMesh" id=130]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 015.mesh" type="ArrayMesh" id=131]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 014.mesh" type="ArrayMesh" id=132]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 013.mesh" type="ArrayMesh" id=133]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 012.mesh" type="ArrayMesh" id=134]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 011.mesh" type="ArrayMesh" id=135]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 010.mesh" type="ArrayMesh" id=136]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 09.mesh" type="ArrayMesh" id=137]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 08.mesh" type="ArrayMesh" id=138]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 07.mesh" type="ArrayMesh" id=139]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 06.mesh" type="ArrayMesh" id=140]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 05.mesh" type="ArrayMesh" id=141]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 04.mesh" type="ArrayMesh" id=142]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 03.mesh" type="ArrayMesh" id=143]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 02.mesh" type="ArrayMesh" id=144]
+[ext_resource path="res://assets/Trilesets/Untitled/ZUW 01.mesh" type="ArrayMesh" id=145]
+[ext_resource path="res://assets/Trilesets/Untitled/Tallplant A.mesh" type="ArrayMesh" id=146]
+[ext_resource path="res://assets/Trilesets/Untitled/Tallplant B.mesh" type="ArrayMesh" id=147]
+[ext_resource path="res://assets/Trilesets/Untitled/Grey Ds Half And Half.mesh" type="ArrayMesh" id=148]
+[ext_resource path="res://assets/Trilesets/Untitled/Grey 01 Half And Half DS.mesh" type="ArrayMesh" id=149]
+[ext_resource path="res://assets/Trilesets/Untitled/Grey 01 Half And Half.mesh" type="ArrayMesh" id=150]
+[ext_resource path="res://assets/Trilesets/Untitled/Locked Door B.mesh" type="ArrayMesh" id=151]
+[ext_resource path="res://assets/Trilesets/Untitled/Locked Door.mesh" type="ArrayMesh" id=152]
+[ext_resource path="res://assets/Trilesets/Untitled/Key.mesh" type="ArrayMesh" id=153]
+[ext_resource path="res://assets/Trilesets/Untitled/Wooden Bridge.mesh" type="ArrayMesh" id=154]
+[ext_resource path="res://assets/Trilesets/Untitled/HOLE.mesh" type="ArrayMesh" id=155]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES D.mesh" type="ArrayMesh" id=156]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES C.mesh" type="ArrayMesh" id=157]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES B.mesh" type="ArrayMesh" id=158]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES A.mesh" type="ArrayMesh" id=159]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES G.mesh" type="ArrayMesh" id=160]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES F.mesh" type="ArrayMesh" id=161]
+[ext_resource path="res://assets/Trilesets/Untitled/VINES E.mesh" type="ArrayMesh" id=162]
+[ext_resource path="res://assets/Trilesets/Untitled/Invisible C.mesh" type="ArrayMesh" id=163]
+[ext_resource path="res://assets/Trilesets/Untitled/Invisible A.mesh" type="ArrayMesh" id=164]
+[ext_resource path="res://assets/Trilesets/Untitled/Breakable G.mesh" type="ArrayMesh" id=165]
+[ext_resource path="res://assets/Trilesets/Untitled/Breakable F.mesh" type="ArrayMesh" id=166]
+[ext_resource path="res://assets/Trilesets/Untitled/Breakable E.mesh" type="ArrayMesh" id=167]
+[ext_resource path="res://assets/Trilesets/Untitled/Breakable C.mesh" type="ArrayMesh" id=168]
+[ext_resource path="res://assets/Trilesets/Untitled/WEIGHT SWITCH.mesh" type="ArrayMesh" id=169]
+[ext_resource path="res://assets/Trilesets/Untitled/4SIDE D.mesh" type="ArrayMesh" id=170]
+[ext_resource path="res://assets/Trilesets/Untitled/4SIDE C.mesh" type="ArrayMesh" id=171]
+[ext_resource path="res://assets/Trilesets/Untitled/4SIDE B.mesh" type="ArrayMesh" id=172]
+[ext_resource path="res://assets/Trilesets/Untitled/4SIDE A.mesh" type="ArrayMesh" id=173]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM F.mesh" type="ArrayMesh" id=174]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM E.mesh" type="ArrayMesh" id=175]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM D.mesh" type="ArrayMesh" id=176]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM C.mesh" type="ArrayMesh" id=177]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM B.mesh" type="ArrayMesh" id=178]
+[ext_resource path="res://assets/Trilesets/Untitled/SHROOM A.mesh" type="ArrayMesh" id=179]
+[ext_resource path="res://assets/Trilesets/Untitled/OHHF.mesh" type="ArrayMesh" id=180]
+[ext_resource path="res://assets/Trilesets/Untitled/OHHD.mesh" type="ArrayMesh" id=181]
+[ext_resource path="res://assets/Trilesets/Untitled/OHHC.mesh" type="ArrayMesh" id=182]
+[ext_resource path="res://assets/Trilesets/Untitled/O HH B.mesh" type="ArrayMesh" id=183]
+[ext_resource path="res://assets/Trilesets/Untitled/O HH A.mesh" type="ArrayMesh" id=184]
+[ext_resource path="res://assets/Trilesets/Untitled/PIER C.mesh" type="ArrayMesh" id=185]
+[ext_resource path="res://assets/Trilesets/Untitled/PIER D.mesh" type="ArrayMesh" id=186]
+[ext_resource path="res://assets/Trilesets/Untitled/PIER B.mesh" type="ArrayMesh" id=187]
+[ext_resource path="res://assets/Trilesets/Untitled/PIER A.mesh" type="ArrayMesh" id=188]
+[ext_resource path="res://assets/Trilesets/Untitled/WOODEN DOOR B.mesh" type="ArrayMesh" id=189]
+[ext_resource path="res://assets/Trilesets/Untitled/WOODEN DOOR A.mesh" type="ArrayMesh" id=190]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU DOOR B.mesh" type="ArrayMesh" id=191]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU DOOR A.mesh" type="ArrayMesh" id=192]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 7.mesh" type="ArrayMesh" id=193]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 2.mesh" type="ArrayMesh" id=194]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 3.mesh" type="ArrayMesh" id=195]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 4.mesh" type="ArrayMesh" id=196]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 5.mesh" type="ArrayMesh" id=197]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 6.mesh" type="ArrayMesh" id=198]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 0.mesh" type="ArrayMesh" id=199]
+[ext_resource path="res://assets/Trilesets/Untitled/INT WALL 1.mesh" type="ArrayMesh" id=200]
+[ext_resource path="res://assets/Trilesets/Untitled/VILLAGE DOORS 0.mesh" type="ArrayMesh" id=201]
+[ext_resource path="res://assets/Trilesets/Untitled/VILLAGE DOORS 1.mesh" type="ArrayMesh" id=202]
+[ext_resource path="res://assets/Trilesets/Untitled/GEN DOOR 1.mesh" type="ArrayMesh" id=203]
+[ext_resource path="res://assets/Trilesets/Untitled/GEN DOOR 0.mesh" type="ArrayMesh" id=204]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 8.mesh" type="ArrayMesh" id=205]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 5.mesh" type="ArrayMesh" id=206]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 6.mesh" type="ArrayMesh" id=207]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 7.mesh" type="ArrayMesh" id=208]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 2.mesh" type="ArrayMesh" id=209]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 3.mesh" type="ArrayMesh" id=210]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 4.mesh" type="ArrayMesh" id=211]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 0.mesh" type="ArrayMesh" id=212]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLBLOCKS 1.mesh" type="ArrayMesh" id=213]
+[ext_resource path="res://assets/Trilesets/Untitled/ANTI CUBE.mesh" type="ArrayMesh" id=214]
+[ext_resource path="res://assets/Trilesets/Untitled/NEW CUBE.mesh" type="ArrayMesh" id=215]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B13.mesh" type="ArrayMesh" id=216]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B6.mesh" type="ArrayMesh" id=217]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B7.mesh" type="ArrayMesh" id=218]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B8.mesh" type="ArrayMesh" id=219]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B9.mesh" type="ArrayMesh" id=220]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B10.mesh" type="ArrayMesh" id=221]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B11.mesh" type="ArrayMesh" id=222]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B0.mesh" type="ArrayMesh" id=223]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B1.mesh" type="ArrayMesh" id=224]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B2.mesh" type="ArrayMesh" id=225]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B3.mesh" type="ArrayMesh" id=226]
+[ext_resource path="res://assets/Trilesets/Untitled/WALLS STUFF B4.mesh" type="ArrayMesh" id=227]
+[ext_resource path="res://assets/Trilesets/Untitled/TRACK B.mesh" type="ArrayMesh" id=228]
+[ext_resource path="res://assets/Trilesets/Untitled/TRACK A.mesh" type="ArrayMesh" id=229]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 17.mesh" type="ArrayMesh" id=230]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 18.mesh" type="ArrayMesh" id=231]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 19.mesh" type="ArrayMesh" id=232]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 13.mesh" type="ArrayMesh" id=233]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 14.mesh" type="ArrayMesh" id=234]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 15.mesh" type="ArrayMesh" id=235]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 16.mesh" type="ArrayMesh" id=236]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 8.mesh" type="ArrayMesh" id=237]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 9.mesh" type="ArrayMesh" id=238]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 10.mesh" type="ArrayMesh" id=239]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 11.mesh" type="ArrayMesh" id=240]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 12.mesh" type="ArrayMesh" id=241]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 4.mesh" type="ArrayMesh" id=242]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 5.mesh" type="ArrayMesh" id=243]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 6.mesh" type="ArrayMesh" id=244]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 7.mesh" type="ArrayMesh" id=245]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 2.mesh" type="ArrayMesh" id=246]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 3.mesh" type="ArrayMesh" id=247]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 0.mesh" type="ArrayMesh" id=248]
+[ext_resource path="res://assets/Trilesets/Untitled/NATURE DEBRIS 1.mesh" type="ArrayMesh" id=249]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 1.mesh" type="ArrayMesh" id=250]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 2.mesh" type="ArrayMesh" id=251]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 3.mesh" type="ArrayMesh" id=252]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 4.mesh" type="ArrayMesh" id=253]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 7.mesh" type="ArrayMesh" id=254]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 8.mesh" type="ArrayMesh" id=255]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 9.mesh" type="ArrayMesh" id=256]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 10.mesh" type="ArrayMesh" id=257]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 13.mesh" type="ArrayMesh" id=258]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 14.mesh" type="ArrayMesh" id=259]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 15.mesh" type="ArrayMesh" id=260]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE 16.mesh" type="ArrayMesh" id=261]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE CORNER G.mesh" type="ArrayMesh" id=262]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE CORNER.mesh" type="ArrayMesh" id=263]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE CORNER DS.mesh" type="ArrayMesh" id=264]
+[ext_resource path="res://assets/Trilesets/Untitled/TREE PLATFORM A.mesh" type="ArrayMesh" id=265]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU WATER PYR A.mesh" type="ArrayMesh" id=266]
+[ext_resource path="res://assets/Trilesets/Untitled/ZU WATER PYR B.mesh" type="ArrayMesh" id=267]
+[ext_resource path="res://assets/Trilesets/Untitled/INDUST DOOR A 1.mesh" type="ArrayMesh" id=268]
+[ext_resource path="res://assets/Trilesets/Untitled/INDUST DOOR A 0.mesh" type="ArrayMesh" id=269]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=2]
+material = SubResource( 1 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 3 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=4]
+material = SubResource( 3 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 4 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=6]
+material = SubResource( 5 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=7]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=8]
+material = SubResource( 7 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=9]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 4 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=10]
+material = SubResource( 9 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=11]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=12]
+material = SubResource( 11 )
+size = Vector3( 0.25, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=13]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 4 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=14]
+material = SubResource( 13 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=15]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=16]
+material = SubResource( 15 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=17]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=18]
+material = SubResource( 17 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=19]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=20]
+material = SubResource( 19 )
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=21]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 4 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=22]
+material = SubResource( 21 )
+size = Vector3( 1, 1, 0.25 )
+
+[sub_resource type="SpatialMaterial" id=23]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.9 )
+albedo_texture = ExtResource( 4 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[sub_resource type="CubeMesh" id=24]
+material = SubResource( 23 )
+size = Vector3( 1, 1, 1 )
+
+[node name="Untitled" type="Spatial"]
+
+[node name="Grey Small Grass" type="MeshInstance" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Og" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+mesh = ExtResource( 6 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="O" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+mesh = ExtResource( 7 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Ods" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+mesh = ExtResource( 8 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Omds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+mesh = ExtResource( 9 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Om" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
+mesh = ExtResource( 10 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Odds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
+mesh = ExtResource( 11 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Od" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0 )
+mesh = ExtResource( 12 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0 )
+mesh = ExtResource( 13 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gdds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0 )
+mesh = ExtResource( 14 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gm" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2 )
+mesh = ExtResource( 15 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gmds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2 )
+mesh = ExtResource( 16 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2 )
+mesh = ExtResource( 17 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Go" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2 )
+mesh = ExtResource( 18 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="G" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2 )
+mesh = ExtResource( 19 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gg" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2 )
+mesh = ExtResource( 20 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 07" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2 )
+mesh = ExtResource( 21 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 05" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -2 )
+mesh = ExtResource( 22 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 06" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -2 )
+mesh = ExtResource( 23 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 04" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -2 )
+mesh = ExtResource( 24 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 03" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+mesh = ExtResource( 25 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 02" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4 )
+mesh = ExtResource( 26 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe 01" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4 )
+mesh = ExtResource( 27 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Pipe Ds" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -4 )
+mesh = ExtResource( 28 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Bench" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4 )
+mesh = ExtResource( 29 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Ladder Bottom B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -4 )
+mesh = ExtResource( 30 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 32
+FrontFace = 32
+LeftFace = 32
+RightFace = 32
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 0.75, 1 )
+
+[node name="Ladder Middle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -4 )
+mesh = ExtResource( 31 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 32
+FrontFace = 32
+LeftFace = 32
+RightFace = 32
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Ladder Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -4 )
+mesh = ExtResource( 32 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 32
+FrontFace = 32
+LeftFace = 32
+RightFace = 32
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 0.5, 0.88 )
+
+[node name="Grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -4 )
+mesh = ExtResource( 33 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Vase" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -4 )
+mesh = ExtResource( 34 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Crate" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+mesh = ExtResource( 35 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 17
+FrontFace = 17
+LeftFace = 17
+RightFace = 17
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="Small Golden Cube" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6 )
+mesh = ExtResource( 36 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Shrooms Red" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6 )
+mesh = ExtResource( 37 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Carpet D" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6 )
+mesh = ExtResource( 38 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Carpet C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6 )
+mesh = ExtResource( 39 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Carpet B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -6 )
+mesh = ExtResource( 40 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Carpet A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -6 )
+mesh = ExtResource( 41 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Rope" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -6 )
+mesh = ExtResource( 42 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Mailbox" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -6 )
+mesh = ExtResource( 43 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Roots A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -6 )
+mesh = ExtResource( 44 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Roots C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
+mesh = ExtResource( 45 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Roots B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8 )
+mesh = ExtResource( 46 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Sign TEXT" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8 )
+mesh = ExtResource( 47 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Sign UP" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8 )
+mesh = ExtResource( 48 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Rocks B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8 )
+mesh = ExtResource( 49 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Rocks A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8 )
+mesh = ExtResource( 50 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="New Bomb" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8 )
+mesh = ExtResource( 51 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Cubic Grass B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -8 )
+mesh = ExtResource( 52 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Growth B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -8 )
+mesh = ExtResource( 53 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Growth A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -8 )
+mesh = ExtResource( 54 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gray V Grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10 )
+mesh = ExtResource( 55 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gray V" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -10 )
+mesh = ExtResource( 56 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gray H" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10 )
+mesh = ExtResource( 57 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Gray H Grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -10 )
+mesh = ExtResource( 58 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 028" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10 )
+mesh = ExtResource( 59 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 027" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10 )
+mesh = ExtResource( 60 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 023" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -10 )
+mesh = ExtResource( 61 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 022" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -10 )
+mesh = ExtResource( 62 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 021" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -10 )
+mesh = ExtResource( 63 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 020" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -10 )
+mesh = ExtResource( 64 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 019" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12 )
+mesh = ExtResource( 65 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 018" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -12 )
+mesh = ExtResource( 66 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 017" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -12 )
+mesh = ExtResource( 67 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 016" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -12 )
+mesh = ExtResource( 68 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 015" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -12 )
+mesh = ExtResource( 69 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 013" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -12 )
+mesh = ExtResource( 70 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 09" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -12 )
+mesh = ExtResource( 71 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 08" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -12 )
+mesh = ExtResource( 72 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 07" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -12 )
+mesh = ExtResource( 73 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 06" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -12 )
+mesh = ExtResource( 74 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 05" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14 )
+mesh = ExtResource( 75 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 04" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -14 )
+mesh = ExtResource( 76 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 03" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -14 )
+mesh = ExtResource( 77 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 02" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -14 )
+mesh = ExtResource( 78 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="YU 01" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -14 )
+mesh = ExtResource( 79 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Beam Support" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -14 )
+mesh = ExtResource( 80 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Platform Beam" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -14 )
+mesh = ExtResource( 81 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="Platform" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -14 )
+mesh = ExtResource( 82 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="Platform Support" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -14 )
+mesh = ExtResource( 83 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="Door A Up" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -14 )
+mesh = ExtResource( 84 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Door A Down" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16 )
+mesh = ExtResource( 85 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="Window B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -16 )
+mesh = ExtResource( 86 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Beam Support Growth" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -16 )
+mesh = ExtResource( 87 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 01" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -16 )
+mesh = ExtResource( 88 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 02" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -16 )
+mesh = ExtResource( 89 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 03" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -16 )
+mesh = ExtResource( 90 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 04" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -16 )
+mesh = ExtResource( 91 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 05" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -16 )
+mesh = ExtResource( 92 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 06" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -16 )
+mesh = ExtResource( 93 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 07" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -16 )
+mesh = ExtResource( 94 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 08" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18 )
+mesh = ExtResource( 95 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 09" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -18 )
+mesh = ExtResource( 96 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -18 )
+mesh = ExtResource( 97 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -18 )
+mesh = ExtResource( 98 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 012" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -18 )
+mesh = ExtResource( 99 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 013" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -18 )
+mesh = ExtResource( 100 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 014" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -18 )
+mesh = ExtResource( 101 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 015" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -18 )
+mesh = ExtResource( 102 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 016" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -18 )
+mesh = ExtResource( 103 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 017" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -18 )
+mesh = ExtResource( 104 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 018" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20 )
+mesh = ExtResource( 105 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 019" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -20 )
+mesh = ExtResource( 106 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 020" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -20 )
+mesh = ExtResource( 107 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 021" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -20 )
+mesh = ExtResource( 108 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 022" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -20 )
+mesh = ExtResource( 109 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 023" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -20 )
+mesh = ExtResource( 110 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 024" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -20 )
+mesh = ExtResource( 111 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 025" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -20 )
+mesh = ExtResource( 112 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 026" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -20 )
+mesh = ExtResource( 113 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 027" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -20 )
+mesh = ExtResource( 114 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 028" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -22 )
+mesh = ExtResource( 115 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 029" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -22 )
+mesh = ExtResource( 116 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 030" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -22 )
+mesh = ExtResource( 117 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 031" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -22 )
+mesh = ExtResource( 118 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 032" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -22 )
+mesh = ExtResource( 119 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 033" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -22 )
+mesh = ExtResource( 120 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 034" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -22 )
+mesh = ExtResource( 121 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 035" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -22 )
+mesh = ExtResource( 122 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 036" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -22 )
+mesh = ExtResource( 123 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 038" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -22 )
+mesh = ExtResource( 124 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 039" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -24 )
+mesh = ExtResource( 125 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 040" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -24 )
+mesh = ExtResource( 126 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 041" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -24 )
+mesh = ExtResource( 127 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 042" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -24 )
+mesh = ExtResource( 128 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 043" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -24 )
+mesh = ExtResource( 129 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU 045" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -24 )
+mesh = ExtResource( 130 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 015" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -24 )
+mesh = ExtResource( 131 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 014" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -24 )
+mesh = ExtResource( 132 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 013" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -24 )
+mesh = ExtResource( 133 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 012" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -24 )
+mesh = ExtResource( 134 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -26 )
+mesh = ExtResource( 135 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -26 )
+mesh = ExtResource( 136 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 09" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -26 )
+mesh = ExtResource( 137 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 08" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -26 )
+mesh = ExtResource( 138 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 07" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -26 )
+mesh = ExtResource( 139 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 06" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -26 )
+mesh = ExtResource( 140 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 05" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -26 )
+mesh = ExtResource( 141 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 04" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -26 )
+mesh = ExtResource( 142 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 03" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -26 )
+mesh = ExtResource( 143 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 02" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -26 )
+mesh = ExtResource( 144 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZUW 01" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -28 )
+mesh = ExtResource( 145 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Tallplant A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -28 )
+mesh = ExtResource( 146 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Tallplant B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -28 )
+mesh = ExtResource( 147 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Grey Ds Half And Half" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -28 )
+mesh = ExtResource( 148 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Grey 01 Half And Half DS" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -28 )
+mesh = ExtResource( 149 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Grey 01 Half And Half" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -28 )
+mesh = ExtResource( 150 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Locked Door B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -28 )
+mesh = ExtResource( 151 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="Locked Door" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -28 )
+mesh = ExtResource( 152 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="Key" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -28 )
+mesh = ExtResource( 153 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Wooden Bridge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -28 )
+mesh = ExtResource( 154 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="HOLE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30 )
+mesh = ExtResource( 155 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="VINES D" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -30 )
+mesh = ExtResource( 156 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="VINES C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -30 )
+mesh = ExtResource( 157 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="VINES B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -30 )
+mesh = ExtResource( 158 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="VINES A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -30 )
+mesh = ExtResource( 159 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="VINES G" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -30 )
+mesh = ExtResource( 160 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="VINES F" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -30 )
+mesh = ExtResource( 161 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="VINES E" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -30 )
+mesh = ExtResource( 162 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 64
+FrontFace = 64
+LeftFace = 64
+RightFace = 64
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.75 )
+
+[node name="Collision All" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -30 )
+mesh = SubResource( 4 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision None" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -30 )
+mesh = SubResource( 6 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision Top" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -32 )
+mesh = SubResource( 8 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Invisible C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -32 )
+mesh = ExtResource( 163 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Invisible A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -32 )
+mesh = ExtResource( 164 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Breakable G" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -32 )
+mesh = ExtResource( 165 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Breakable F" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -32 )
+mesh = ExtResource( 166 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Breakable E" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -32 )
+mesh = ExtResource( 167 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="Breakable C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -32 )
+mesh = ExtResource( 168 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WEIGHT SWITCH" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -32 )
+mesh = ExtResource( 169 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+
+[node name="4SIDE D" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -32 )
+mesh = ExtResource( 170 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 17
+FrontFace = 17
+LeftFace = 17
+RightFace = 17
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+
+[node name="4SIDE C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -32 )
+mesh = ExtResource( 171 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 17
+FrontFace = 17
+LeftFace = 17
+RightFace = 17
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+
+[node name="4SIDE B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -34 )
+mesh = ExtResource( 172 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 17
+FrontFace = 17
+LeftFace = 17
+RightFace = 17
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+
+[node name="4SIDE A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -34 )
+mesh = ExtResource( 173 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 17
+FrontFace = 17
+LeftFace = 17
+RightFace = 17
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM F" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -34 )
+mesh = ExtResource( 174 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM E" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -34 )
+mesh = ExtResource( 175 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM D" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -34 )
+mesh = ExtResource( 176 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -34 )
+mesh = ExtResource( 177 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 130
+FrontFace = 130
+LeftFace = 130
+RightFace = 130
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -34 )
+mesh = ExtResource( 178 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 130
+FrontFace = 130
+LeftFace = 130
+RightFace = 130
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="SHROOM A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -34 )
+mesh = ExtResource( 179 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 130
+FrontFace = 130
+LeftFace = 130
+RightFace = 130
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="OHHF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -34 )
+mesh = ExtResource( 180 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="OHHD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -34 )
+mesh = ExtResource( 181 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="OHHC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -36 )
+mesh = ExtResource( 182 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="O HH B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -36 )
+mesh = ExtResource( 183 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="O HH A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -36 )
+mesh = ExtResource( 184 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="PIER C" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -36 )
+mesh = ExtResource( 185 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="PIER D" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -36 )
+mesh = ExtResource( 186 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="PIER B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -36 )
+mesh = ExtResource( 187 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="PIER A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -36 )
+mesh = ExtResource( 188 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WOODEN DOOR B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -36 )
+mesh = ExtResource( 189 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="WOODEN DOOR A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -36 )
+mesh = ExtResource( 190 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="ZU DOOR B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -36 )
+mesh = ExtResource( 191 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="ZU DOOR A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -38 )
+mesh = ExtResource( 192 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="INT WALL 7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -38 )
+mesh = ExtResource( 193 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -38 )
+mesh = ExtResource( 194 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -38 )
+mesh = ExtResource( 195 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -38 )
+mesh = ExtResource( 196 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -38 )
+mesh = ExtResource( 197 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -38 )
+mesh = ExtResource( 198 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -38 )
+mesh = ExtResource( 199 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="INT WALL 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -38 )
+mesh = ExtResource( 200 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 1
+FrontFace = 1
+LeftFace = 1
+RightFace = 1
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="VILLAGE DOORS 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -38 )
+mesh = ExtResource( 201 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="VILLAGE DOORS 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -40 )
+mesh = ExtResource( 202 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="GEN DOOR 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -40 )
+mesh = ExtResource( 203 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="GEN DOOR 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -40 )
+mesh = ExtResource( 204 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="WALLBLOCKS 8" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -40 )
+mesh = ExtResource( 205 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -40 )
+mesh = ExtResource( 206 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -40 )
+mesh = ExtResource( 207 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -40 )
+mesh = ExtResource( 208 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -40 )
+mesh = ExtResource( 209 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -40 )
+mesh = ExtResource( 210 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -40 )
+mesh = ExtResource( 211 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -42 )
+mesh = ExtResource( 212 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLBLOCKS 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -42 )
+mesh = ExtResource( 213 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ANTI CUBE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -42 )
+mesh = ExtResource( 214 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NEW CUBE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -42 )
+mesh = ExtResource( 215 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B13" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -42 )
+mesh = ExtResource( 216 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -42 )
+mesh = ExtResource( 217 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -42 )
+mesh = ExtResource( 218 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B8" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -42 )
+mesh = ExtResource( 219 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B9" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -42 )
+mesh = ExtResource( 220 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B10" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -42 )
+mesh = ExtResource( 221 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B11" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -44 )
+mesh = ExtResource( 222 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -44 )
+mesh = ExtResource( 223 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -44 )
+mesh = ExtResource( 224 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -44 )
+mesh = ExtResource( 225 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -44 )
+mesh = ExtResource( 226 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="WALLS STUFF B4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -44 )
+mesh = ExtResource( 227 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TRACK B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -44 )
+mesh = ExtResource( 228 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 0.5, 0.38, 0.75 )
+
+[node name="TRACK A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -44 )
+mesh = ExtResource( 229 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 17" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -44 )
+mesh = ExtResource( 230 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 18" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -44 )
+mesh = ExtResource( 231 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 19" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -46 )
+mesh = ExtResource( 232 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 13" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -46 )
+mesh = ExtResource( 233 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 14" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -46 )
+mesh = ExtResource( 234 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 15" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -46 )
+mesh = ExtResource( 235 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 16" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -46 )
+mesh = ExtResource( 236 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 8" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -46 )
+mesh = ExtResource( 237 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 9" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -46 )
+mesh = ExtResource( 238 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 10" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -46 )
+mesh = ExtResource( 239 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 11" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -46 )
+mesh = ExtResource( 240 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 12" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -46 )
+mesh = ExtResource( 241 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -48 )
+mesh = ExtResource( 242 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -48 )
+mesh = ExtResource( 243 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -48 )
+mesh = ExtResource( 244 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -48 )
+mesh = ExtResource( 245 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -48 )
+mesh = ExtResource( 246 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -48 )
+mesh = ExtResource( 247 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -48 )
+mesh = ExtResource( 248 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="NATURE DEBRIS 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -48 )
+mesh = ExtResource( 249 )
+material/0 = null
+script = ExtResource( 1 )
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -48 )
+mesh = ExtResource( 250 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -48 )
+mesh = ExtResource( 251 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -50 )
+mesh = ExtResource( 252 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -50 )
+mesh = ExtResource( 253 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -50 )
+mesh = ExtResource( 254 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 8" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -50 )
+mesh = ExtResource( 255 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 9" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -50 )
+mesh = ExtResource( 256 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 10" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -50 )
+mesh = ExtResource( 257 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 13" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -50 )
+mesh = ExtResource( 258 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 14" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -50 )
+mesh = ExtResource( 259 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 15" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -50 )
+mesh = ExtResource( 260 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE 16" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -50 )
+mesh = ExtResource( 261 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE CORNER G" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -52 )
+mesh = ExtResource( 262 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE CORNER" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -52 )
+mesh = ExtResource( 263 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE CORNER DS" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -52 )
+mesh = ExtResource( 264 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="TREE PLATFORM A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -52 )
+mesh = ExtResource( 265 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 4
+Size = Vector3( 1, 1, 1 )
+
+[node name="ONE SIDE COLLISION" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -52 )
+mesh = SubResource( 10 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+FrontFace = 2
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="ZU WATER PYR A" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -52 )
+mesh = ExtResource( 266 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="ZU WATER PYR B" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -52 )
+mesh = ExtResource( 267 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+
+[node name="4x16 TOP COLLISION" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -52 )
+mesh = SubResource( 12 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 3
+Size = Vector3( 0.25, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision None Imm" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -52 )
+mesh = SubResource( 14 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+LeftFace = 4
+RightFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision Top Imm" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -52 )
+mesh = SubResource( 16 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision Top NoLedge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -54 )
+mesh = SubResource( 18 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="Collision Top NoLedge Corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -54 )
+mesh = SubResource( 20 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 2
+FrontFace = 2
+LeftFace = 2
+RightFace = 2
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true
+
+[node name="INDUST DOOR A 1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -54 )
+mesh = ExtResource( 268 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="INDUST DOOR A 0" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -54 )
+mesh = ExtResource( 269 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 20
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+
+[node name="Collision DOOR" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -54 )
+mesh = SubResource( 22 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 16
+FrontFace = 20
+LeftFace = 20
+RightFace = 20
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 0.25 )
+CollisionOnly = true
+
+[node name="Collision None Corner Imm" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -54 )
+mesh = SubResource( 24 )
+material/0 = null
+script = ExtResource( 1 )
+BackFace = 4
+LeftFace = 4
+CollisionMask = 24
+SurfaceType = 1
+Size = Vector3( 1, 1, 1 )
+CollisionOnly = true

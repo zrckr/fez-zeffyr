@@ -1,0 +1,98 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://scenes/Map/SimpleTree.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/Sounds/Ui/zoomout.wav" type="AudioStream" id=2]
+[ext_resource path="res://assets/Sounds/Ui/zoomin.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/Sounds/Ui/entermenucubeormap.wav" type="AudioStream" id=4]
+[ext_resource path="res://assets/Sounds/Ui/exitmenucubeormap.wav" type="AudioStream" id=6]
+[ext_resource path="res://assets/Sounds/Ui/worldmapmagnet.wav" type="AudioStream" id=7]
+[ext_resource path="res://assets/Sounds/Ui/rotateleft.wav" type="AudioStream" id=8]
+[ext_resource path="res://assets/Sounds/Ui/rotateright.wav" type="AudioStream" id=9]
+[ext_resource path="res://src/Components/Map/MapCamera.cs" type="Script" id=10]
+[ext_resource path="res://src/Components/Map/WorldMap.cs" type="Script" id=11]
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+ambient_light_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0, 0.125, 1 )
+colors = PoolColorArray( 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+
+[sub_resource type="ParticlesMaterial" id=4]
+emission_shape = 2
+emission_box_extents = Vector3( 100, 100, 100 )
+flag_rotate_y = true
+direction = Vector3( 0, 0, 1 )
+spread = 30.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 4.0
+initial_velocity_random = 0.83
+color_ramp = SubResource( 3 )
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_transparent = true
+vertex_color_use_as_albedo = true
+
+[sub_resource type="CubeMesh" id=6]
+material = SubResource( 5 )
+size = Vector3( 0.062, 0.062, 0.062 )
+
+[node name="WorldMap" type="Spatial"]
+pause_mode = 1
+script = ExtResource( 11 )
+
+[node name="MapTree" parent="." instance=ExtResource( 1 )]
+
+[node name="Light" type="DirectionalLight" parent="."]
+transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
+
+[node name="Environment2" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
+
+[node name="StarField" type="Particles" parent="."]
+amount = 6000
+lifetime = 10.0
+explosiveness = 0.5
+randomness = 0.5
+visibility_aabb = AABB( -100, -100, -100, 200, 200, 200 )
+process_material = SubResource( 4 )
+draw_pass_1 = SubResource( 6 )
+
+[node name="MapCamera" type="Spatial" parent="."]
+transform = Transform( 0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 0, 0 )
+script = ExtResource( 10 )
+
+[node name="Tween" type="Tween" parent="MapCamera"]
+playback_process_mode = 0
+
+[node name="Camera" type="Camera" parent="MapCamera"]
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 18, 50 )
+projection = 1
+current = true
+fov = 104.1
+size = 70.0
+
+[node name="RotateLeft" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 8 )
+
+[node name="RotateRight" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 9 )
+
+[node name="ZoomIn" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 3 )
+
+[node name="ZoomOut" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 2 )
+
+[node name="Magnet" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 7 )
+
+[node name="EnterMenu" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 4 )
+
+[node name="ExitMenu" type="AudioStreamPlayer" parent="MapCamera"]
+stream = ExtResource( 6 )

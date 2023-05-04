@@ -1,0 +1,274 @@
+[gd_scene load_steps=31 format=2]
+
+[ext_resource path="res://scenes/Gomez.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Trilesets/untitled.meshlib" type="MeshLibrary" id=3]
+[ext_resource path="res://assets/Art Objects/int_parlor_booksao.gltf" type="PackedScene" id=4]
+[ext_resource path="res://assets/Art Objects/int_grandfatherao.gltf" type="PackedScene" id=5]
+[ext_resource path="res://assets/Art Objects/int_fireplace_dao.gltf" type="PackedScene" id=6]
+[ext_resource path="res://assets/Art Objects/int_table_aao.gltf" type="PackedScene" id=7]
+[ext_resource path="res://assets/Art Objects/int_parlor_chairao.gltf" type="PackedScene" id=8]
+[ext_resource path="res://assets/Art Objects/int_fireplaceao.gltf" type="PackedScene" id=9]
+[ext_resource path="res://scenes/Treasure.tscn" type="PackedScene" id=10]
+[ext_resource path="res://assets/Art Objects/int_parlor_books_aao.gltf" type="PackedScene" id=11]
+[ext_resource path="res://scenes/AntiCube.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/Art Objects/int_parlor_poufao.gltf" type="PackedScene" id=13]
+[ext_resource path="res://assets/Background Planes/parlor_f.png" type="Texture" id=14]
+[ext_resource path="res://assets/Background Planes/parlor_d.png" type="Texture" id=15]
+[ext_resource path="res://assets/Background Planes/parlor_a.png" type="Texture" id=16]
+[ext_resource path="res://assets/Background Planes/cobweb_b.png" type="Texture" id=17]
+[ext_resource path="res://assets/Background Planes/cobweb_a.png" type="Texture" id=18]
+[ext_resource path="res://assets/Background Planes/parlor_c.png" type="Texture" id=19]
+[ext_resource path="res://assets/Background Planes/peel_c.png" type="Texture" id=20]
+[ext_resource path="res://assets/Background Planes/parlor_b.png" type="Texture" id=21]
+[ext_resource path="res://assets/Background Planes/peel_d.png" type="Texture" id=22]
+[ext_resource path="res://assets/Background Planes/parlor_e.png" type="Texture" id=23]
+[ext_resource path="res://assets/Background Planes/peel_b.png" type="Texture" id=24]
+[ext_resource path="res://scenes/ChangeLevel.tscn" type="PackedScene" id=25]
+[ext_resource path="res://scripts/Parlor.cs" type="Script" id=26]
+
+[sub_resource type="QuadMesh" id=1]
+size = Vector2( 8, 8 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_texture = ExtResource( 21 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 0.25, 0.5, 10 )
+
+[sub_resource type="Environment" id=4]
+background_mode = 1
+
+[node name="PARLOR" type="Spatial"]
+script = ExtResource( 26 )
+
+[node name="Triles" type="GridMap" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, 0.5 )
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+collision_layer = 0
+collision_mask = 0
+data = {
+"cells": PoolIntArray( 2, 1, 194, 11, 1, 1441986, 13, 1, 194, 22, 1, 1441986, 65538, 1, 193, 65547, 1, 1441984, 65548, 1, 159, 65549, 1, 192, 65558, 1, 1441984, 131074, 1, 192, 131083, 1, 1441984, 131084, 1, 159, 131085, 1, 192, 131094, 1, 1441984, 196610, 1, 193, 196619, 1, 1441985, 196620, 1, 159, 196621, 1, 193, 196630, 1, 1441985, 262146, 1, 192, 262155, 1, 1441985, 262156, 1, 159, 262157, 1, 192, 262166, 1, 1441985, 327682, 1, 192, 327691, 1, 1441984, 327692, 1, 159, 327693, 1, 192, 327702, 1, 1441984, 393218, 1, 192, 393227, 1, 1441984, 393228, 1, 159, 393229, 1, 193, 393238, 1, 1441984, 458754, 1, 192, 458763, 1, 1441984, 458764, 1, 159, 458765, 1, 193, 458774, 1, 1441985, 524290, 1, 195, 524299, 1, 1441987, 524300, 1, 159, 524301, 1, 195, 524310, 1, 1441984, 589836, 1, 159, 3, 2, 198, 4, 2, 197, 5, 2, 197, 6, 2, 198, 7, 2, 198, 8, 2, 197, 9, 2, 197, 10, 2, 198, 14, 2, 198, 15, 2, 1048846, 16, 2, 197, 17, 2, 198, 18, 2, 198, 19, 2, 197, 20, 2, 197, 21, 2, 198, 65548, 2, 159, 65556, 2, 196876, 131084, 2, 159, 131092, 2, 196876, 196620, 2, 159, 196628, 2, 196768, 262156, 2, 159, 327692, 2, 159, 393228, 2, 159, 458764, 2, 159, 524300, 2, 159, 589827, 2, 196, 589828, 2, 196, 589829, 2, 191, 589830, 2, 196, 589831, 2, 191, 589832, 2, 196, 589833, 2, 196, 589834, 2, 191, 589836, 2, 159, 589838, 2, 196, 589839, 2, 196, 589840, 2, 191, 589841, 2, 196, 589842, 2, 191, 589843, 2, 196, 589844, 2, 196, 589845, 2, 191, 3, 3, 197, 4, 3, 197, 5, 3, 197, 6, 3, 197, 7, 3, 197, 8, 3, 197, 9, 3, 197, 10, 3, 198, 14, 3, 197, 15, 3, 197, 16, 3, 197, 17, 3, 197, 18, 3, 197, 19, 3, 197, 20, 3, 197, 21, 3, 198, 65548, 3, 159, 131084, 3, 159, 196620, 3, 159, 262156, 3, 159, 327692, 3, 159, 393228, 3, 159, 458764, 3, 159, 524300, 3, 159, 589827, 3, 196, 589828, 3, 196, 589829, 3, 196, 589830, 3, 196, 589831, 3, 196, 589832, 3, 196, 589833, 3, 196, 589834, 3, 196, 589836, 3, 159, 589838, 3, 196, 589839, 3, 196, 589840, 3, 196, 589841, 3, 196, 589842, 3, 196, 589843, 3, 196, 589844, 3, 196, 589845, 3, 196, 3, 4, 198, 4, 4, 197, 5, 4, 197, 6, 4, 197, 7, 4, 197, 8, 4, 197, 9, 4, 197, 10, 4, 197, 14, 4, 198, 15, 4, 197, 16, 4, 197, 17, 4, 197, 18, 4, 197, 19, 4, 197, 20, 4, 197, 21, 4, 197, 65546, 4, 159, 65548, 4, 159, 65550, 4, 159, 131086, 4, 160, 196620, 4, 159, 262156, 4, 159, 327692, 4, 159, 393228, 4, 159, 458764, 4, 159, 524300, 4, 159, 589827, 4, 191, 589828, 4, 196, 589829, 4, 196, 589830, 4, 196, 589831, 4, 196, 589832, 4, 196, 589833, 4, 196, 589834, 4, 196, 589836, 4, 159, 589838, 4, 191, 589839, 4, 196, 589840, 4, 196, 589841, 4, 196, 589842, 4, 196, 589843, 4, 196, 589844, 4, 196, 589845, 4, 196, 3, 5, 198, 4, 5, 197, 5, 5, 197, 6, 5, 197, 7, 5, 197, 8, 5, 197, 9, 5, 197, 10, 5, 198, 14, 5, 198, 15, 5, 197, 16, 5, 197, 17, 5, 197, 18, 5, 197, 19, 5, 197, 20, 5, 197, 21, 5, 198, 131084, 5, 159, 131086, 5, 160, 196620, 5, 159, 262156, 5, 159, 327692, 5, 159, 393228, 5, 159, 458764, 5, 159, 524300, 5, 159, 589827, 5, 196, 589828, 5, 196, 589829, 5, 196, 589830, 5, 196, 589831, 5, 196, 589832, 5, 196, 589833, 5, 196, 589834, 5, 191, 589836, 5, 159, 589838, 5, 196, 589839, 5, 196, 589840, 5, 196, 589841, 5, 196, 589842, 5, 196, 589843, 5, 196, 589844, 5, 196, 589845, 5, 191, 3, 6, 197, 4, 6, 197, 5, 6, 197, 6, 6, 197, 7, 6, 197, 8, 6, 197, 9, 6, 197, 10, 6, 198, 14, 6, 197, 15, 6, 197, 16, 6, 197, 17, 6, 197, 18, 6, 197, 19, 6, 197, 20, 6, 197, 21, 6, 198, 131085, 6, 1442062, 131086, 6, 160, 196620, 6, 159, 262156, 6, 159, 327692, 6, 159, 393228, 6, 159, 458764, 6, 159, 524300, 6, 159, 589827, 6, 191, 589828, 6, 196, 589829, 6, 196, 589830, 6, 196, 589831, 6, 196, 589832, 6, 196, 589833, 6, 196, 589834, 6, 196, 589836, 6, 159, 589838, 6, 191, 589839, 6, 196, 589840, 6, 196, 589841, 6, 196, 589842, 6, 196, 589843, 6, 196, 589844, 6, 196, 589845, 6, 196, 3, 7, 198, 4, 7, 197, 5, 7, 197, 6, 7, 197, 7, 7, 197, 8, 7, 197, 9, 7, 197, 10, 7, 197, 14, 7, 198, 15, 7, 197, 16, 7, 197, 17, 7, 1048846, 18, 7, 197, 19, 7, 197, 20, 7, 197, 21, 7, 197, 65546, 7, 159, 65548, 7, 159, 65550, 7, 159, 131084, 7, 159, 131086, 7, 160, 196620, 7, 159, 262156, 7, 159, 327692, 7, 159, 393228, 7, 159, 458764, 7, 159, 524300, 7, 159, 589827, 7, 191, 589828, 7, 196, 589829, 7, 196, 589830, 7, 196, 589831, 7, 196, 589832, 7, 196, 589833, 7, 196, 589834, 7, 196, 589836, 7, 159, 589838, 7, 191, 589839, 7, 196, 589840, 7, 196, 589841, 7, 196, 589842, 7, 196, 589843, 7, 196, 589844, 7, 196, 589845, 7, 196, 3, 8, 198, 4, 8, 197, 5, 8, 197, 6, 8, 197, 7, 8, 197, 8, 8, 197, 9, 8, 197, 10, 8, 197, 14, 8, 198, 15, 8, 197, 16, 8, 197, 17, 8, 197, 18, 8, 197, 19, 8, 197, 20, 8, 197, 21, 8, 197, 65548, 8, 159, 131084, 8, 159, 196620, 8, 159, 262156, 8, 159, 327692, 8, 159, 393228, 8, 159, 458764, 8, 159, 524300, 8, 159, 589827, 8, 196, 589828, 8, 196, 589829, 8, 196, 589830, 8, 196, 589831, 8, 196, 589832, 8, 196, 589833, 8, 196, 589834, 8, 191, 589836, 8, 159, 589838, 8, 196, 589839, 8, 196, 589840, 8, 196, 589841, 8, 196, 589842, 8, 196, 589843, 8, 196, 589844, 8, 196, 589845, 8, 191, 3, 9, 197, 4, 9, 198, 5, 9, 197, 6, 9, 197, 7, 9, 198, 8, 9, 198, 9, 9, 197, 10, 9, 198, 14, 9, 197, 15, 9, 198, 16, 9, 197, 17, 9, 197, 18, 9, 198, 19, 9, 198, 20, 9, 197, 21, 9, 198, 65548, 9, 159, 131084, 9, 159, 196620, 9, 159, 262156, 9, 159, 327692, 9, 159, 393228, 9, 159, 458764, 9, 159, 524300, 9, 159, 589827, 9, 191, 589828, 9, 196, 589829, 9, 196, 589830, 9, 196, 589831, 9, 191, 589832, 9, 196, 589833, 9, 191, 589834, 9, 191, 589836, 9, 159, 589838, 9, 191, 589839, 9, 196, 589840, 9, 196, 589841, 9, 196, 589842, 9, 191, 589843, 9, 196, 589844, 9, 191, 589845, 9, 191, 2, 10, 1048770, 11, 10, 655554, 13, 10, 1048770, 22, 10, 655554, 65538, 10, 1048769, 65547, 10, 655552, 65548, 10, 159, 65549, 10, 1048769, 65558, 10, 655552, 131074, 10, 1048769, 131083, 10, 655552, 131084, 10, 159, 131085, 10, 1048769, 131094, 10, 655552, 196610, 10, 1048768, 196619, 10, 655553, 196620, 10, 159, 196621, 10, 1048768, 196630, 10, 655553, 262146, 10, 1048769, 262155, 10, 655552, 262156, 10, 159, 262157, 10, 1048769, 262166, 10, 655552, 327682, 10, 1048769, 327691, 10, 655552, 327692, 10, 159, 327693, 10, 1048768, 327702, 10, 655552, 393218, 10, 1048769, 393227, 10, 655552, 393228, 10, 159, 393229, 10, 1048769, 393238, 10, 655553, 458754, 10, 1048768, 458763, 10, 655552, 458764, 10, 159, 458765, 10, 1048768, 458774, 10, 655552, 524290, 10, 1048771, 524299, 10, 655555, 524300, 10, 159, 524301, 10, 1048769, 524310, 10, 655553, 589836, 10, 159 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 3, 0 )
+}
+
+[node name="Gomez" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 20.6875, 1.5, 9 )
+
+[node name="GameCamera" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 18, 5, 6 )
+PixelsPerTrixel = 3
+CanFollow = false
+TargetPath = NodePath("../Volumes/Room")
+
+[node name="Groups" type="Spatial" parent="."]
+
+[node name="Arts" type="Spatial" parent="."]
+
+[node name="1" parent="Arts" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.5, 3, 4 )
+
+[node name="0" parent="Arts" instance=ExtResource( 9 )]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 16, 3, 6 )
+
+[node name="2" parent="Arts" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.125, 2, 3.1875 )
+
+[node name="3" parent="Arts" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.125, 1.5, 4.375 )
+
+[node name="4" parent="Arts" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5625, 1.5, 7.875 )
+
+[node name="8" parent="Arts" instance=ExtResource( 4 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 15, 4.25, 6 )
+
+[node name="9" parent="Arts" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.4375, 2.25, 8.0625 )
+
+[node name="10" parent="Arts" instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 9, 3, 6 )
+
+[node name="Planes" type="Spatial" parent="."]
+
+[node name="parlor_b" type="MeshInstance" parent="Planes"]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 22, 5, 6 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="parlor_d" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 18, 5, 10 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 15 )
+
+[node name="parlor_c" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 5, 2 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 19 )
+
+[node name="parlor_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 5, 6 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 16 )
+
+[node name="parlor_e" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 11, 5, 6 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 23 )
+
+[node name="cobweb_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 8, 2.0625 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 17 )
+
+[node name="cobweb_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 10.9375, 8, 9 )
+pixel_size = 0.0625
+shaded = true
+alpha_cut = 2
+texture = ExtResource( 17 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 8, 2.0625 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 18 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 10.9375, 8, 3 )
+pixel_size = 0.0625
+shaded = true
+alpha_cut = 2
+texture = ExtResource( 18 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 8, 9.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 18 )
+
+[node name="peel_c" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 10.9375, 5, 4 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 20 )
+
+[node name="peel_b" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 5, 8, 9.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 24 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 5, 2 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 14 )
+
+[node name="peel_d" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 8, 6, 9.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 22 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 7, 5, 10 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 14 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 3, 5, 6 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 14 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 3, 5, 6 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 14 )
+
+[node name="Items" type="Spatial" parent="."]
+
+[node name="Treasure" parent="Items" instance=ExtResource( 10 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7, 2, 8 )
+TreasureItem = ExtResource( 12 )
+
+[node name="Volumes" type="Spatial" parent="."]
+
+[node name="0" parent="Volumes" instance=ExtResource( 25 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 14.5, 2, 9 )
+VolumeId = 1
+NextLevel = "villageville_3d"
+
+[node name="1" type="Area" parent="Volumes"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 12.6875, 1.5, 6 )
+collision_layer = 0
+collision_mask = 8
+
+[node name="Shape" type="CollisionShape" parent="Volumes/1"]
+shape = SubResource( 3 )
+
+[node name="Room" type="Spatial" parent="Volumes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 5, 6 )
+
+[node name="Secret" type="Spatial" parent="Volumes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 5, 6 )
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource( 4 )
+
+[node name="Sun" type="DirectionalLight" parent="."]
+transform = Transform( 0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 10, 10, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Sun2" type="DirectionalLight" parent="Sun"]
+transform = Transform( 0.883022, -0.321394, 0.34202, -0.34202, -0.939693, 0, 0.321394, -0.116978, -0.939692, 0, 0, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian_triplets_9bars.ogg-b2e507af1e9a96a219f9b0789c8612ae.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/dorian_triplets_9bars.ogg"
+dest_files=[ "res://.import/dorian_triplets_9bars.ogg-b2e507af1e9a96a219f9b0789c8612ae.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

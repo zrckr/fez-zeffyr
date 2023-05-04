@@ -1,0 +1,99 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/Art Objects/treasuretopao.gltf" type="PackedScene" id=1]
+[ext_resource path="res://assets/Art Objects/treasurebottomao.gltf" type="PackedScene" id=2]
+[ext_resource path="res://src/Components/Collectable.cs" type="Script" id=3]
+
+[sub_resource type="Animation" id=1]
+resource_name = "default"
+length = 7.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Hinges:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 4, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( -135, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("ItemPath:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 5, 6 ),
+"transitions": PoolRealArray( 4, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, -0.375, 0 ), Vector3( 0, 0.75, 0 ), Vector3( 0, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("ItemPath:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 3.5, 7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("ItemPath:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 3.5, 6, 7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 180, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("CameraPath:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 6 ),
+"transitions": PoolRealArray( 2, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 360, 0 ) ]
+}
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 0.875, 0.6875, 1 )
+
+[node name="Treasure" type="Area"]
+collision_layer = 16
+collision_mask = 8
+script = ExtResource( 3 )
+ItemType = 5
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+anims/default = SubResource( 1 )
+
+[node name="Collision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3125, 0 )
+shape = SubResource( 2 )
+
+[node name="ItemPath" type="Spatial" parent="."]
+transform = Transform( 1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, -0.375, 0 )
+visible = false
+
+[node name="CameraPath" type="Spatial" parent="."]
+
+[node name="Bottom" parent="." instance=ExtResource( 2 )]
+
+[node name="Hinges" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4375, -0.625 )
+
+[node name="Top" parent="Hinges" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4375, 0.625 )

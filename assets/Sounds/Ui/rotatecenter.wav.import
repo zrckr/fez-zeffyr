@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/rotatecenter.wav-a3240db183d5493f386af1bb0454ca98.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/rotatecenter.wav"
+dest_files=[ "res://.import/rotatecenter.wav-a3240db183d5493f386af1bb0454ca98.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/shootingstar.wav-5370b6dac5148ac3360ee604eed7631d.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Nature/shootingstar.wav"
+dest_files=[ "res://.import/shootingstar.wav-5370b6dac5148ac3360ee604eed7631d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

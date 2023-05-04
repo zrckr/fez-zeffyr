@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/Fonts/default.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://src/Managers/DebuggingBag.cs" type="Script" id=2]
+[ext_resource path="res://assets/Fonts/alternative.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+
+[sub_resource type="DynamicFont" id=2]
+resource_local_to_scene = true
+use_filter = true
+font_data = ExtResource( 1 )
+fallback/0 = ExtResource( 3 )
+
+[node name="DebuggingBag" type="CanvasLayer"]
+layer = 127
+script = ExtResource( 2 )
+
+[node name="Container" type="MarginContainer" parent="."]
+margin_right = 348.0
+margin_bottom = 36.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="Container"]
+margin_right = 358.0
+margin_bottom = 36.0
+custom_constants/separation = 0
+
+[node name="Label" type="Label" parent="Container/VBox"]
+margin_right = 358.0
+margin_bottom = 34.0
+custom_styles/normal = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 1
+custom_constants/shadow_offset_y = 1
+text = "There is no easter eggs here - go away"

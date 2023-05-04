@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/teeterbegin.wav-a6c79d4916d9882c34537451d16b3284.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/teeterbegin.wav"
+dest_files=[ "res://.import/teeterbegin.wav-a6c79d4916d9882c34537451d16b3284.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

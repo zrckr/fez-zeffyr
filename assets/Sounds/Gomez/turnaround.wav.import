@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/turnaround.wav-0c1e05988dcb5f358db214778434990b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/turnaround.wav"
+dest_files=[ "res://.import/turnaround.wav-0c1e05988dcb5f358db214778434990b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

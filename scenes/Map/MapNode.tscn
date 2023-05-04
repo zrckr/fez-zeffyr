@@ -1,0 +1,225 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://src/Components/Map/MapNode.cs" type="Script" id=1]
+[ext_resource path="res://assets/Other Textures/map_controls/icons.png" type="Texture" id=3]
+[ext_resource path="res://assets/Other Textures/map_controls/cube_outline.png" type="Texture" id=5]
+[ext_resource path="res://assets/Other Textures/map_screens/villageville_3d.png" type="Texture" id=6]
+
+[sub_resource type="CubeMesh" id=1]
+resource_local_to_scene = true
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="Shader" id=2]
+code = "shader_type spatial;
+render_mode cull_back;
+
+uniform sampler2D map_screen : hint_albedo;
+uniform vec4 modulate : hint_color = vec4(1, 0, 0, 1);
+uniform float distance_fade_min;
+uniform float distance_fade_max;
+
+void fragment()
+{
+    vec2 new_uv = UV * vec2(3, 2);
+
+    vec4 albedo = texture(map_screen, new_uv);
+    ALBEDO = modulate.rgb * albedo.rgb;  
+    ALPHA = modulate.a * albedo.a;
+    ALPHA *= clamp(smoothstep(distance_fade_min, distance_fade_max, -VERTEX.z), 0.0, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id=3]
+resource_local_to_scene = true
+shader = SubResource( 2 )
+shader_param/modulate = Color( 1, 1, 1, 1 )
+shader_param/distance_fade_min = 0.0
+shader_param/distance_fade_max = 1.0
+shader_param/map_screen = ExtResource( 6 )
+
+[sub_resource type="CubeMesh" id=4]
+resource_local_to_scene = true
+size = Vector3( 1.1075, 1.1075, 1.1075 )
+
+[sub_resource type="SpatialMaterial" id=5]
+params_cull_mode = 1
+distance_fade_mode = 3
+distance_fade_min_distance = 0.0
+distance_fade_max_distance = 2.0
+
+[sub_resource type="Gradient" id=6]
+offsets = PoolRealArray( 0.5, 1 )
+colors = PoolColorArray( 1, 1, 1, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="Curve" id=8]
+_data = [ Vector2( 0, 0 ), 0.0, 1.4, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=9]
+curve = SubResource( 8 )
+
+[sub_resource type="ParticlesMaterial" id=10]
+resource_local_to_scene = true
+direction = Vector3( 0, 0, 0 )
+spread = 180.0
+gravity = Vector3( 0, 0, 0 )
+scale = 3.0
+scale_curve = SubResource( 9 )
+color_ramp = SubResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=11]
+render_priority = -1
+flags_transparent = true
+flags_unshaded = true
+vertex_color_use_as_albedo = true
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_texture = ExtResource( 5 )
+
+[sub_resource type="QuadMesh" id=12]
+resource_local_to_scene = true
+material = SubResource( 11 )
+
+[sub_resource type="BoxShape" id=13]
+resource_local_to_scene = true
+extents = Vector3( 0.5, 0.5, 0.5 )
+
+[node name="MapNode" type="Spatial"]
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": ""
+}
+CompletedColor = Color( 1, 0.741176, 0.141176, 1 )
+NodeThickness = 0.1075
+MapScreen = ExtResource( 6 )
+LinesThickness = 0.05375
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+
+[node name="Mesh" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = SubResource( 3 )
+
+[node name="Outline" type="MeshInstance" parent="."]
+mesh = SubResource( 4 )
+material/0 = SubResource( 5 )
+
+[node name="Waves" type="Particles" parent="."]
+emitting = false
+amount = 6
+lifetime = 4.0
+visibility_aabb = AABB( -1, -1, -1, 2, 2, 2 )
+process_material = SubResource( 10 )
+draw_pass_1 = SubResource( 12 )
+
+[node name="Icons" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.80375, 0.5, 0.80375 )
+
+[node name="Warp" type="Sprite3D" parent="Icons"]
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 20, 16 )
+
+[node name="Lesser" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 4, 18, 12, 12 )
+
+[node name="Locked" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 4, 44, 12, 16 )
+
+[node name="Treasure" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.5, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 4, 32, 12, 10 )
+
+[node name="Big" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 2, 62, 16, 16 )
+
+[node name="Small" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.5, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 80, 20, 20 )
+
+[node name="Secret" type="Sprite3D" parent="Icons"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 0 )
+visible = false
+opacity = 0.85
+pixel_size = 0.025
+billboard = 1
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 2, 102, 16, 16 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Area" type="Area" parent="."]
+collision_layer = 2147484160
+collision_mask = 2147483648
+
+[node name="Shape" type="CollisionShape" parent="Area"]
+shape = SubResource( 13 )

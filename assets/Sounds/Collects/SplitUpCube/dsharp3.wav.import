@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dsharp3.wav-e20daa60c90586870ab88d11e283afec.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/SplitUpCube/dsharp3.wav"
+dest_files=[ "res://.import/dsharp3.wav-e20daa60c90586870ab88d11e283afec.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

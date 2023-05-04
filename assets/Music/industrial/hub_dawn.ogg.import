@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hub_dawn.ogg-4b60a30e5b7d7c01532c801116d909ce.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/industrial/hub_dawn.ogg"
+dest_files=[ "res://.import/hub_dawn.ogg-4b60a30e5b7d7c01532c801116d909ce.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

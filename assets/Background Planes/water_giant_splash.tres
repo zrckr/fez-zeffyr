@@ -1,0 +1,75 @@
+[gd_resource type="SpriteFrames" load_steps=25 format=2]
+[ext_resource path="res://assets/Background Planes/water_giant_splash.ani.png" type="Texture" id=22]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 0, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 25, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 50, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 75, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 100, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 125, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 150, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 175, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 22 )
+region = Rect2( 0, 200, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 0, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 25, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 50, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 75, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 100, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 22 )
+region = Rect2( 129, 125, 128, 24 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 22 )
+region = Rect2( 258, 0, 128, 24 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ) ],
+"loop": true,
+"name": "water_giant_splash",
+"speed": 5.45
+}, {
+} ]

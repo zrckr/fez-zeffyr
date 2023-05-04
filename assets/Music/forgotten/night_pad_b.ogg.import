@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/night_pad_b.ogg-4181255c4159e8245be831084439d88b.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/forgotten/night_pad_b.ogg"
+dest_files=[ "res://.import/night_pad_b.ogg-4181255c4159e8245be831084439d88b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

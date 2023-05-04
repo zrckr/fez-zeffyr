@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sewers.ogg-bd65fa2d096efa615cee67f8d022e58b.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/sewers.ogg"
+dest_files=[ "res://.import/sewers.ogg-bd65fa2d096efa615cee67f8d022e58b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

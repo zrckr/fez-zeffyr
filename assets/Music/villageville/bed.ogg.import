@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bed.ogg-6164da7bed8a771ccb383e12a2a490fb.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/villageville/bed.ogg"
+dest_files=[ "res://.import/bed.ogg-6164da7bed8a771ccb383e12a2a490fb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/loom.ogg-8540d948b33f48f1e81e1df67ac905f7.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/loom.ogg"
+dest_files=[ "res://.import/loom.ogg-8540d948b33f48f1e81e1df67ac905f7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

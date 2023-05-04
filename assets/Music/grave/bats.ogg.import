@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bats.ogg-f4b109e218c2cc2ea8773564572c62c2.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/grave/bats.ogg"
+dest_files=[ "res://.import/bats.ogg-f4b109e218c2cc2ea8773564572c62c2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

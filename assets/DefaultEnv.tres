@@ -1,0 +1,8 @@
+[gd_resource type="Environment" format=2]
+
+[resource]
+background_mode = 4
+background_color = Color( 0.2, 0.2, 0.298039, 1 )
+adjustment_brightness = 1.07
+adjustment_contrast = 2.0
+adjustment_saturation = 0.01

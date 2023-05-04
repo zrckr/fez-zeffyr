@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/advancelevel.wav-1619693eac176ac3aa661b8a5388f667.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/Menu/advancelevel.wav"
+dest_files=[ "res://.import/advancelevel.wav-1619693eac176ac3aa661b8a5388f667.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

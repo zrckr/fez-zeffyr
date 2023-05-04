@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/rotatelefthalfspeed.wav-415e33d3fb1f454c894c3c34a4abd47b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/rotatelefthalfspeed.wav"
+dest_files=[ "res://.import/rotatelefthalfspeed.wav-415e33d3fb1f454c894c3c34a4abd47b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

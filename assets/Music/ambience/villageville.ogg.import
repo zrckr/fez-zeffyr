@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/villageville.ogg-d9a15a7d12a6063820209932c14591e3.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/villageville.ogg"
+dest_files=[ "res://.import/villageville.ogg-d9a15a7d12a6063820209932c14591e3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

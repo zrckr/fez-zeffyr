@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/birdcry2.wav-56596e44b624896dd9d3cd9740e41bff.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/miscbirds/birdcry2.wav"
+dest_files=[ "res://.import/birdcry2.wav-56596e44b624896dd9d3cd9740e41bff.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

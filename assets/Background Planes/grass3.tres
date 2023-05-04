@@ -1,0 +1,111 @@
+[gd_resource type="SpriteFrames" load_steps=22 format=2]
+
+[ext_resource path="res://assets/Background Planes/grass3.ani.png" type="Texture" id=13]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 0, 0, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 13, 0, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 0, 10, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 0, 20, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 13, 10, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 13, 20, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 26, 0, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 26, 10, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 39, 0, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 26, 20, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 39, 10, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 39, 20, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 0, 30, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 0, 40, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 13, 30, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 13, 40, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 26, 30, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 26, 40, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 39, 30, 12, 9 )
+
+[sub_resource type="AtlasTexture" id=20]
+flags = 16
+atlas = ExtResource( 13 )
+region = Rect2( 39, 40, 12, 9 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": true,
+"name": "grass3",
+"speed": 6.0
+} ]

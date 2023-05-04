@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/forest_dusk.ogg-cf34808664119706860c895261e05fb3.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/forest_dusk.ogg"
+dest_files=[ "res://.import/forest_dusk.ogg-cf34808664119706860c895261e05fb3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

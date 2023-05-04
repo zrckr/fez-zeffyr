@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/blackholebuzz.wav-39d26faa946ea8631223368f53cb1396.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Zu/blackholebuzz.wav"
+dest_files=[ "res://.import/blackholebuzz.wav-39d26faa946ea8631223368f53cb1396.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

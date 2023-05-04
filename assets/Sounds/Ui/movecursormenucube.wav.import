@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/movecursormenucube.wav-3b54111111f94919d62ba51c4733a691.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/movecursormenucube.wav"
+dest_files=[ "res://.import/movecursormenucube.wav-3b54111111f94919d62ba51c4733a691.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

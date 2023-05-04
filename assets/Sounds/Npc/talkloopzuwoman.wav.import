@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/talkloopzuwoman.wav-492e258c72a7694f95b48ceb5f57d49b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Npc/talkloopzuwoman.wav"
+dest_files=[ "res://.import/talkloopzuwoman.wav-492e258c72a7694f95b48ceb5f57d49b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

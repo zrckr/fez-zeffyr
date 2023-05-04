@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/plates_dawn.ogg-a89e8aeb138f4eece2d22d3b7778bc71.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/industrial/plates_dawn.ogg"
+dest_files=[ "res://.import/plates_dawn.ogg-a89e8aeb138f4eece2d22d3b7778bc71.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

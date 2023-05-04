@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/climbladder.wav-8b3fa473e513e5b2e24e3dd0ee7f0108.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/climbladder.wav"
+dest_files=[ "res://.import/climbladder.wav-8b3fa473e513e5b2e24e3dd0ee7f0108.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

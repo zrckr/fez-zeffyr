@@ -1,0 +1,644 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1252\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "SignInTitle"
+msgstr "Sign In Required"
+
+msgid "Loading"
+msgstr "Loading, please wait..."
+
+msgid "SplashStart"
+msgstr "Press {A} to start"
+
+msgid "SplashExit"
+msgstr "Press {BACK} to Return to Game Library"
+
+msgid "Achievements"
+msgstr "ACHIEVEMENTS"
+
+msgid "Controls"
+msgstr "CONTROLS"
+
+msgid "Credits"
+msgstr "CREDITS"
+
+msgid "HelpOptions"
+msgstr "HELP & OPTIONS"
+
+msgid "HowToPlay"
+msgstr "HOW TO PLAY"
+
+msgid "Leaderboards"
+msgstr "LEADERBOARDS"
+
+msgid "PauseMenuTitle"
+msgstr "GAME PAUSED"
+
+msgid "ResumeGame"
+msgstr "RESUME GAME"
+
+msgid "StartNewGame"
+msgstr "START NEW GAME"
+
+msgid "StartNewGameTextLine"
+msgstr "ALL YOUR PRIOR \r\nGAME PROGRESS\r\nWILL BE LOST."
+
+msgid "StartNewGameTitle"
+msgstr "START NEW GAME"
+
+msgid "ExitChoiceYes"
+msgstr "{A} EXIT GAME"
+
+msgid "ExitConfirmationTitle"
+msgstr "EXIT GAME"
+
+msgid "LeaderboardsTitle"
+msgstr "OVERALL LEADERBOARDS"
+
+msgid "SignInOptionYes"
+msgstr "OK"
+
+msgid "CurrentLeaderboardView"
+msgstr "Current View : {0}"
+
+msgid "FriendsLeaderboardView"
+msgstr "Friends"
+
+msgid "LeaderboardEntriesCount"
+msgstr "{0} players in total"
+
+msgid "LoadingLeaderboard"
+msgstr "Loading entries, please wait..."
+
+msgid "MyScoreLeaderboardView"
+msgstr "My Score"
+
+msgid "LeaderboardsNeedLIVE"
+msgstr "You need to be connected to the Internet\r\nto access the leaderboards."
+
+msgid "OverallLeaderboardView"
+msgstr "Overall"
+
+msgid "MenuBackWithGlyph"
+msgstr "{B} BACK"
+
+msgid "UnlockFullGame"
+msgstr "UNLOCK FULL GAME"
+
+msgid "NoEntriesLeaderboard"
+msgstr "There are no entries to view in this leaderboard."
+
+msgid "NotRankedInLeaderboard"
+msgstr "You are not ranked in this leaderboard."
+
+msgid "ControlsJump"
+msgstr "Jump"
+
+msgid "ControlsAction"
+msgstr "Action"
+
+msgid "ControlsRotateLeft"
+msgstr "Rotate Left"
+
+msgid "ControlsRotateRight"
+msgstr "Rotate Right"
+
+msgid "ControlsMove"
+msgstr "Move"
+
+msgid "AchievementInTrialResume"
+msgstr "Press {A} To Continue"
+
+msgid "AchievementInTrialSellText"
+msgstr "Thankfully, you can press {X} to buy it now and start playing for REAL!"
+
+msgid "AchievementInTrialText"
+msgstr "If you had the full version, you would be awarded your first FEZ achievement."
+
+msgid "AchievementInTrialTitle"
+msgstr "Achievement Unlocked!"
+
+msgid "UnlockGameWithGlyph"
+msgstr "{X} UNLOCK FULL GAME"
+
+msgid "StartNewGameWithGlyph"
+msgstr "{A} START NEW GAME"
+
+msgid "Brightness"
+msgstr "BRIGHTNESS : {0:P0}"
+
+msgid "ChangeStorageDevice"
+msgstr "CHANGE STORAGE DEVICE"
+
+msgid "MenuSaveWithGlyph"
+msgstr "{B} SAVE"
+
+msgid "ResetToDefault"
+msgstr "RESET TO DEFAULT"
+
+msgid "MenuCube_Artifacts"
+msgstr "Artifacts"
+
+msgid "MenuCube_CubeShards"
+msgstr "Cube Shards"
+
+msgid "MenuCube_Maps"
+msgstr "Treasure Maps"
+
+msgid "Map_Title"
+msgstr "World Map"
+
+msgid "ReturnToArcade"
+msgstr "EXIT GAME"
+
+msgid "ChangeProfileWithXGlyph"
+msgstr "{X} CHANGE PROFILE"
+
+msgid "ChangeProfileTitle"
+msgstr "CHANGE PROFILE"
+
+msgid "ChangeProfileTextLine"
+msgstr "ALL UNSAVED PROGRESS\r\nWILL BE LOST.\r\n\r\n(signed-in as {0})"
+
+msgid "ContinueGame"
+msgstr "CONTINUE GAME"
+
+msgid "FullGameUnlocked"
+msgstr "FULL GAME ENABLED"
+
+msgid "ReturnToArcadeTextLine"
+msgstr "DO YOU REALLY WANT TO EXIT FEZ?"
+
+msgid "MainMenu"
+msgstr "MAIN MENU"
+
+msgid "BackToMainMenuTitle"
+msgstr "EXIT TO MAIN MENU"
+
+msgid "BackToMenuWithGlyph"
+msgstr "{A} RETURN TO MAIN MENU"
+
+msgid "BackToMainMenuTextLine"
+msgstr "ALL UNSAVED\r\nGAME PROGRESS\r\nWILL BE LOST."
+
+msgid "SellTitle"
+msgstr "THANKS\r\nFOR\r\nPLAYING"
+
+msgid "SellButtons"
+msgstr "CONTINUE {A}\r\nBACK {B}\r\nUNLOCK FULL GAME {X}"
+
+msgid "MapPan"
+msgstr "PAN"
+
+msgid "MapZoom"
+msgstr "ZOOM"
+
+msgid "MapSpin"
+msgstr "SPIN"
+
+msgid "MapLook"
+msgstr "LOOK"
+
+msgid "MapBack"
+msgstr "BACK"
+
+msgid "SellButtonsEndTrial"
+msgstr "QUIT {A}\r\nBACK {B}\r\nUNLOCK FULL GAME {X}"
+
+msgid "SaveIndicator"
+msgstr "FEZ uses an auto-save mechanism.\r\n\r\nAs long as this icon appears,\r\ndo not exit the game."
+
+msgid "MenuCube_AntiCubes"
+msgstr "Anti Cubes"
+
+msgid "SaveOverwriteWarningTitle"
+msgstr "Save Overwrite Warning"
+
+msgid "Stereo3DOn"
+msgstr "STEREOSCOPY : ON"
+
+msgid "Stereo3DOff"
+msgstr "STEREOSCOPY : OFF"
+
+msgid "SettingsTitle"
+msgstr "SETTINGS"
+
+msgid "SoundVolume"
+msgstr "SOUND VOLUME : {0:P0}"
+
+msgid "MusicVolume"
+msgstr "MUSIC VOLUME : {0:P0}"
+
+msgid "UnlockNeedsLIVE"
+msgstr "You must be connected to the Internet in order to unlock the full game"
+
+msgid "UnlockNeedsLIVETitle"
+msgstr "Connection to Internet Required"
+
+msgid "CorruptedFileTitle"
+msgstr "Save File Corrupted"
+
+msgid "CorruptedFile"
+msgstr "The save file appears to be damaged and cannot be loaded.\r\n\r\nWould you like to overwrite?"
+
+msgid "CorruptedFileYes"
+msgstr "Yes, Overwrite with a new game"
+
+msgid "CorruptedFileNo"
+msgstr "No, choose another save slot"
+
+msgid "SellButtonsPublicDemo"
+msgstr "RESTART {A}"
+
+msgid "TrialModeNotice"
+msgstr "TRIAL\r\nVERSION"
+
+msgid "ControlsPause"
+msgstr "Pause"
+
+msgid "ControlsTalk"
+msgstr "Cancel/Talk"
+
+msgid "ControlsLook"
+msgstr "Look"
+
+msgid "ControlsInventory"
+msgstr "Inventory"
+
+msgid "MapLegendSmallGate"
+msgstr "SMALL GATE"
+
+msgid "MapLegendWarpGate"
+msgstr "WARP GATE"
+
+msgid "MapLegendTreasure"
+msgstr "TREASURE"
+
+msgid "MapLegendSecret"
+msgstr "SECRET"
+
+msgid "MapLegendBits"
+msgstr "BITS"
+
+msgid "MapLegendCube"
+msgstr "CUBE"
+
+msgid "MapLegendLockedDoor"
+msgstr "LOCKED DOOR"
+
+msgid "ShowGamerCard"
+msgstr "{A} GAMER CARD"
+
+msgid "VideoSettings"
+msgstr "VIDEO SETTINGS"
+
+msgid "AudioSettings"
+msgstr "AUDIO SETTINGS"
+
+msgid "GameSettings"
+msgstr "GAME SETTINGS"
+
+msgid "Language"
+msgstr "LANGUAGE : {0}"
+
+msgid "LanguageEnglish"
+msgstr "English"
+
+msgid "LanguageFrench"
+msgstr "French"
+
+msgid "LanguageItalian"
+msgstr "Italian"
+
+msgid "LanguageGerman"
+msgstr "German"
+
+msgid "LanguageSpanish"
+msgstr "Spanish"
+
+msgid "LanguagePortuguese"
+msgstr "Portuguese"
+
+msgid "LanguageChinese"
+msgstr "Chinese"
+
+msgid "LanguageJapanese"
+msgstr "Japanese"
+
+msgid "LanguageKorean"
+msgstr "Korean"
+
+msgid "StartNewGamePlus"
+msgstr "START NEW GAME+"
+
+msgid "Resolution"
+msgstr "Resolution : {0}"
+
+msgid "ScreenMode"
+msgstr "Screen Mode : {0}"
+
+msgid "MenuApplyWithGlyph"
+msgstr "{A} APPLY"
+
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+msgid "Windowed"
+msgstr "Windowed"
+
+msgid "XboxGamepad"
+msgstr "Xbox 360 Controller"
+
+msgid "Keyboard"
+msgstr "Keyboard"
+
+msgid "ChangeMapping"
+msgstr "<Press key>"
+
+msgid "ControlsToggleFpView"
+msgstr "First-Person View"
+
+msgid "ControlsClampLook"
+msgstr "Reset Look"
+
+msgid "ControlsMapZoomIn"
+msgstr "Zoom In (Map)"
+
+msgid "ControlsZoomOut"
+msgstr "Zoom Out (Map)"
+
+msgid "KeyboardRightShift"
+msgstr "R Shift"
+
+msgid "KeyboardArrows"
+msgstr "Arrows"
+
+msgid "KeyboardLeftControl"
+msgstr "L Control"
+
+msgid "KeyboardEnter"
+msgstr "Enter"
+
+msgid "KeyboardEscape"
+msgstr "Escape"
+
+msgid "KeyboardCapsLock"
+msgstr "Caps Lock"
+
+msgid "KeyboardTab"
+msgstr "Tab"
+
+msgid "KeyboardDelete"
+msgstr "Delete"
+
+msgid "KeyboardLeftShift"
+msgstr "L Shift"
+
+msgid "KeyboardRightControl"
+msgstr "R Control"
+
+msgid "KeyboardBack"
+msgstr "Backspace"
+
+msgid "ChangeWithGlyph"
+msgstr "{A} CHANGE"
+
+msgid "KeyboardLeftAlt"
+msgstr "L Alt"
+
+msgid "KeyboardRightAlt"
+msgstr "R Alt"
+
+msgid "SaveSlotTitle"
+msgstr "CHOOSE A SAVE SLOT"
+
+msgid "NewSlot"
+msgstr "<EMPTY SLOT>"
+
+msgid "ChooseWithGlyph"
+msgstr "{A} CHOOSE"
+
+msgid "SaveSlotPrefix"
+msgstr "SLOT"
+
+msgid "SaveManagementTitle"
+msgstr "SAVE MANAGEMENT"
+
+msgid "SaveClearTitle"
+msgstr "CLEAR A SLOT"
+
+msgid "SaveCopyTitle"
+msgstr "COPY A SAVE"
+
+msgid "SaveChangeSlot"
+msgstr "CHANGE SLOT"
+
+msgid "SaveChangeWarning"
+msgstr "NOTE : Changing to another slot will end the current game and return to the splash screen."
+
+msgid "SaveCopyWarning"
+msgstr "WARNING : The contents of the destination slot will be overwritten."
+
+msgid "SaveCopySourceTitle"
+msgstr "SAVE SLOT TO COPY"
+
+msgid "SaveCopyDestTitle"
+msgstr "DESTINATION SLOT"
+
+msgid "SaveClearWarning"
+msgstr "WARNING : The save file data will be permanently lost."
+
+msgid "RecommendedResolution"
+msgstr "* RECOMMENDED RESOLUTION"
+
+msgid "ExitWithGlyph"
+msgstr "{B} EXIT GAME"
+
+msgid "OtherGamepad"
+msgstr "Other Gamepad"
+
+msgid "ChangeGamepadMapping"
+msgstr "<Press button>"
+
+msgid "GamepadButton"
+msgstr "#{0}"
+
+msgid "KeyboardNone"
+msgstr "None"
+
+msgid "KeyboardTilde"
+msgstr "~"
+
+msgid "KeyboardLeftWindows"
+msgstr "Left Windows"
+
+msgid "KeyboardMinus"
+msgstr "-"
+
+msgid "KeyboardPlus"
+msgstr "="
+
+msgid "KeyboardOpenBrackets"
+msgstr "["
+
+msgid "KeyboardCloseBrackets"
+msgstr "]"
+
+msgid "KeyboardSemicolon"
+msgstr ";"
+
+msgid "KeyboardPipe"
+msgstr "|"
+
+msgid "KeyboardComma"
+msgstr ","
+
+msgid "KeyboardPeriod"
+msgstr "."
+
+msgid "KeyboardQuestion"
+msgstr "Question Mark"
+
+msgid "KeyboardInsert"
+msgstr "Insert"
+
+msgid "KeyboardHome"
+msgstr "Home"
+
+msgid "KeyboardEnd"
+msgstr "End"
+
+msgid "KeyboardPageUp"
+msgstr "Page Up"
+
+msgid "KeyboardPageDown"
+msgstr "Page Down"
+
+msgid "KeyboardNumLock"
+msgstr "Num Lock"
+
+msgid "KeyboardDivide"
+msgstr "/"
+
+msgid "KeyboardMultiply"
+msgstr "*"
+
+msgid "KeyboardAdd"
+msgstr "+"
+
+msgid "KeyboardDecimal"
+msgstr "."
+
+msgid "KeyboardPause"
+msgstr "Pause"
+
+msgid "KeyboardQuotes"
+msgstr "Quotes"
+
+msgid "KeyboardRightWindows"
+msgstr "Right Windows"
+
+msgid "KeyboardScroll"
+msgstr "Scroll"
+
+msgid "KeyboardSpace"
+msgstr "Space"
+
+msgid "KeyboardNumPad0"
+msgstr "Num Pad 0"
+
+msgid "KeyboardNumPad1"
+msgstr "Num Pad 1"
+
+msgid "KeyboardNumPad2"
+msgstr "Num Pad 2"
+
+msgid "KeyboardNumPad3"
+msgstr "Num Pad 3"
+
+msgid "KeyboardNumPad4"
+msgstr "Num Pad 4"
+
+msgid "KeyboardNumPad5"
+msgstr "Num Pad 5"
+
+msgid "KeyboardNumPad6"
+msgstr "Num Pad 6"
+
+msgid "KeyboardNumPad7"
+msgstr "Num Pad 7"
+
+msgid "KeyboardNumPad8"
+msgstr "Num Pad 8"
+
+msgid "KeyboardNumPad9"
+msgstr "Num Pad 9"
+
+msgid "Vibration"
+msgstr "VIBRATION : {0}"
+
+msgid "Borderless"
+msgstr "BORDERLESS WINDOW"
+
+msgid "On"
+msgstr "ON"
+
+msgid "Off"
+msgstr "OFF"
+
+msgid "HardwareInstancing"
+msgstr "HARDWARE INSTANCING : {0}"
+
+msgid "VSync"
+msgstr "Vertical Sync : {0}"
+
+msgid "Lighting"
+msgstr "Lighting : {0}"
+
+msgid "MSAA"
+msgstr "Anti-Aliasing : {0}"
+
+msgid "Steamworks"
+msgstr "Steamworks : {0}"
+
+msgid "PauseOnLostFocus"
+msgstr "Pause on lost focus : {0}"
+
+msgid "Singlethreaded"
+msgstr "Singlethreaded : {0}"
+
+msgid "RequiresRestart"
+msgstr "* RESTART REQUIRED"
+
+msgid "ControllerSupport"
+msgstr "Controller support : {0}"
+
+msgid "Controller"
+msgstr "Controller"
+
+msgid "DeadZone"
+msgstr "DEAD ZONE : {0}"
+
+msgid "Supersampling"
+msgstr "Supersampled"
+
+msgid "PixelPerfect"
+msgstr "Pixel-Perfect"
+
+msgid "FullAspect"
+msgstr "Full Aspect"
+
+msgid "ScaleMode"
+msgstr "Scaling Mode : {0}"
+
+msgid "HiDpiMode"
+msgstr "HI-DPI MODE : {0}"
+

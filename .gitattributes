@@ -1,0 +1,35 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+
+# Godot
+*.meshlib binary
+*.mesh    binary
+*.scn     binary
+
+# Images
+*.png binary
+
+# Audio
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Models
+*.fbx   binary
+*.blend binary
+*.obj 	binary
+*.gltf  binary
+
+# Other
+*.pdf binary
+*.zip binary
+*.dll binary
+*.aif binary
+*.ttf binary
+*.rns binary
+*.lxo binary

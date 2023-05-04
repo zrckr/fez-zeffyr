@@ -1,0 +1,221 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://assets/DefaultEnv.tres" type="Environment" id=1]
+[ext_resource path="res://scenes/Gomez.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Crate.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/GoldenKey.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/GateWarp.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scripts/IsleTest.cs" type="Script" id=7]
+[ext_resource path="res://assets/Background Planes/cat01.tres" type="SpriteFrames" id=8]
+[ext_resource path="res://scenes/Water.tscn" type="PackedScene" id=9]
+[ext_resource path="res://src/Components/CodeArea.cs" type="Script" id=10]
+[ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Assets/Trilesets/Untitled/Sign UP.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://assets/Character Animations/Mayor McMayor/Mayor McMayor.tres" type="SpriteFrames" id=13]
+[ext_resource path="res://src/Components/NpcInstance.cs" type="Script" id=14]
+[ext_resource path="res://scenes/AntiCube.tscn" type="PackedScene" id=16]
+[ext_resource path="res://scenes/Treasure.tscn" type="PackedScene" id=17]
+[ext_resource path="res://scenes/SmallCube.tscn" type="PackedScene" id=18]
+[ext_resource path="res://scenes/BigCube.tscn" type="PackedScene" id=19]
+[ext_resource path="res://assets/Skies/Blue.tscn" type="PackedScene" id=20]
+[ext_resource path="res://scenes/8BitDoor.tscn" type="PackedScene" id=21]
+[ext_resource path="res://assets/Trilesets/untitled.meshlib" type="MeshLibrary" id=23]
+[ext_resource path="res://assets/Skies/above/skyback.png" type="Texture" id=24]
+[ext_resource path="res://scenes/BlackHole.tscn" type="PackedScene" id=25]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 50, 1, 50 )
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 1, 1, 0.5 )
+
+[node name="IsleTest" type="Spatial"]
+pause_mode = 1
+script = ExtResource( 7 )
+
+[node name="8BitDoor" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.51359, 2.67137, -2.375 )
+
+[node name="Sun" type="DirectionalLight" parent="."]
+transform = Transform( 0.642788, 0.383022, -0.663414, 0, 0.866025, 0.5, 0.766044, -0.321394, 0.556671, 0, 10, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Sun2" type="DirectionalLight" parent="Sun"]
+transform = Transform( 0.883022, -0.321394, 0.34202, -0.34202, -0.939693, 0, 0.321394, -0.116978, -0.939692, 0, 0, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Triles" type="GridMap" parent="."]
+mesh_library = ExtResource( 23 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+collision_layer = 0
+collision_mask = 0
+data = {
+"cells": PoolIntArray( 0, 0, 1, 1, 0, 1, 2, 0, 1, 3, 0, 1, 4, 0, 1, 5, 0, 1, 6, 0, 1, 65513, 0, 160, 65514, 0, 160, 65515, 0, 1, 65516, 0, 1, 65517, 0, 1, 65518, 0, 1, 65519, 0, 1, 65520, 0, 1, 65521, 0, 1, 65522, 0, 1, 65523, 0, 1, 65524, 0, 1, 65525, 0, 1, 65526, 0, 1, 65527, 0, 1, 65528, 0, 1, 65529, 0, 1, 65530, 0, 1, 65531, 0, 1, 65532, 0, 1, 65533, 0, 1, 65534, 0, 1, 65535, 0, 1, 65536, 0, 1, 65537, 0, 1, 65538, 0, 1, 131051, 0, 154, 131052, 0, 154, 131053, 0, 154, 131054, 0, 154, 131058, 0, 1441818, 131071, 0, 1, 196587, 0, 154, 196588, 0, 154, 196589, 0, 154, 196590, 0, 154, 196591, 0, 154, 196594, 0, 1441818, 262123, 0, 154, 262124, 0, 154, 262125, 0, 154, 262126, 0, 154, 262127, 0, 154, 262128, 0, 154, 262130, 0, 1441818, 327666, 0, 1441819, 0, 1, 1, 1, 1, 1, 2, 1, 1, 3, 1, 1, 4, 1, 1, 5, 1, 1, 65513, 1, 160, 65514, 1, 160, 65524, 1, 1, 65526, 1, 1, 65532, 1, 1, 65533, 1, 1, 65534, 1, 1, 65535, 1, 1, 327665, 1, 1, 393201, 1, 1, 0, 2, 1, 1, 2, 1, 2, 2, 1, 3, 2, 1, 65534, 2, 1, 65535, 2, 1, 0, 3, 1, 1, 3, 1, 65515, 3, 1, 65516, 3, 1, 65515, 4, 1, 65516, 4, 1, 65515, 5, 1, 0, 65530, 1, 65535, 65530, 1, 0, 65531, 1, 1, 65531, 1, 65534, 65531, 1, 65535, 65531, 1, 0, 65532, 1, 1, 65532, 1, 2, 65532, 1, 65533, 65532, 1, 65534, 65532, 1, 65535, 65532, 1, 0, 65533, 1, 1, 65533, 1, 2, 65533, 1, 3, 65533, 1, 65532, 65533, 1, 65533, 65533, 1, 65534, 65533, 1, 65535, 65533, 1, 65536, 65533, 1, 65537, 65533, 1, 0, 65534, 1, 1, 65534, 1, 2, 65534, 1, 3, 65534, 1, 4, 65534, 1, 65515, 65534, 1, 65516, 65534, 1, 65517, 65534, 1, 65518, 65534, 1, 65519, 65534, 1, 65520, 65534, 1, 65521, 65534, 1, 65522, 65534, 1, 65523, 65534, 1, 65524, 65534, 1, 65525, 65534, 1, 65526, 65534, 1, 65527, 65534, 1, 65528, 65534, 1, 65529, 65534, 1, 65530, 65534, 1, 65531, 65534, 1, 65532, 65534, 1, 65533, 65534, 1, 65534, 65534, 1, 65535, 65534, 1, 65536, 65534, 1, 65537, 65534, 1, 65538, 65534, 1, 131071, 65534, 1, 0, 65535, 1, 1, 65535, 1, 2, 65535, 1, 3, 65535, 1, 4, 65535, 1, 5, 65535, 1, 65515, 65535, 1, 65516, 65535, 1, 65517, 65535, 1, 65518, 65535, 1, 65519, 65535, 1, 65520, 65535, 1, 65521, 65535, 1, 65522, 65535, 1, 65523, 65535, 1, 65524, 65535, 1, 65525, 65535, 1, 65526, 65535, 1, 65527, 65535, 1, 65528, 65535, 1, 65529, 65535, 1, 65530, 65535, 1, 65531, 65535, 1, 65532, 65535, 1, 65533, 65535, 1, 65534, 65535, 1, 65535, 65535, 1, 65536, 65535, 1, 65537, 65535, 1, 65538, 65535, 1, 131050, 65535, 1441946, 131051, 65535, 2, 131052, 65535, 2, 131053, 65535, 2, 131054, 65535, 2, 131055, 65535, 2, 131056, 65535, 2, 131057, 65535, 2, 131064, 65535, 1441942, 131066, 65535, 1441942, 131071, 65535, 1, 196586, 65535, 1441946, 196587, 65535, 2, 196588, 65535, 2, 196589, 65535, 2, 196590, 65535, 2, 196591, 65535, 2, 196592, 65535, 2, 196593, 65535, 2, 196600, 65535, 1441942, 196602, 65535, 1441942, 262122, 65535, 1441946, 262123, 65535, 1, 262124, 65535, 1, 262125, 65535, 1, 262126, 65535, 1, 262127, 65535, 1, 262128, 65535, 1, 262129, 65535, 1, 262130, 65535, 1, 262131, 65535, 1, 262132, 65535, 1, 262136, 65535, 43, 262138, 65535, 42 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 5, 0 )
+}
+
+[node name="Arts" type="Node" parent="."]
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = ExtResource( 1 )
+
+[node name="SkyHandler" parent="Environment" instance=ExtResource( 20 )]
+Background = ExtResource( 24 )
+
+[node name="Crate2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, -1 )
+collision_mask = 7
+
+[node name="Crate3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3, -1 )
+collision_mask = 7
+
+[node name="Gomez" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 4.375, -1.25 )
+
+[node name="Cat" type="AnimatedSprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.39251, 1.5, 0 )
+pixel_size = 0.0625
+frames = ExtResource( 8 )
+animation = "cat01"
+frame = 52
+playing = true
+
+[node name="GameCamera" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 5, 0 )
+PixelsPerTrixel = 2
+TargetPath = NodePath("../Gomez")
+
+[node name="Preview" type="Camera" parent="GameCamera"]
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 0, 10 )
+size = 24.0
+
+[node name="CursedBody" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20, 0 )
+collision_layer = 2147483649
+collision_mask = 30
+
+[node name="CollisionShape" type="CollisionShape" parent="CursedBody"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Landmark" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1, 0 )
+
+[node name="Door" parent="." instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.0625, 1.5, 0 )
+NextLevel = "res://assets/Levels/gomez_house.tscn"
+
+[node name="CodeArea" type="Area" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1568, 1.48204, 0 )
+collision_layer = 2147483664
+collision_mask = 8
+script = ExtResource( 10 )
+CodePattern = PoolStringArray( "up", "up", "down", "down", "left", "right", "left", "right" )
+
+[node name="CollisionShape" type="CollisionShape" parent="CodeArea"]
+shape = SubResource( 2 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="RotationTest" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0 )
+
+[node name="FRONT" type="MeshInstance" parent="RotationTest"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="RIGHT" type="MeshInstance" parent="RotationTest"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.5, 0, 0 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="BACK" type="MeshInstance" parent="RotationTest"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 0, -0.5 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="LEFT" type="MeshInstance" parent="RotationTest"]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.5, 0, 0 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="UP" type="MeshInstance" parent="RotationTest"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.5, 0 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="DOWN" type="MeshInstance" parent="RotationTest"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -0.5, 0 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="Collectables" type="Node" parent="."]
+
+[node name="Small1" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 6.5, -1 )
+
+[node name="Small2" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 6.5, -1 )
+
+[node name="Small3" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 6.5, -1 )
+
+[node name="Small4" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 6.5, -1 )
+
+[node name="Small5" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 6.5, -1 )
+
+[node name="Small6" parent="Collectables" instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 6.5, -1 )
+
+[node name="AntiCube" parent="Collectables" instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.125, 6.625, 0 )
+
+[node name="BigCube" parent="Collectables" instance=ExtResource( 19 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.1875, 6.625, 0 )
+
+[node name="Mayor" type="AnimatedSprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5625, 1.3125, 0 )
+pixel_size = 0.0625
+frames = ExtResource( 13 )
+animation = "idle"
+script = ExtResource( 14 )
+WalkSpeed = 2.0
+AvoidsGomez = true
+RandomizeSpeech = true
+SayFirstSpeechLineOnce = true
+SpeechTags = PoolStringArray( "VILLAGER_A", "VILLAGER_M", "VILLAGER_N" )
+DestinationOffset = Vector3( 4, 0, 0 )
+
+[node name="Water" parent="." instance=ExtResource( 9 )]
+Height = 0.5
+
+[node name="Treasure" parent="." instance=ExtResource( 17 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.9375, 4.5, -2.1875 )
+
+[node name="GoldenKey" parent="Treasure" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3125, 0 )
+
+[node name="Hole" parent="." instance=ExtResource( 25 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -8.1875, 9.4375, 0 )
+
+[node name="GateWarp" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 2.5, -1.75 )
+NextLevel = "res://assets/Levels/IsleTest.tscn"
+LandmarkNode = "Landmark"

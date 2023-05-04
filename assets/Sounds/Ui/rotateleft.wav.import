@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/rotateleft.wav-eee4f442ea654a141f4c41e944a948ab.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/rotateleft.wav"
+dest_files=[ "res://.import/rotateleft.wav-eee4f442ea654a141f4c41e944a948ab.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

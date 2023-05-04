@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=2]
+[ext_resource path="res://assets/Waterpink/water_small_trickle.ani.png" type="Texture" id=9]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 8, 16 )
+
+[resource]
+animations = [ {
+"frames": [ SubResource( 1 ) ],
+"loop": true,
+"name": "water_small_trickle",
+"speed": 20.00
+} ]

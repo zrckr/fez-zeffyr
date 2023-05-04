@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/majesty.ogg-519ec6d2b26e86e120783f195a1c481b.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/majesty.ogg"
+dest_files=[ "res://.import/majesty.ogg-519ec6d2b26e86e120783f195a1c481b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/idleturnleft.wav-c2fdb0ed9ee9f4b9a7190346804b0032.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/idleturnleft.wav"
+dest_files=[ "res://.import/idleturnleft.wav-c2fdb0ed9ee9f4b9a7190346804b0032.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

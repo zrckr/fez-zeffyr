@@ -1,0 +1,145 @@
+{
+    "asset" : {
+        "copyright" : "Copyright \u00a9 Zerocker 2020",
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "water_statue_baseao"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "water_statue_baseao",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "water_statue_baseao",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "water_statue_baseao"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 28,
+            "max" : [
+                1,
+                2,
+                1.0000001192092896
+            ],
+            "min" : [
+                -1,
+                -2,
+                -1.0000001192092896
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224,
+            "byteOffset" : 672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1099,
+            "byteOffset" : 968
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2068,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
+}

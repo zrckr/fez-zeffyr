@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/chord_06.ogg-17e82a56846b5ddf34925e732e4add16.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/storm_chords/chord_06.ogg"
+dest_files=[ "res://.import/chord_06.ogg-17e82a56846b5ddf34925e732e4add16.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

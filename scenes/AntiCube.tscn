@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Trilesets/Untitled/ANTI CUBE.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://src/Components/Collectable.cs" type="Script" id=2]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.5, 0.5, 0.5 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "default"
+length = 16.0
+loop = true
+step = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Mesh:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 4.1, 7.9, 12 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0.25, 0 ), Vector3( 0, -0.25, 0 ), Vector3( 0, 0.25, 0 ), Vector3( 0, -0.25, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Mesh:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 16 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 45, 0, 45 ), Vector3( 45, 360, 45 ) ]
+}
+
+[node name="AntiCube" type="Area"]
+collision_layer = 16
+collision_mask = 8
+script = ExtResource( 2 )
+ItemType = 3
+
+[node name="Shape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="Mesh" type="MeshInstance" parent="."]
+transform = Transform( 0.857633, -0.39927, 0.324112, 0.5, 0.5, -0.707107, 0.12027, 0.768494, 0.628452, 0, 0.102133, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+anims/default = SubResource( 2 )

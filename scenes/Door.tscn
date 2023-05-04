@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Trilesets/Untitled/VILLAGE DOORS 1.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://assets/Trilesets/Untitled/VILLAGE DOORS 0.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://src/Components/ChangeLevelArea.cs" type="Script" id=3]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.5, 1, 0.5 )
+
+[node name="Door" type="Area"]
+collision_layer = 16
+collision_mask = 2147483656
+script = ExtResource( 3 )
+ViewAfterWarp = 0
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="Door" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375, 0, -0.4375 )
+
+[node name="Top" type="MeshInstance" parent="Door"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.375, 0.5, 0.4375 )
+mesh = ExtResource( 2 )
+material/0 = null
+
+[node name="Bottom" type="MeshInstance" parent="Door"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.375, -0.5, 0.4375 )
+mesh = ExtResource( 1 )
+material/0 = null

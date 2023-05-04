@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/metal_indoors.ogg-96ca913e3b47c82cc53de1a82f16b797.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/metal_indoors.ogg"
+dest_files=[ "res://.import/metal_indoors.ogg-96ca913e3b47c82cc53de1a82f16b797.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/cursordown.wav-55e05ca7729b1969594c730480d8b95b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Ui/Menu/cursordown.wav"
+dest_files=[ "res://.import/cursordown.wav-55e05ca7729b1969594c730480d8b95b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

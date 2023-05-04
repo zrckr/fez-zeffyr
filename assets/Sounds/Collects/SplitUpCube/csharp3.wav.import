@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/csharp3.wav-f4486d1240693cd87456eb74830e449a.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/SplitUpCube/csharp3.wav"
+dest_files=[ "res://.import/csharp3.wav-f4486d1240693cd87456eb74830e449a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,213 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://scenes/Gomez.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Trilesets/untitled.meshlib" type="MeshLibrary" id=3]
+[ext_resource path="res://assets/Background Planes/peel_d.png" type="Texture" id=4]
+[ext_resource path="res://assets/Background Planes/cobweb_b.png" type="Texture" id=5]
+[ext_resource path="res://assets/Background Planes/parlor_f.png" type="Texture" id=6]
+[ext_resource path="res://assets/Background Planes/peel_e.png" type="Texture" id=7]
+[ext_resource path="res://assets/Background Planes/abandoned_d.png" type="Texture" id=8]
+[ext_resource path="res://assets/Background Planes/peel_b.png" type="Texture" id=9]
+[ext_resource path="res://assets/Background Planes/peel_a.png" type="Texture" id=10]
+[ext_resource path="res://assets/Background Planes/cobweb_a.png" type="Texture" id=11]
+[ext_resource path="res://assets/Background Planes/peel_c.png" type="Texture" id=12]
+[ext_resource path="res://scenes/ChangeLevel.tscn" type="PackedScene" id=13]
+[ext_resource path="res://src/Components/CodeArea.cs" type="Script" id=14]
+[ext_resource path="res://scenes/AntiCube.tscn" type="PackedScene" id=15]
+[ext_resource path="res://src/Components/Level.cs" type="Script" id=16]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 5, 5, 5 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 1
+
+[node name="ABANDONED_C" type="Spatial"]
+script = ExtResource( 16 )
+
+[node name="Triles" type="GridMap" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, 0.5 )
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+collision_layer = 0
+collision_mask = 0
+data = {
+"cells": PoolIntArray( 5, 3, 194, 14, 3, 1441986, 65541, 3, 193, 65550, 3, 1441984, 131077, 3, 192, 131086, 3, 1441984, 196613, 3, 193, 196622, 3, 1441985, 262149, 3, 192, 262158, 3, 1441985, 327685, 3, 192, 327694, 3, 1441984, 393221, 3, 193, 393230, 3, 1441984, 458757, 3, 193, 458766, 3, 1441985, 524293, 3, 192, 524302, 3, 1441984, 6, 4, 198, 7, 4, 197, 8, 4, 197, 9, 4, 198, 10, 4, 198, 11, 4, 197, 12, 4, 197, 13, 4, 198, 589830, 4, 196, 589831, 4, 196, 589832, 4, 191, 589833, 4, 196, 589834, 4, 191, 589835, 4, 196, 589836, 4, 196, 589837, 4, 191, 6, 5, 197, 7, 5, 197, 8, 5, 197, 9, 5, 197, 10, 5, 197, 11, 5, 197, 12, 5, 197, 13, 5, 198, 589830, 5, 196, 589831, 5, 196, 589832, 5, 196, 589833, 5, 196, 589834, 5, 196, 589835, 5, 196, 589836, 5, 196, 589837, 5, 196, 6, 6, 198, 7, 6, 197, 8, 6, 197, 9, 6, 197, 10, 6, 197, 11, 6, 197, 12, 6, 197, 13, 6, 197, 589830, 6, 191, 589831, 6, 196, 589832, 6, 196, 589833, 6, 196, 589834, 6, 196, 589835, 6, 196, 589836, 6, 196, 589837, 6, 196, 6, 7, 198, 7, 7, 197, 8, 7, 197, 9, 7, 197, 10, 7, 197, 11, 7, 197, 12, 7, 197, 13, 7, 198, 589830, 7, 196, 589831, 7, 196, 589832, 7, 196, 589833, 7, 196, 589834, 7, 196, 589835, 7, 196, 589836, 7, 196, 589837, 7, 191, 6, 8, 197, 7, 8, 197, 8, 8, 197, 9, 8, 197, 10, 8, 197, 11, 8, 197, 12, 8, 197, 13, 8, 198, 589830, 8, 191, 589831, 8, 196, 589832, 8, 196, 589833, 8, 196, 589834, 8, 196, 589835, 8, 196, 589836, 8, 196, 589837, 8, 196, 6, 9, 198, 7, 9, 197, 8, 9, 197, 9, 9, 197, 10, 9, 197, 11, 9, 197, 12, 9, 197, 13, 9, 197, 589830, 9, 191, 589831, 9, 196, 589832, 9, 196, 589833, 9, 196, 589834, 9, 196, 589835, 9, 196, 589836, 9, 196, 589837, 9, 196, 6, 10, 198, 7, 10, 197, 8, 10, 197, 9, 10, 197, 10, 10, 197, 11, 10, 197, 12, 10, 197, 13, 10, 197, 589830, 10, 196, 589831, 10, 196, 589832, 10, 196, 589833, 10, 196, 589834, 10, 196, 589835, 10, 196, 589836, 10, 196, 589837, 10, 191, 6, 11, 197, 7, 11, 198, 8, 11, 197, 9, 11, 197, 10, 11, 198, 11, 11, 198, 12, 11, 197, 13, 11, 198, 589830, 11, 191, 589831, 11, 196, 589832, 11, 196, 589833, 11, 196, 589834, 11, 191, 589835, 11, 196, 589836, 11, 191, 589837, 11, 191, 5, 12, 1048770, 14, 12, 655554, 65541, 12, 1048769, 65550, 12, 655552, 131077, 12, 1048769, 131086, 12, 655552, 196613, 12, 1048768, 196622, 12, 655553, 262149, 12, 1048769, 262158, 12, 655552, 327685, 12, 1048768, 327694, 12, 655552, 393221, 12, 1048769, 393230, 12, 655553, 458757, 12, 1048768, 458766, 12, 655552, 524293, 12, 1048769, 524302, 12, 655553 )
+}
+__meta__ = {
+"_editor_clip_": 0
+}
+
+[node name="Gomez" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10.875, 1.5, 5.5 )
+
+[node name="GameCamera" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10, 5, 8.5 )
+PixelsPerTrixel = 4
+CanFollow = false
+TargetPath = NodePath("../Gomez")
+
+[node name="Items" type="Spatial" parent="."]
+
+[node name="AntiCube" parent="Items" instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 5, 8 )
+
+[node name="Arts" type="Spatial" parent="."]
+
+[node name="Planes" type="Spatial" parent="."]
+
+[node name="abandoned_d" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 5, 8 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 8 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 6, 5, 8 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 6 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 5, 12 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 6 )
+
+[node name="parlor_f" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 5, 4 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 6 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 13.9375, 8, 5 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 11 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 6.0625, 8, 11 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 11 )
+
+[node name="cobweb_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 13.9375, 8, 11 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 5 )
+
+[node name="cobweb_b" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 7, 8, 11.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 5 )
+
+[node name="cobweb_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 8, 4.0625 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 5 )
+
+[node name="cobweb_a" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 13, 8, 11.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 11 )
+
+[node name="peel_d" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 7, 5, 11.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 4 )
+
+[node name="peel_b" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 6.0625, 8, 9 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 9 )
+
+[node name="peel_c" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 3, 4.0625 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 12 )
+
+[node name="peel_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 13.9375, 4, 8 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 10 )
+
+[node name="peel_e" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 6.5625, 11.9375 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 7 )
+
+[node name="Volumes" type="Spatial" parent="."]
+
+[node name="0" parent="Volumes" instance=ExtResource( 13 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13.5, 2, 5.5 )
+VolumeId = 8
+NextLevel = "villageville_3d"
+
+[node name="CodeArea" type="Area" parent="Volumes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 5, 8 )
+script = ExtResource( 14 )
+CodePattern = PoolStringArray( "up", "up", "down", "down", "left", "right", "left", "right", "jump", "talk_cancel" )
+
+[node name="Shape" type="CollisionShape" parent="Volumes/CodeArea"]
+shape = SubResource( 1 )
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="Sun" type="DirectionalLight" parent="."]
+transform = Transform( 0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 10, 10, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Sun2" type="DirectionalLight" parent="Sun"]
+transform = Transform( 0.883022, -0.321394, 0.34202, -0.34202, -0.939693, 0, 0.321394, -0.116978, -0.939692, 0, 0, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0

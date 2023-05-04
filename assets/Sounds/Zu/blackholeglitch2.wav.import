@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/blackholeglitch2.wav-d810561c2aa7e511c261d4347efd4db1.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Zu/blackholeglitch2.wav"
+dest_files=[ "res://.import/blackholeglitch2.wav-d810561c2aa7e511c261d4347efd4db1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

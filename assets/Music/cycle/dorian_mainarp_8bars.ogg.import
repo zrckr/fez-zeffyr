@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian_mainarp_8bars.ogg-4e53be45a75c77500ca88e298e46cf7a.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/dorian_mainarp_8bars.ogg"
+dest_files=[ "res://.import/dorian_mainarp_8bars.ogg-4e53be45a75c77500ca88e298e46cf7a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

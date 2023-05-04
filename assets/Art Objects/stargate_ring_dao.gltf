@@ -1,0 +1,145 @@
+{
+    "asset" : {
+        "copyright" : "Copyright \u00a9 Zerocker 2020",
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "stargate_ring_dao"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "stargate_ring_dao",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "stargate_ring_dao",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "stargate_ring_dao"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 28,
+            "max" : [
+                1,
+                1,
+                0.2500000298023224
+            ],
+            "min" : [
+                -1,
+                -1,
+                -0.2500000298023224
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224,
+            "byteOffset" : 672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 291,
+            "byteOffset" : 968
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1260,
+            "uri" : "data:application/octet-stream;base64,AACAvwAAgL8BAIC+AACAPwAAgL8BAIC+AACAPwAAgD/9/3++AACAvwAAgL8BAIC+AACAPwAAgD/9/3++AACAvwAAgD/9/3++AACAvwAAgL/9/38+AACAPwAAgD8BAIA+AACAPwAAgL/9/38+AACAvwAAgL/9/38+AACAvwAAgD8BAIA+AACAPwAAgD8BAIA+AACAvwAAgD/9/3++AACAPwAAgD8BAIA+AACAvwAAgD8BAIA+AACAPwAAgD/9/3++AACAPwAAgL8BAIC+AACAPwAAgD8BAIA+AACAPwAAgD/9/3++AACAPwAAgL/9/38+AACAvwAAgL8BAIC+AACAvwAAgL/9/38+AACAPwAAgL/9/38+AACAPwAAgL8BAIC+AACAvwAAgL8BAIC+AACAvwAAgD/9/3++AACAvwAAgD8BAIA+AACAvwAAgL/9/38+AAAAAAAAALMAAIA/AAAAAAAAALMAAIA/AAAAAAAAALMAAIA/AAAAAAAAQLMAAIA/AAAAAAAAQLMAAIA/AAAAAAAAQLMAAIA/AAAAAAAAQDMAAIC/AAAAAAAAQDMAAIC/AAAAAAAAQDMAAIC/AAAAAAAAADMAAIC/AAAAAAAAADMAAIC/AAAAAAAAADMAAIC/AAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAAAAPwAAgD+rqqo+AACAP6uqqj4AAAAAAAAAPwAAgD+rqqo+AAAAAAAAAD8AAAAAAAAAAAAAgD+rqio+AAAAAKuqKj4AAIA/AAAAAAAAgD8AAAAAAAAAAKuqKj4AAAAAq6oqPwAAwD5WVVU/AAAgP6uqKj8AACA/VlVVPwAAwD6rqoo+AACAP6uqaj4AAAAAq6qKPgAAAACrqmo+AACAP1ZVVT8AACA/VlVVPwAAwD4AAIA/AADAPgAAgD8AACA/AAAQPwAAgD8AABA/AAAAAKuqGj8AAAAAq6oaPwAAgD8AAAEAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAMAA8ADQAQABEAEgAQABMAEQAUABUAFgAUABYAFwAYABkAGgAYABoAGwCJUE5HDQoaCgAAAA1JSERSAAAAwAAAACAIBgAAAESYd4UAAADqSURBVHic7dqxCcNQEATRK1tNuSRXoCJkUOBQiA9mjd4Gk/5jxGymOfbXkWRmbpN886n+POdHe28ZVgO4eG/pTdifRw9A9+fRA9D9efQAdH8ePQDdn0cPQPfn0QPQ/Xn0AHR/Hj0A3Z9HD0D359ED0P159ADq/9t/nf6dDqD+Uf/0/Q6g/lH/9P0OoP5R//T9DqD+Uf/0/Q6g/lH/9P0OoP5R//T9DqD+NB0A7s+jB6D78+gB6P48egC6P48egO7Poweg+/PoAej+PHoAuj+PHoDuz6MHoPvz6AHo/jzfjxpiKYDAm0/11/kA0/K3FKKUy/cAAAAASUVORK5CYIIA"
+        }
+    ]
+}

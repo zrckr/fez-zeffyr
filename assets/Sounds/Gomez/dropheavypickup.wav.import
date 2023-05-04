@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dropheavypickup.wav-5e2a56363d0e98de243dfb300010a23e.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/dropheavypickup.wav"
+dest_files=[ "res://.import/dropheavypickup.wav-5e2a56363d0e98de243dfb300010a23e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

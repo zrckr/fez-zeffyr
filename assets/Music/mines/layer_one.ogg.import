@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/layer_one.ogg-f074c76d5d51f26b343657fb281ce6f9.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/mines/layer_one.ogg"
+dest_files=[ "res://.import/layer_one.ogg-f074c76d5d51f26b343657fb281ce6f9.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

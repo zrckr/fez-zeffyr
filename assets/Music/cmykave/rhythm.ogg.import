@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rhythm.ogg-d804a8a26cbecd941c50e1124eb486e6.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cmykave/rhythm.ogg"
+dest_files=[ "res://.import/rhythm.ogg-d804a8a26cbecd941c50e1124eb486e6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/lesserwarplower.wav-8ec53a9ee7ba7d03d440048ad8efb4ee.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Zu/lesserwarplower.wav"
+dest_files=[ "res://.import/lesserwarplower.wav-8ec53a9ee7ba7d03d440048ad8efb4ee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

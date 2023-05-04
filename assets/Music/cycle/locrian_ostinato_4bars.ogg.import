@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/locrian_ostinato_4bars.ogg-c33195e69b052c6f3c761540e1f1165d.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/locrian_ostinato_4bars.ogg"
+dest_files=[ "res://.import/locrian_ostinato_4bars.ogg-c33195e69b052c6f3c761540e1f1165d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

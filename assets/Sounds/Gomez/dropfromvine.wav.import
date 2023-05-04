@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dropfromvine.wav-b31ac2094d5bf38fad938482c17d0933.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/dropfromvine.wav"
+dest_files=[ "res://.import/dropfromvine.wav-b31ac2094d5bf38fad938482c17d0933.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

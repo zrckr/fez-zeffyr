@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/vv_32bit.ogg-f530b77b3c6ea01bd5b2c7a23f4d0826.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/vv_32bit.ogg"
+dest_files=[ "res://.import/vv_32bit.ogg-f530b77b3c6ea01bd5b2c7a23f4d0826.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

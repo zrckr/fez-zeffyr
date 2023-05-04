@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/teetermouthclose.wav-ff8d16f74c93aa587b2a88aff655137b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/teetermouthclose.wav"
+dest_files=[ "res://.import/teetermouthclose.wav-ff8d16f74c93aa587b2a88aff655137b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

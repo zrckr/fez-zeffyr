@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/assemble_a_maj.wav-5cadfa39652171597b8bb49f91ac7964.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/SplitUpCube/assemble_a_maj.wav"
+dest_files=[ "res://.import/assemble_a_maj.wav-5cadfa39652171597b8bb49f91ac7964.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

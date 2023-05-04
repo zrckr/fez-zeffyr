@@ -1,0 +1,2182 @@
+[gd_scene load_steps=139 format=2]
+
+[ext_resource path="res://scenes/Map/MapNode.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/Other Textures/map_screens/nature_hub.png" type="Texture" id=2]
+[ext_resource path="res://assets/Other Textures/map_screens/waterfall.png" type="Texture" id=3]
+[ext_resource path="res://assets/Other Textures/map_screens/fox.png" type="Texture" id=4]
+[ext_resource path="res://assets/Other Textures/map_screens/water_wheel.png" type="Texture" id=5]
+[ext_resource path="res://assets/Other Textures/map_screens/water_wheel_b.png" type="Texture" id=6]
+[ext_resource path="res://assets/Other Textures/map_screens/mine_a.png" type="Texture" id=7]
+[ext_resource path="res://assets/Other Textures/map_screens/mine_wrap.png" type="Texture" id=8]
+[ext_resource path="res://assets/Other Textures/map_screens/mine_bomb_pillar.png" type="Texture" id=9]
+[ext_resource path="res://assets/Other Textures/map_screens/cmy.png" type="Texture" id=10]
+[ext_resource path="res://assets/Other Textures/map_screens/cmy_b.png" type="Texture" id=11]
+[ext_resource path="res://assets/Other Textures/map_screens/cmy_fork.png" type="Texture" id=12]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_code_loop.png" type="Texture" id=13]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_zuish.png" type="Texture" id=14]
+[ext_resource path="res://assets/Other Textures/map_screens/lighthouse.png" type="Texture" id=15]
+[ext_resource path="res://assets/Other Textures/map_screens/lighthouse_house_a.png" type="Texture" id=16]
+[ext_resource path="res://assets/Other Textures/map_screens/lighthouse_spin.png" type="Texture" id=17]
+[ext_resource path="res://assets/Other Textures/map_screens/water_tower.png" type="Texture" id=18]
+[ext_resource path="res://assets/Other Textures/map_screens/pivot_watertower.png" type="Texture" id=19]
+[ext_resource path="res://assets/Other Textures/map_screens/industrial_hub.png" type="Texture" id=20]
+[ext_resource path="res://assets/Other Textures/map_screens/industrial_superspin.png" type="Texture" id=21]
+[ext_resource path="res://assets/Other Textures/map_screens/superspin_cave.png" type="Texture" id=22]
+[ext_resource path="res://assets/Other Textures/map_screens/rails.png" type="Texture" id=23]
+[ext_resource path="res://assets/Other Textures/map_screens/well_2.png" type="Texture" id=24]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_start.png" type="Texture" id=25]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_hub.png" type="Texture" id=26]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_treasure_one.png" type="Texture" id=27]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_pivot.png" type="Texture" id=28]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_to_lava.png" type="Texture" id=29]
+[ext_resource path="res://assets/Other Textures/map_screens/lava.png" type="Texture" id=30]
+[ext_resource path="res://assets/Other Textures/map_screens/lava_skull.png" type="Texture" id=31]
+[ext_resource path="res://assets/Other Textures/map_screens/lava_fork.png" type="Texture" id=32]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_geyser.png" type="Texture" id=33]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_pillars.png" type="Texture" id=34]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_fork.png" type="Texture" id=35]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_treasure_two.png" type="Texture" id=36]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_lesser_gate_b.png" type="Texture" id=37]
+[ext_resource path="res://assets/Other Textures/map_screens/sewer_qr.png" type="Texture" id=38]
+[ext_resource path="res://assets/Other Textures/map_screens/triple_pivot_cave.png" type="Texture" id=39]
+[ext_resource path="res://assets/Other Textures/map_screens/spinning_plates.png" type="Texture" id=40]
+[ext_resource path="res://assets/Other Textures/map_screens/pivot_one.png" type="Texture" id=41]
+[ext_resource path="res://assets/Other Textures/map_screens/windmill_int.png" type="Texture" id=42]
+[ext_resource path="res://assets/Other Textures/map_screens/windmill_cave.png" type="Texture" id=43]
+[ext_resource path="res://assets/Other Textures/map_screens/pivot_two.png" type="Texture" id=44]
+[ext_resource path="res://assets/Other Textures/map_screens/pivot_three.png" type="Texture" id=45]
+[ext_resource path="res://assets/Other Textures/map_screens/pivot_three_cave.png" type="Texture" id=46]
+[ext_resource path="res://assets/Other Textures/map_screens/extractor_a.png" type="Texture" id=47]
+[ext_resource path="res://assets/Other Textures/map_screens/indust_abandoned_a.png" type="Texture" id=48]
+[ext_resource path="res://assets/Other Textures/map_screens/nuzu_abandoned_b.png" type="Texture" id=49]
+[ext_resource path="res://assets/Other Textures/map_screens/watertower_secret.png" type="Texture" id=50]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_fork.png" type="Texture" id=51]
+[ext_resource path="res://assets/Other Textures/map_screens/arch.png" type="Texture" id=52]
+[ext_resource path="res://assets/Other Textures/map_screens/five_towers.png" type="Texture" id=53]
+[ext_resource path="res://assets/Other Textures/map_screens/five_towers_cave.png" type="Texture" id=54]
+[ext_resource path="res://assets/Other Textures/map_screens/weightswitch_temple.png" type="Texture" id=55]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_switch.png" type="Texture" id=56]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_switch_b.png" type="Texture" id=57]
+[ext_resource path="res://assets/Other Textures/map_screens/bell_tower.png" type="Texture" id=58]
+[ext_resource path="res://assets/Other Textures/map_screens/water_pyramid.png" type="Texture" id=59]
+[ext_resource path="res://assets/Other Textures/map_screens/temple_of_love.png" type="Texture" id=60]
+[ext_resource path="res://assets/Other Textures/map_screens/quantum.png" type="Texture" id=61]
+[ext_resource path="res://assets/Other Textures/map_screens/ancient_walls.png" type="Texture" id=62]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_hole.png" type="Texture" id=63]
+[ext_resource path="res://assets/Other Textures/map_screens/two_walls.png" type="Texture" id=64]
+[ext_resource path="res://assets/Other Textures/map_screens/fractal.png" type="Texture" id=65]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_4_side.png" type="Texture" id=66]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_heads.png" type="Texture" id=67]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_tetris.png" type="Texture" id=68]
+[ext_resource path="res://assets/Other Textures/map_screens/memory_core.png" type="Texture" id=69]
+[ext_resource path="res://assets/Other Textures/map_screens/big_tower.png" type="Texture" id=70]
+[ext_resource path="res://assets/Other Textures/map_screens/gomez_house.png" type="Texture" id=72]
+[ext_resource path="res://assets/Other Textures/map_screens/boileroom.png" type="Texture" id=73]
+[ext_resource path="res://assets/Other Textures/map_screens/school.png" type="Texture" id=74]
+[ext_resource path="res://assets/Other Textures/map_screens/abandoned_a.png" type="Texture" id=75]
+[ext_resource path="res://assets/Other Textures/map_screens/parlor.png" type="Texture" id=76]
+[ext_resource path="res://assets/Other Textures/map_screens/kitchen.png" type="Texture" id=77]
+[ext_resource path="res://assets/Other Textures/map_screens/abandoned_b.png" type="Texture" id=78]
+[ext_resource path="res://assets/Other Textures/map_screens/abandoned_c.png" type="Texture" id=79]
+[ext_resource path="res://assets/Other Textures/map_screens/geezer_house.png" type="Texture" id=80]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_village.png" type="Texture" id=81]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_interior_a.png" type="Texture" id=82]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_interior_b.png" type="Texture" id=83]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_interior_hole.png" type="Texture" id=84]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_kitchen.png" type="Texture" id=85]
+[ext_resource path="res://assets/Other Textures/map_screens/wall_school.png" type="Texture" id=86]
+[ext_resource path="res://assets/Other Textures/map_screens/industrial_city.png" type="Texture" id=87]
+[ext_resource path="res://assets/Other Textures/map_screens/nuzu_school.png" type="Texture" id=88]
+[ext_resource path="res://assets/Other Textures/map_screens/nuzu_boilerroom.png" type="Texture" id=89]
+[ext_resource path="res://assets/Other Textures/map_screens/nuzu_abandoned_a.png" type="Texture" id=90]
+[ext_resource path="res://assets/Other Textures/map_screens/showers.png" type="Texture" id=91]
+[ext_resource path="res://assets/Other Textures/map_screens/nuzu_dorm.png" type="Texture" id=92]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_city.png" type="Texture" id=93]
+[ext_resource path="res://assets/Other Textures/map_screens/stargate.png" type="Texture" id=94]
+[ext_resource path="res://assets/Other Textures/map_screens/oldschool.png" type="Texture" id=95]
+[ext_resource path="res://assets/Other Textures/map_screens/purple_lodge.png" type="Texture" id=96]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_house_scaffolding.png" type="Texture" id=97]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_house_empty.png" type="Texture" id=98]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_house_empty_b.png" type="Texture" id=99]
+[ext_resource path="res://assets/Other Textures/map_screens/tree_roots.png" type="Texture" id=100]
+[ext_resource path="res://assets/Other Textures/map_screens/tree.png" type="Texture" id=101]
+[ext_resource path="res://assets/Other Textures/map_screens/cabin_interior_b.png" type="Texture" id=102]
+[ext_resource path="res://assets/Other Textures/map_screens/grave_cabin.png" type="Texture" id=103]
+[ext_resource path="res://assets/Other Textures/map_screens/graveyard_gate.png" type="Texture" id=104]
+[ext_resource path="res://assets/Other Textures/map_screens/skull.png" type="Texture" id=105]
+[ext_resource path="res://assets/Other Textures/map_screens/skull_b.png" type="Texture" id=106]
+[ext_resource path="res://assets/Other Textures/map_screens/owl.png" type="Texture" id=107]
+[ext_resource path="res://assets/Other Textures/map_screens/big_owl.png" type="Texture" id=108]
+[ext_resource path="res://assets/Other Textures/map_screens/mausoleum.png" type="Texture" id=109]
+[ext_resource path="res://assets/Other Textures/map_screens/graveyard_a.png" type="Texture" id=110]
+[ext_resource path="res://assets/Other Textures/map_screens/grave_lesser_gate.png" type="Texture" id=111]
+[ext_resource path="res://assets/Other Textures/map_screens/grave_treasure_a.png" type="Texture" id=112]
+[ext_resource path="res://assets/Other Textures/map_screens/crypt.png" type="Texture" id=113]
+[ext_resource path="res://assets/Other Textures/map_screens/tree_of_death.png" type="Texture" id=114]
+[ext_resource path="res://assets/Other Textures/map_screens/grave_ghost.png" type="Texture" id=115]
+[ext_resource path="res://assets/Other Textures/map_screens/tree_sky.png" type="Texture" id=116]
+[ext_resource path="res://assets/Other Textures/map_screens/throne.png" type="Texture" id=117]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_bridge.png" type="Texture" id=118]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_city_ruins.png" type="Texture" id=119]
+[ext_resource path="res://assets/Other Textures/map_screens/stargate_ruins.png" type="Texture" id=120]
+[ext_resource path="res://assets/Other Textures/map_screens/observatory.png" type="Texture" id=121]
+[ext_resource path="res://assets/Other Textures/map_screens/telescope.png" type="Texture" id=122]
+[ext_resource path="res://assets/Other Textures/map_screens/visitor.png" type="Texture" id=123]
+[ext_resource path="res://assets/Other Textures/map_screens/orrery.png" type="Texture" id=124]
+[ext_resource path="res://assets/Other Textures/map_screens/orrery_b.png" type="Texture" id=125]
+[ext_resource path="res://assets/Other Textures/map_screens/code_machine.png" type="Texture" id=126]
+[ext_resource path="res://assets/Other Textures/map_screens/clock.png" type="Texture" id=127]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_library.png" type="Texture" id=128]
+[ext_resource path="res://assets/Other Textures/map_screens/library_interior.png" type="Texture" id=129]
+[ext_resource path="res://assets/Other Textures/map_screens/globe.png" type="Texture" id=130]
+[ext_resource path="res://assets/Other Textures/map_screens/globe_int.png" type="Texture" id=131]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_throne_ruins.png" type="Texture" id=132]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_house_ruin_visitors.png" type="Texture" id=133]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_house_qr.png" type="Texture" id=134]
+[ext_resource path="res://assets/Other Textures/map_screens/oldschool_ruins.png" type="Texture" id=135]
+[ext_resource path="res://assets/Other Textures/map_screens/purple_lodge_ruin.png" type="Texture" id=136]
+[ext_resource path="res://assets/Other Textures/map_screens/zu_unfold.png" type="Texture" id=137]
+[ext_resource path="res://assets/Other Textures/map_screens/tree_crumble.png" type="Texture" id=138]
+[ext_resource path="res://assets/Other Textures/map_screens/ritual.png" type="Texture" id=139]
+
+[node name="MapTree" type="Spatial"]
+pause_mode = 1
+
+[node name="NATURE_HUB" parent="." instance=ExtResource( 1 )]
+MapScreen = ExtResource( 2 )
+HasWarpGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 10
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="WATERFALL" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12 )
+visible = false
+MapScreen = ExtResource( 3 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 3,
+"Small Cubes": 1,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="FOX" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+MapScreen = ExtResource( 4 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WATER_WHEEL" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 5 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WATER_WHEEL_B" parent="NATURE_HUB/WATERFALL/WATER_WHEEL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+MapScreen = ExtResource( 6 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="MINE_A" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 7 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="MINE_WRAP" parent="NATURE_HUB/WATERFALL/MINE_A" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 8 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="MINE_BOMB_PILLAR" parent="NATURE_HUB/WATERFALL/MINE_A/MINE_WRAP" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 9 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="CMY" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+MapScreen = ExtResource( 10 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="CMY_B" parent="NATURE_HUB/WATERFALL/CMY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 11 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="CMY_FORK" parent="NATURE_HUB/WATERFALL/CMY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 12 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_CODE_LOOP" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2 )
+MapScreen = ExtResource( 13 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_ZUISH" parent="NATURE_HUB/WATERFALL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2 )
+MapScreen = ExtResource( 14 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="LIGHTHOUSE" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12 )
+MapScreen = ExtResource( 15 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="LIGHTHOUSE_HOUSE_A" parent="NATURE_HUB/LIGHTHOUSE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 16 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="LIGHTHOUSE_SPIN" parent="NATURE_HUB/LIGHTHOUSE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+MapScreen = ExtResource( 17 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="LIGHTHOUSE_SPIN2" parent="NATURE_HUB/LIGHTHOUSE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+MapScreen = ExtResource( 17 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="WATER_TOWER" parent="NATURE_HUB/LIGHTHOUSE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 18 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="PIVOT_WATERTOWER" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+MapScreen = ExtResource( 19 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="INDUSTRIAL_HUB" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+MapScreen = ExtResource( 20 )
+HasWarpGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 10
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="INDUSTRIAL_SUPERSPIN" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+MapScreen = ExtResource( 21 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SUPERSPIN_CAVE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/INDUSTRIAL_SUPERSPIN" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 22 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="RAILS" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+MapScreen = ExtResource( 23 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="WELL_2" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 24 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SEWER_START" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+MapScreen = ExtResource( 25 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SEWER_HUB" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0 )
+MapScreen = ExtResource( 26 )
+HasWarpGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 8
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="SEWER_TREASURE_ONE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -6 )
+MapScreen = ExtResource( 27 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SEWER_PIVOT" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6 )
+MapScreen = ExtResource( 28 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SEWER_TO_LAVA" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+MapScreen = ExtResource( 29 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="LAVA" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_TO_LAVA" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+MapScreen = ExtResource( 30 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="LAVA_SKULL" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_TO_LAVA/LAVA" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 1 )
+MapScreen = ExtResource( 31 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="LAVA_FORK" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_TO_LAVA/LAVA" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -1 )
+MapScreen = ExtResource( 32 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SEWER_GEYSER" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+MapScreen = ExtResource( 33 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SEWER_PILLARS" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_GEYSER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0 )
+MapScreen = ExtResource( 34 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SEWER_FORK" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_GEYSER/SEWER_PILLARS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 35 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SEWER_TREASURE_TWO" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_GEYSER/SEWER_PILLARS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 36 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SEWER_LESSER_GATE_B" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB/SEWER_GEYSER/SEWER_PILLARS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 37 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SEWER_QR" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/WELL_2/SEWER_START/SEWER_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 38 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="TRIPLE_PIVOT_CAVE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 39 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SPINNING_PLATES" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/RAILS/TRIPLE_PIVOT_CAVE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+MapScreen = ExtResource( 40 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="PIVOT_ONE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
+MapScreen = ExtResource( 41 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 3,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="WINDMILL_INT" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 42 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WINDMILL_CAVE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE/WINDMILL_INT" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 43 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="PIVOT_TWO" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
+MapScreen = ExtResource( 44 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="PIVOT_THREE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE/PIVOT_TWO" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 45 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="PIVOT_THREE_CAVE" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE/PIVOT_TWO/PIVOT_THREE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 46 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="EXTRACTOR_A" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB/PIVOT_ONE/PIVOT_TWO" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
+MapScreen = ExtResource( 47 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="INDUST_ABANDONED_A" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -4 )
+MapScreen = ExtResource( 48 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="NUZU_ABANDONED_B" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER/PIVOT_WATERTOWER/INDUSTRIAL_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -4 )
+MapScreen = ExtResource( 49 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WATERTOWER_SECRET" parent="NATURE_HUB/LIGHTHOUSE/WATER_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 50 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_FORK" parent="NATURE_HUB/LIGHTHOUSE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 51 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ARCH" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
+MapScreen = ExtResource( 52 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 2,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 3,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="FIVE_TOWERS" parent="NATURE_HUB/ARCH" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 53 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="FIVE_TOWERS_CAVE" parent="NATURE_HUB/ARCH/FIVE_TOWERS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 54 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WEIGHTSWITCH_TEMPLE" parent="NATURE_HUB/ARCH" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0 )
+MapScreen = ExtResource( 55 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ZU_SWITCH" parent="NATURE_HUB/ARCH/WEIGHTSWITCH_TEMPLE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+MapScreen = ExtResource( 56 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_SWITCH_B" parent="NATURE_HUB/ARCH/WEIGHTSWITCH_TEMPLE/ZU_SWITCH" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 57 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="BELL_TOWER" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 0 )
+MapScreen = ExtResource( 58 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 8
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="WATER_PYRAMID" parent="NATURE_HUB/BELL_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+MapScreen = ExtResource( 59 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="TEMPLE_OF_LOVE" parent="NATURE_HUB/BELL_TOWER/WATER_PYRAMID" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 60 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="QUANTUM" parent="NATURE_HUB/BELL_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6, 0 )
+MapScreen = ExtResource( 61 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ANCIENT_WALLS" parent="NATURE_HUB/BELL_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+MapScreen = ExtResource( 62 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="WALL_HOLE" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+MapScreen = ExtResource( 63 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="TWO_WALLS" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS/WALL_HOLE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 64 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="FRACTAL" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS/WALL_HOLE/TWO_WALLS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 65 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ZU_4_SIDE" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS/WALL_HOLE/TWO_WALLS/FRACTAL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 66 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HEADS" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS/WALL_HOLE/TWO_WALLS/FRACTAL/ZU_4_SIDE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 67 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_TETRIS" parent="NATURE_HUB/BELL_TOWER/ANCIENT_WALLS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 68 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="MEMORY_CORE" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -16, 0 )
+MapScreen = ExtResource( 69 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 3,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="BIG_TOWER" parent="NATURE_HUB/MEMORY_CORE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+MapScreen = ExtResource( 70 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 8,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="VILLAGEVILLE_3D" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 4,
+"Unlocked Doors": 16
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="GOMEZ_HOUSE" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 6 )
+MapScreen = ExtResource( 72 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SCHOOL" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 6 )
+MapScreen = ExtResource( 74 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="BOILEROOM" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 6 )
+MapScreen = ExtResource( 73 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 2,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="PARLOR" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 6 )
+MapScreen = ExtResource( 76 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="KITCHEN" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 6 )
+MapScreen = ExtResource( 77 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="GEEZER_HOUSE" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 6 )
+MapScreen = ExtResource( 80 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ABANDONED_A" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 75 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ABANDONED_B" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 78 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ABANDONED_C" parent="NATURE_HUB/MEMORY_CORE/BIG_TOWER/VILLAGEVILLE_3D" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 79 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WALL_VILLAGE" parent="NATURE_HUB/MEMORY_CORE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+MapScreen = ExtResource( 81 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="WALL_INTERIOR_A" parent="NATURE_HUB/MEMORY_CORE/WALL_VILLAGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 82 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WALL_INTERIOR_B" parent="NATURE_HUB/MEMORY_CORE/WALL_VILLAGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4 )
+MapScreen = ExtResource( 83 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WALL_INTERIOR_HOLE" parent="NATURE_HUB/MEMORY_CORE/WALL_VILLAGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 84 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WALL_KITCHEN" parent="NATURE_HUB/MEMORY_CORE/WALL_VILLAGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4 )
+MapScreen = ExtResource( 85 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="WALL_SCHOOL" parent="NATURE_HUB/MEMORY_CORE/WALL_VILLAGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 86 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="INDUSTRIAL_CITY" parent="NATURE_HUB/MEMORY_CORE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12 )
+MapScreen = ExtResource( 87 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 10
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="NUZU_SCHOOL" parent="NATURE_HUB/MEMORY_CORE/INDUSTRIAL_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4 )
+MapScreen = ExtResource( 88 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="NUZU_BOILERROOM" parent="NATURE_HUB/MEMORY_CORE/INDUSTRIAL_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 89 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="NUZU_ABANDONED_A" parent="NATURE_HUB/MEMORY_CORE/INDUSTRIAL_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 90 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="SHOWERS" parent="NATURE_HUB/MEMORY_CORE/INDUSTRIAL_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 91 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="NUZU_DORM" parent="NATURE_HUB/MEMORY_CORE/INDUSTRIAL_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4 )
+MapScreen = ExtResource( 92 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_CITY" parent="NATURE_HUB/MEMORY_CORE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0 )
+MapScreen = ExtResource( 93 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 10
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="STARGATE" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6, 0 )
+MapScreen = ExtResource( 94 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="OLDSCHOOL" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 95 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="PURPLE_LODGE" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 96 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HOUSE_SCAFFOLDING" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4 )
+MapScreen = ExtResource( 97 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HOUSE_EMPTY" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 98 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HOUSE_EMPTY_B" parent="NATURE_HUB/MEMORY_CORE/ZU_CITY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4 )
+MapScreen = ExtResource( 99 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="TREE_ROOTS" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20, 0 )
+MapScreen = ExtResource( 100 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="TREE" parent="NATURE_HUB/TREE_ROOTS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16, 0 )
+MapScreen = ExtResource( 101 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 2,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="CABIN_INTERIOR_B" parent="NATURE_HUB/TREE_ROOTS/TREE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+MapScreen = ExtResource( 102 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="GRAVE_CABIN" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+MapScreen = ExtResource( 103 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="GRAVEYARD_GATE" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8 )
+MapScreen = ExtResource( 104 )
+HasWarpGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 7,
+"Unlocked Doors": 8
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="SKULL" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 105 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 3,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="SKULL_B" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/SKULL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 106 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="OWL" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 107 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="BIG_OWL" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/OWL" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 108 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 1,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="MAUSOLEUM" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+MapScreen = ExtResource( 109 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 2,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 4,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="GRAVEYARD_A" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0 )
+MapScreen = ExtResource( 110 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 3,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="GRAVE_LESSER_GATE" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM/GRAVEYARD_A" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 111 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="GRAVE_TREASURE_A" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM/GRAVEYARD_A" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 112 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="CRYPT" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 113 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="TREE_OF_DEATH" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM/CRYPT" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 114 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="GRAVE_GHOST" parent="NATURE_HUB/TREE_ROOTS/TREE/CABIN_INTERIOR_B/GRAVE_CABIN/GRAVEYARD_GATE/MAUSOLEUM" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 115 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="TREE_SKY" parent="NATURE_HUB/TREE_ROOTS/TREE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0 )
+MapScreen = ExtResource( 116 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="THRONE" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 117 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 6
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ZU_BRIDGE" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+MapScreen = ExtResource( 118 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 2,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ZU_CITY_RUINS" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+MapScreen = ExtResource( 119 )
+HasWarpGate = true
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 14
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 3.0
+
+[node name="STARGATE_RUINS" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 5 )
+MapScreen = ExtResource( 120 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 2,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="PURPLE_LODGE_RUIN" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 3 )
+MapScreen = ExtResource( 136 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_THRONE_RUINS" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 1 )
+MapScreen = ExtResource( 132 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="OLDSCHOOL_RUINS" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -1 )
+MapScreen = ExtResource( 135 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HOUSE_RUIN_VISITORS" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -3 )
+MapScreen = ExtResource( 133 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_HOUSE_QR" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -5 )
+MapScreen = ExtResource( 134 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="OBSERVATORY" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+MapScreen = ExtResource( 121 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="TELESCOPE" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/OBSERVATORY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 122 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 2,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="VISITOR" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/OBSERVATORY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43051e-06, 0, 6 )
+MapScreen = ExtResource( 123 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 4
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ORRERY" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/OBSERVATORY/VISITOR" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 3 )
+MapScreen = ExtResource( 124 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ORRERY_B" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/OBSERVATORY/VISITOR/ORRERY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+MapScreen = ExtResource( 125 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="CODE_MACHINE" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/OBSERVATORY/VISITOR" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -3 )
+MapScreen = ExtResource( 126 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="CLOCK" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 127 )
+HasLesserGate = true
+_conditions = {
+"Big Cubes": 1,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 4,
+"Small Cubes": 0,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="ZU_LIBRARY" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/CLOCK" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6 )
+MapScreen = ExtResource( 128 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="LIBRARY_INTERIOR" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/CLOCK/ZU_LIBRARY" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 129 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="GLOBE" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/CLOCK/ZU_LIBRARY/LIBRARY_INTERIOR" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4 )
+MapScreen = ExtResource( 130 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 2
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="GLOBE_INT" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE/ZU_BRIDGE/ZU_CITY_RUINS/CLOCK/ZU_LIBRARY/LIBRARY_INTERIOR/GLOBE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+MapScreen = ExtResource( 131 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="ZU_UNFOLD" parent="NATURE_HUB/TREE_ROOTS/TREE/TREE_SKY/THRONE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 137 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 1,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="TREE_CRUMBLE" parent="NATURE_HUB/TREE_ROOTS/TREE" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+MapScreen = ExtResource( 138 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 1,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 0,
+"Small Cubes": 1,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+NodeSize = 2.0
+
+[node name="RITUAL" parent="NATURE_HUB" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+MapScreen = ExtResource( 139 )
+_conditions = {
+"Big Cubes": 0,
+"Chests": 0,
+"Locked Doors": 0,
+"Other": 0,
+"Secrets": 2,
+"Small Cubes": 0,
+"Unlocked Doors": 0
+}
+UnknownColor = Color( 0.5, 0.5, 0.5, 0.5 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.707107, -0.241845, 0.664463, 0, 0.939693, 0.34202, -0.707107, -0.241845, 0.664463, 50, 25, 50 )
+projection = 1
+size = 50.0

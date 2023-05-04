@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/gomez_departs.ogg-59b967cb4ff9b8aef45c0d29d54c6a07.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/gomez_departs.ogg"
+dest_files=[ "res://.import/gomez_departs.ogg-59b967cb4ff9b8aef45c0d29d54c6a07.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

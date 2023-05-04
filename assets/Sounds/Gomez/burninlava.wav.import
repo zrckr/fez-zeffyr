@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/burninlava.wav-2939d949e345c4b09dc8c658f856510a.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/burninlava.wav"
+dest_files=[ "res://.import/burninlava.wav-2939d949e345c4b09dc8c658f856510a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

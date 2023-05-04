@@ -1,0 +1,636 @@
+msgid ""
+msgstr ""
+
+msgid "SignInTitle"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "SplashStart"
+msgstr ""
+
+msgid "SplashExit"
+msgstr ""
+
+msgid "Achievements"
+msgstr ""
+
+msgid "Controls"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+msgid "HelpOptions"
+msgstr ""
+
+msgid "HowToPlay"
+msgstr ""
+
+msgid "Leaderboards"
+msgstr ""
+
+msgid "PauseMenuTitle"
+msgstr ""
+
+msgid "ResumeGame"
+msgstr ""
+
+msgid "StartNewGame"
+msgstr ""
+
+msgid "StartNewGameTextLine"
+msgstr ""
+
+msgid "StartNewGameTitle"
+msgstr ""
+
+msgid "ExitChoiceYes"
+msgstr ""
+
+msgid "ExitConfirmationTitle"
+msgstr ""
+
+msgid "LeaderboardsTitle"
+msgstr ""
+
+msgid "SignInOptionYes"
+msgstr ""
+
+msgid "CurrentLeaderboardView"
+msgstr ""
+
+msgid "FriendsLeaderboardView"
+msgstr ""
+
+msgid "LeaderboardEntriesCount"
+msgstr ""
+
+msgid "LoadingLeaderboard"
+msgstr ""
+
+msgid "MyScoreLeaderboardView"
+msgstr ""
+
+msgid "LeaderboardsNeedLIVE"
+msgstr ""
+
+msgid "OverallLeaderboardView"
+msgstr ""
+
+msgid "MenuBackWithGlyph"
+msgstr ""
+
+msgid "UnlockFullGame"
+msgstr ""
+
+msgid "NoEntriesLeaderboard"
+msgstr ""
+
+msgid "NotRankedInLeaderboard"
+msgstr ""
+
+msgid "ControlsJump"
+msgstr ""
+
+msgid "ControlsAction"
+msgstr ""
+
+msgid "ControlsRotateLeft"
+msgstr ""
+
+msgid "ControlsRotateRight"
+msgstr ""
+
+msgid "ControlsMove"
+msgstr ""
+
+msgid "AchievementInTrialResume"
+msgstr ""
+
+msgid "AchievementInTrialSellText"
+msgstr ""
+
+msgid "AchievementInTrialText"
+msgstr ""
+
+msgid "AchievementInTrialTitle"
+msgstr ""
+
+msgid "UnlockGameWithGlyph"
+msgstr ""
+
+msgid "StartNewGameWithGlyph"
+msgstr ""
+
+msgid "Brightness"
+msgstr ""
+
+msgid "ChangeStorageDevice"
+msgstr ""
+
+msgid "MenuSaveWithGlyph"
+msgstr ""
+
+msgid "ResetToDefault"
+msgstr ""
+
+msgid "MenuCube_Artifacts"
+msgstr ""
+
+msgid "MenuCube_CubeShards"
+msgstr ""
+
+msgid "MenuCube_Maps"
+msgstr ""
+
+msgid "Map_Title"
+msgstr ""
+
+msgid "ReturnToArcade"
+msgstr ""
+
+msgid "ChangeProfileWithXGlyph"
+msgstr ""
+
+msgid "ChangeProfileTitle"
+msgstr ""
+
+msgid "ChangeProfileTextLine"
+msgstr ""
+
+msgid "ContinueGame"
+msgstr ""
+
+msgid "FullGameUnlocked"
+msgstr ""
+
+msgid "ReturnToArcadeTextLine"
+msgstr ""
+
+msgid "MainMenu"
+msgstr ""
+
+msgid "BackToMainMenuTitle"
+msgstr ""
+
+msgid "BackToMenuWithGlyph"
+msgstr ""
+
+msgid "BackToMainMenuTextLine"
+msgstr ""
+
+msgid "SellTitle"
+msgstr ""
+
+msgid "SellButtons"
+msgstr ""
+
+msgid "MapPan"
+msgstr ""
+
+msgid "MapZoom"
+msgstr ""
+
+msgid "MapSpin"
+msgstr ""
+
+msgid "MapLook"
+msgstr ""
+
+msgid "MapBack"
+msgstr ""
+
+msgid "SellButtonsEndTrial"
+msgstr ""
+
+msgid "SaveIndicator"
+msgstr ""
+
+msgid "MenuCube_AntiCubes"
+msgstr ""
+
+msgid "SaveOverwriteWarningTitle"
+msgstr ""
+
+msgid "Stereo3DOn"
+msgstr ""
+
+msgid "Stereo3DOff"
+msgstr ""
+
+msgid "SettingsTitle"
+msgstr ""
+
+msgid "SoundVolume"
+msgstr ""
+
+msgid "MusicVolume"
+msgstr ""
+
+msgid "UnlockNeedsLIVE"
+msgstr ""
+
+msgid "UnlockNeedsLIVETitle"
+msgstr ""
+
+msgid "CorruptedFileTitle"
+msgstr ""
+
+msgid "CorruptedFile"
+msgstr ""
+
+msgid "CorruptedFileYes"
+msgstr ""
+
+msgid "CorruptedFileNo"
+msgstr ""
+
+msgid "SellButtonsPublicDemo"
+msgstr ""
+
+msgid "TrialModeNotice"
+msgstr ""
+
+msgid "ControlsPause"
+msgstr ""
+
+msgid "ControlsTalk"
+msgstr ""
+
+msgid "ControlsLook"
+msgstr ""
+
+msgid "ControlsInventory"
+msgstr ""
+
+msgid "MapLegendSmallGate"
+msgstr ""
+
+msgid "MapLegendWarpGate"
+msgstr ""
+
+msgid "MapLegendTreasure"
+msgstr ""
+
+msgid "MapLegendSecret"
+msgstr ""
+
+msgid "MapLegendBits"
+msgstr ""
+
+msgid "MapLegendCube"
+msgstr ""
+
+msgid "MapLegendLockedDoor"
+msgstr ""
+
+msgid "ShowGamerCard"
+msgstr ""
+
+msgid "VideoSettings"
+msgstr ""
+
+msgid "AudioSettings"
+msgstr ""
+
+msgid "GameSettings"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "LanguageEnglish"
+msgstr ""
+
+msgid "LanguageFrench"
+msgstr ""
+
+msgid "LanguageItalian"
+msgstr ""
+
+msgid "LanguageGerman"
+msgstr ""
+
+msgid "LanguageSpanish"
+msgstr ""
+
+msgid "LanguagePortuguese"
+msgstr ""
+
+msgid "LanguageChinese"
+msgstr ""
+
+msgid "LanguageJapanese"
+msgstr ""
+
+msgid "LanguageKorean"
+msgstr ""
+
+msgid "StartNewGamePlus"
+msgstr ""
+
+msgid "Resolution"
+msgstr ""
+
+msgid "ScreenMode"
+msgstr ""
+
+msgid "MenuApplyWithGlyph"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
+
+msgid "Windowed"
+msgstr ""
+
+msgid "XboxGamepad"
+msgstr ""
+
+msgid "Keyboard"
+msgstr ""
+
+msgid "ChangeMapping"
+msgstr ""
+
+msgid "ControlsToggleFpView"
+msgstr ""
+
+msgid "ControlsClampLook"
+msgstr ""
+
+msgid "ControlsMapZoomIn"
+msgstr ""
+
+msgid "ControlsZoomOut"
+msgstr ""
+
+msgid "KeyboardRightShift"
+msgstr ""
+
+msgid "KeyboardArrows"
+msgstr ""
+
+msgid "KeyboardLeftControl"
+msgstr ""
+
+msgid "KeyboardEnter"
+msgstr ""
+
+msgid "KeyboardEscape"
+msgstr ""
+
+msgid "KeyboardCapsLock"
+msgstr ""
+
+msgid "KeyboardTab"
+msgstr ""
+
+msgid "KeyboardDelete"
+msgstr ""
+
+msgid "KeyboardLeftShift"
+msgstr ""
+
+msgid "KeyboardRightControl"
+msgstr ""
+
+msgid "KeyboardBack"
+msgstr ""
+
+msgid "ChangeWithGlyph"
+msgstr ""
+
+msgid "KeyboardLeftAlt"
+msgstr ""
+
+msgid "KeyboardRightAlt"
+msgstr ""
+
+msgid "SaveSlotTitle"
+msgstr ""
+
+msgid "NewSlot"
+msgstr ""
+
+msgid "ChooseWithGlyph"
+msgstr ""
+
+msgid "SaveSlotPrefix"
+msgstr ""
+
+msgid "SaveManagementTitle"
+msgstr ""
+
+msgid "SaveClearTitle"
+msgstr ""
+
+msgid "SaveCopyTitle"
+msgstr ""
+
+msgid "SaveChangeSlot"
+msgstr ""
+
+msgid "SaveChangeWarning"
+msgstr ""
+
+msgid "SaveCopyWarning"
+msgstr ""
+
+msgid "SaveCopySourceTitle"
+msgstr ""
+
+msgid "SaveCopyDestTitle"
+msgstr ""
+
+msgid "SaveClearWarning"
+msgstr ""
+
+msgid "RecommendedResolution"
+msgstr ""
+
+msgid "ExitWithGlyph"
+msgstr ""
+
+msgid "OtherGamepad"
+msgstr ""
+
+msgid "ChangeGamepadMapping"
+msgstr ""
+
+msgid "GamepadButton"
+msgstr ""
+
+msgid "KeyboardNone"
+msgstr ""
+
+msgid "KeyboardTilde"
+msgstr ""
+
+msgid "KeyboardLeftWindows"
+msgstr ""
+
+msgid "KeyboardMinus"
+msgstr ""
+
+msgid "KeyboardPlus"
+msgstr ""
+
+msgid "KeyboardOpenBrackets"
+msgstr ""
+
+msgid "KeyboardCloseBrackets"
+msgstr ""
+
+msgid "KeyboardSemicolon"
+msgstr ""
+
+msgid "KeyboardPipe"
+msgstr ""
+
+msgid "KeyboardComma"
+msgstr ""
+
+msgid "KeyboardPeriod"
+msgstr ""
+
+msgid "KeyboardQuestion"
+msgstr ""
+
+msgid "KeyboardInsert"
+msgstr ""
+
+msgid "KeyboardHome"
+msgstr ""
+
+msgid "KeyboardEnd"
+msgstr ""
+
+msgid "KeyboardPageUp"
+msgstr ""
+
+msgid "KeyboardPageDown"
+msgstr ""
+
+msgid "KeyboardNumLock"
+msgstr ""
+
+msgid "KeyboardDivide"
+msgstr ""
+
+msgid "KeyboardMultiply"
+msgstr ""
+
+msgid "KeyboardAdd"
+msgstr ""
+
+msgid "KeyboardDecimal"
+msgstr ""
+
+msgid "KeyboardPause"
+msgstr ""
+
+msgid "KeyboardQuotes"
+msgstr ""
+
+msgid "KeyboardRightWindows"
+msgstr ""
+
+msgid "KeyboardScroll"
+msgstr ""
+
+msgid "KeyboardSpace"
+msgstr ""
+
+msgid "KeyboardNumPad0"
+msgstr ""
+
+msgid "KeyboardNumPad1"
+msgstr ""
+
+msgid "KeyboardNumPad2"
+msgstr ""
+
+msgid "KeyboardNumPad3"
+msgstr ""
+
+msgid "KeyboardNumPad4"
+msgstr ""
+
+msgid "KeyboardNumPad5"
+msgstr ""
+
+msgid "KeyboardNumPad6"
+msgstr ""
+
+msgid "KeyboardNumPad7"
+msgstr ""
+
+msgid "KeyboardNumPad8"
+msgstr ""
+
+msgid "KeyboardNumPad9"
+msgstr ""
+
+msgid "Vibration"
+msgstr ""
+
+msgid "Borderless"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "HardwareInstancing"
+msgstr ""
+
+msgid "VSync"
+msgstr ""
+
+msgid "Lighting"
+msgstr ""
+
+msgid "MSAA"
+msgstr ""
+
+msgid "Steamworks"
+msgstr ""
+
+msgid "PauseOnLostFocus"
+msgstr ""
+
+msgid "Singlethreaded"
+msgstr ""
+
+msgid "RequiresRestart"
+msgstr ""
+
+msgid "ControllerSupport"
+msgstr ""
+
+msgid "Controller"
+msgstr ""
+
+msgid "DeadZone"
+msgstr ""
+
+msgid "Supersampling"
+msgstr ""
+
+msgid "PixelPerfect"
+msgstr ""
+
+msgid "FullAspect"
+msgstr ""
+
+msgid "ScaleMode"
+msgstr ""
+
+msgid "HiDpiMode"
+msgstr ""
+

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/talkloopgirl.wav-b814afb780406ed27e30e5a94f7cb1d1.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Npc/talkloopgirl.wav"
+dest_files=[ "res://.import/talkloopgirl.wav-b814afb780406ed27e30e5a94f7cb1d1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

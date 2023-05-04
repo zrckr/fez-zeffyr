@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/water_waves.ogg-808f2ec00f4bdb34acfe3c343ae36956.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/water_waves.ogg"
+dest_files=[ "res://.import/water_waves.ogg-808f2ec00f4bdb34acfe3c343ae36956.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

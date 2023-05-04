@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian_ostinato_2bars.ogg-7725c1036a5c95faf2c103a696368f90.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/dorian_ostinato_2bars.ogg"
+dest_files=[ "res://.import/dorian_ostinato_2bars.ogg-7725c1036a5c95faf2c103a696368f90.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

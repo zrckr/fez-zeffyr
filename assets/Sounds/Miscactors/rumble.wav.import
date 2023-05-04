@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/rumble.wav-c2b4dd325a6439160cb790a48d22cc35.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Miscactors/rumble.wav"
+dest_files=[ "res://.import/rumble.wav-c2b4dd325a6439160cb790a48d22cc35.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

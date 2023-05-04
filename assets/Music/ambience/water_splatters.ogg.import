@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/water_splatters.ogg-793c5cef911fc3584ea224a9c5fb6d73.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/water_splatters.ogg"
+dest_files=[ "res://.import/water_splatters.ogg-793c5cef911fc3584ea224a9c5fb6d73.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

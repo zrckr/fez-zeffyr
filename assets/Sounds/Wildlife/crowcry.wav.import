@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/crowcry.wav-53e390c56b84584b867c47c18d0c6a3f.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/crowcry.wav"
+dest_files=[ "res://.import/crowcry.wav-53e390c56b84584b867c47c18d0c6a3f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

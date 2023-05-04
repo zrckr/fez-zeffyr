@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/day_pad_a.ogg-9a535ddf6f6826fd080aab118866c582.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/forgotten/day_pad_a.ogg"
+dest_files=[ "res://.import/day_pad_a.ogg-9a535ddf6f6826fd080aab118866c582.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

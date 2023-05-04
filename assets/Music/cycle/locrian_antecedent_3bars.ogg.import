@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/locrian_antecedent_3bars.ogg-35045f66045e4f1ed640b7a1d22a279d.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/locrian_antecedent_3bars.ogg"
+dest_files=[ "res://.import/locrian_antecedent_3bars.ogg-35045f66045e4f1ed640b7a1d22a279d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

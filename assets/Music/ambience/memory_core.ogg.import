@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/memory_core.ogg-bf8322c58584471b840ce87e3b93db68.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/ambience/memory_core.ogg"
+dest_files=[ "res://.import/memory_core.ogg-bf8322c58584471b840ce87e3b93db68.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

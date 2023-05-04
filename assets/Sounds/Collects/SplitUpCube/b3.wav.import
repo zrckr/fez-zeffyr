@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/b3.wav-1de80bd42a16d02a0d5ddb4998efb74b.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Collects/SplitUpCube/b3.wav"
+dest_files=[ "res://.import/b3.wav-1de80bd42a16d02a0d5ddb4998efb74b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

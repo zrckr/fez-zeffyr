@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hatfinalthrow.wav-973907e9878e6a6cf2430a8add6136ac.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/hatfinalthrow.wav"
+dest_files=[ "res://.import/hatfinalthrow.wav-973907e9878e6a6cf2430a8add6136ac.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

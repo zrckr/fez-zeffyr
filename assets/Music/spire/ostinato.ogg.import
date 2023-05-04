@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ostinato.ogg-5f72ae4eaae3ed32907559ab72964090.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/spire/ostinato.ogg"
+dest_files=[ "res://.import/ostinato.ogg-5f72ae4eaae3ed32907559ab72964090.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

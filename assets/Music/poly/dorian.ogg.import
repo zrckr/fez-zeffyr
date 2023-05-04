@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian.ogg-2b40686a4ac542bc45e345d354802874.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/poly/dorian.ogg"
+dest_files=[ "res://.import/dorian.ogg-2b40686a4ac542bc45e345d354802874.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

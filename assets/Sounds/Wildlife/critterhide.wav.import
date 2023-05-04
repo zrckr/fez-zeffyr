@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/critterhide.wav-acaa882ac2aa0e699fa210d2a75721ed.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/critterhide.wav"
+dest_files=[ "res://.import/critterhide.wav-acaa882ac2aa0e699fa210d2a75721ed.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

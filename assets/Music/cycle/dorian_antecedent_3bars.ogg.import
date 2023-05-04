@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/dorian_antecedent_3bars.ogg-b01acf316b7ba69f2199805abfd5f1b6.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/cycle/dorian_antecedent_3bars.ogg"
+dest_files=[ "res://.import/dorian_antecedent_3bars.ogg-b01acf316b7ba69f2199805abfd5f1b6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

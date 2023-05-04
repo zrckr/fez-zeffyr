@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/caterpillarcrap.wav-2180adfa432dd6384c9d3da1fc8f433d.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Wildlife/caterpillarcrap.wav"
+dest_files=[ "res://.import/caterpillarcrap.wav-2180adfa432dd6384c9d3da1fc8f433d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

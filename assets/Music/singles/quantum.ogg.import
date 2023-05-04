@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/quantum.ogg-9c5d95fd4b55d986f6d4a69d0728f64c.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/singles/quantum.ogg"
+dest_files=[ "res://.import/quantum.ogg-9c5d95fd4b55d986f6d4a69d0728f64c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

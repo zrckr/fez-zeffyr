@@ -1,0 +1,145 @@
+{
+    "asset" : {
+        "copyright" : "Copyright \u00a9 Zerocker 2020",
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "food_stuff_2ao"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "food_stuff_2ao",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "food_stuff_2ao",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 4,
+            "mimeType" : "image/png",
+            "name" : "food_stuff_2ao"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 32,
+            "max" : [
+                -0.3125,
+                -0.2499999850988388,
+                -0.3125
+            ],
+            "min" : [
+                -0.5,
+                -0.5,
+                -0.5
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 256,
+            "byteOffset" : 768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 1024
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 1096
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9728,
+            "minFilter" : 9984
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1276,
+            "uri" : "data:application/octet-stream;base64,AACgvv///74AAAC/AACgvv//f74AAKC+AACgvv//f74AAAC/AACgvv///74AAAC/AACgvgAAAL8BAKC+AACgvv//f74AAKC+AAAAvwAAAL8BAKC+AACgvv//f74AAKC+AACgvgAAAL8BAKC+AAAAvwAAAL8BAKC+AAAAv///f74AAKC+AACgvv//f74AAKC+AAAAv///f74AAAC/AACgvv//f74AAKC+AAAAv///f74AAKC+AACgvv//f74AAAC/AAAAv////74AAAC/AACgvv///74AAAC/AACgvv//f74AAAC/AAAAv///f74AAAC/AAAAv////74AAAC/AAAAvwAAAL8BAKC+AACgvgAAAL8BAKC+AAAAv////74AAAC/AACgvgAAAL8BAKC+AACgvv///74AAAC/AAAAv////74AAAC/AAAAv///f74AAAC/AAAAv///f74AAKC+AAAAv////74AAAC/AAAAv///f74AAKC+AAAAvwAAAL8BAKC+//9/vwAAAAAAAACA//9/vwAAAAAAAACA//9/vwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAAAAAKuqqjQAAIC/AAAAAKuqqjQAAIC/AAAAAKuqqjQAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD+vqio0AAAAAAAAgD+vqio0AAAAAAAAgD+vqio0AAAAAAAAgD+rqio0AAAAAAAAgD+rqio0AAAAAAAAgD+rqio0//9/PwAAAAAAAACA//9/PwAAAAAAAACA//9/PwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAq6qqPgAAgD+rqpo+AABAP6uqqj4AAEA/q6qqPgAAgD+rqpo+AACAP6uqmj4AAEA/AAAAAAAAgD8AAAA9AABAPwAAAD0AAIA/AAAAAAAAgD8AAAAAAABAPwAAAD0AAEA/q6oqPwAAAACrqjI/AABAPquqKj8AAEA+q6oyPwAAAAAAAAA/AACAPwAA8D4AAIA/AADwPgAAQD8AAAA/AABAP1ZVVT8AAIA/VlVVPwAAUD9WVV0/AABQP1ZVVT8AAIA/VlVdPwAAUD9WVV0/AACAPwAAAD8AAIA/AAAAPwAAQD8AAAg/AABAPwAAAD8AAIA/AAAIPwAAQD8AAAg/AACAPwAAAQACAAMABAAFAAYABwAIAAkACgALAAwADQAOAAwADwANABAAEQASABAAEgATABQAFQAWABcAGAAZABoAGwAcAB0AHgAfAIlQTkcNChoKAAAADUlIRFIAAABgAAAAEAgGAAAA6bp6+QAAAHtJREFUeJzt1bENgDAMRNHMScEcLOBRKJiB4UAUliJKTvIh+ReXznbiV2RExNU5+3lIWbZVynAvwB0AAPAvAYDGAQAA/xIAaBwAAPAvAYDGsQM8RzarerQ6c65Xe/0KoAIhB3+d965X7w8AAADYASr/gXm4ApD16v3dADcRcnj6IoBozAAAAABJRU5ErkJggg=="
+        }
+    ]
+}

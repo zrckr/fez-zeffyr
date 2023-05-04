@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hexawarpin.wav-5fddaef2c7d0cb85380e3c1a525d60e0.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Zu/hexawarpin.wav"
+dest_files=[ "res://.import/hexawarpin.wav-5fddaef2c7d0cb85380e3c1a525d60e0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

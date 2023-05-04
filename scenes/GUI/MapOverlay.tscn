@@ -1,0 +1,265 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/Other Textures/map_controls/icons_legend.png" type="Texture" id=1]
+[ext_resource path="res://assets/Fonts/default.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.0627451, 0.0627451, 0.0627451, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 4.0
+content_margin_right = 4.0
+bg_color = Color( 0.768627, 0.705882, 0.541176, 1 )
+border_color = Color( 0.894118, 0.866667, 0.682353, 1 )
+shadow_offset = Vector2( 0, 1 )
+
+[sub_resource type="DynamicFont" id=4]
+use_mipmaps = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.0627451, 0.0627451, 0.0627451, 1 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 24, 168 )
+
+[node name="MapOverlay" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Controls" type="PanelContainer" parent="."]
+visible = false
+anchor_left = 0.95
+anchor_top = 0.05
+anchor_right = 0.95
+anchor_bottom = 0.05
+margin_left = -176.0
+margin_right = -4.0
+margin_bottom = 138.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Controls"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 164.0
+margin_bottom = 130.0
+custom_constants/separation = 16
+
+[node name="Labels" type="VBoxContainer" parent="Controls/HBoxContainer"]
+margin_right = 84.0
+margin_bottom = 122.0
+custom_constants/separation = 8
+
+[node name="Pan" type="Label" parent="Controls/HBoxContainer/Labels"]
+margin_right = 84.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 2 )
+text = "MapPan"
+valign = 1
+uppercase = true
+
+[node name="Zoom" type="Label" parent="Controls/HBoxContainer/Labels"]
+margin_top = 26.0
+margin_right = 84.0
+margin_bottom = 44.0
+custom_fonts/font = SubResource( 2 )
+text = "MapZoom"
+valign = 1
+uppercase = true
+
+[node name="Spin" type="Label" parent="Controls/HBoxContainer/Labels"]
+margin_top = 52.0
+margin_right = 84.0
+margin_bottom = 70.0
+custom_fonts/font = SubResource( 2 )
+text = "MapSpin"
+valign = 1
+uppercase = true
+
+[node name="Look" type="Label" parent="Controls/HBoxContainer/Labels"]
+margin_top = 78.0
+margin_right = 84.0
+margin_bottom = 96.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLook"
+valign = 1
+uppercase = true
+
+[node name="Back" type="Label" parent="Controls/HBoxContainer/Labels"]
+margin_top = 104.0
+margin_right = 84.0
+margin_bottom = 122.0
+custom_fonts/font = SubResource( 2 )
+text = "MapBack"
+valign = 1
+uppercase = true
+
+[node name="Buttons" type="VBoxContainer" parent="Controls/HBoxContainer"]
+margin_left = 100.0
+margin_right = 156.0
+margin_bottom = 122.0
+custom_constants/separation = 8
+
+[node name="Button1" type="Label" parent="Controls/HBoxContainer/Buttons"]
+margin_right = 56.0
+margin_bottom = 18.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Pan"
+align = 1
+valign = 1
+
+[node name="Button2" type="Label" parent="Controls/HBoxContainer/Buttons"]
+margin_top = 26.0
+margin_right = 56.0
+margin_bottom = 44.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Enter"
+align = 1
+valign = 1
+
+[node name="Button3" type="Label" parent="Controls/HBoxContainer/Buttons"]
+margin_top = 52.0
+margin_right = 56.0
+margin_bottom = 70.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Spin"
+align = 1
+valign = 1
+
+[node name="Button4" type="Label" parent="Controls/HBoxContainer/Buttons"]
+margin_top = 78.0
+margin_right = 56.0
+margin_bottom = 96.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Enter"
+align = 1
+valign = 1
+
+[node name="Button5" type="Label" parent="Controls/HBoxContainer/Buttons"]
+margin_top = 104.0
+margin_right = 56.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Back"
+align = 1
+valign = 1
+
+[node name="Legend" type="PanelContainer" parent="."]
+anchor_left = 0.05
+anchor_top = 0.95
+anchor_right = 0.05
+anchor_bottom = 0.95
+margin_top = -184.0
+margin_right = 268.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBox" type="HBoxContainer" parent="Legend"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 268.0
+margin_bottom = 176.0
+custom_constants/separation = 12
+
+[node name="Icons" type="TextureRect" parent="Legend/HBox"]
+margin_right = 24.0
+margin_bottom = 168.0
+texture = SubResource( 6 )
+
+[node name="Labels" type="VBoxContainer" parent="Legend/HBox"]
+margin_left = 36.0
+margin_right = 260.0
+margin_bottom = 168.0
+custom_constants/separation = 7
+
+[node name="Warp Gate" type="Label" parent="Legend/HBox/Labels"]
+margin_right = 224.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendWarpGate"
+valign = 1
+uppercase = true
+
+[node name="Small Gate" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 25.0
+margin_right = 224.0
+margin_bottom = 43.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendSmallGate"
+valign = 1
+uppercase = true
+
+[node name="Treasure" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 50.0
+margin_right = 224.0
+margin_bottom = 68.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendTreasure"
+valign = 1
+uppercase = true
+
+[node name="Locked Door" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 75.0
+margin_right = 224.0
+margin_bottom = 93.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendLockedDoor"
+valign = 1
+uppercase = true
+
+[node name="Big Cubes" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 100.0
+margin_right = 224.0
+margin_bottom = 118.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendCube"
+valign = 1
+uppercase = true
+
+[node name="Small Cubes" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 125.0
+margin_right = 224.0
+margin_bottom = 143.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendBits"
+valign = 1
+uppercase = true
+
+[node name="Secret" type="Label" parent="Legend/HBox/Labels"]
+margin_top = 150.0
+margin_right = 224.0
+margin_bottom = 168.0
+custom_fonts/font = SubResource( 2 )
+text = "MapLegendSecret"
+valign = 1
+uppercase = true

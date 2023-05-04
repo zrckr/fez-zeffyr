@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/climboverladder.wav-2555c626719ce1cd70fa1a3d0ae0a5d7.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Gomez/climboverladder.wav"
+dest_files=[ "res://.import/climboverladder.wav-2555c626719ce1cd70fa1a3d0ae0a5d7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

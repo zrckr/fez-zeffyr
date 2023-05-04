@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scenes/GUI/InGameHud.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Components/Main.cs" type="Script" id=2]
+[ext_resource path="res://scenes/GUI/GameMenu.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/Fonts/default.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://scenes/GUI/MapOverlay.tscn" type="PackedScene" id=5]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[node name="Main" type="Node"]
+pause_mode = 2
+script = ExtResource( 2 )
+NewGameLevel = "res://assets/Levels/villageville_3d.tscn"
+WorldMapScene = "res://scenes/Map/WorldMap.tscn"
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 128
+
+[node name="Watermark" type="Label" parent="UI"]
+modulate = Color( 1, 1, 1, 0.75 )
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -250.0
+margin_bottom = 76.0
+custom_styles/normal = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
+custom_constants/shadow_offset_x = 2
+custom_constants/shadow_offset_y = 2
+text = "Zeffyr Dreamworld
+Ported by Zerocker @ 2021
+Assets by Polytron © 2012"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InGameHud" parent="UI" instance=ExtResource( 1 )]
+
+[node name="GameMenu" parent="UI" instance=ExtResource( 3 )]
+
+[node name="MapOverlay" parent="UI" instance=ExtResource( 5 )]
+visible = false

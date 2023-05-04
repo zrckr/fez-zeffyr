@@ -1,0 +1,139 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://scenes/Gomez.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/GameCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/Trilesets/untitled.meshlib" type="MeshLibrary" id=3]
+[ext_resource path="res://assets/Art Objects/int_boiler_pipeao.gltf" type="PackedScene" id=4]
+[ext_resource path="res://assets/Art Objects/int_mop_bucketao.gltf" type="PackedScene" id=5]
+[ext_resource path="res://assets/Art Objects/int_parlor_books_aao.gltf" type="PackedScene" id=6]
+[ext_resource path="res://assets/Art Objects/int_mugao.gltf" type="PackedScene" id=7]
+[ext_resource path="res://scenes/AntiCube.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/Art Objects/int_chairao.gltf" type="PackedScene" id=9]
+[ext_resource path="res://assets/Art Objects/int_boilerao.gltf" type="PackedScene" id=10]
+[ext_resource path="res://assets/Art Objects/int_boiler_tableao.gltf" type="PackedScene" id=11]
+[ext_resource path="res://assets/Background Planes/boileroom_a.png" type="Texture" id=12]
+[ext_resource path="res://assets/Background Planes/boileroom_d.png" type="Texture" id=13]
+[ext_resource path="res://assets/Background Planes/boileroom_b.png" type="Texture" id=14]
+[ext_resource path="res://assets/Background Planes/boileroom_c.png" type="Texture" id=15]
+[ext_resource path="res://scenes/ChangeLevel.tscn" type="PackedScene" id=16]
+[ext_resource path="res://src/Components/Level.cs" type="Script" id=17]
+
+[sub_resource type="Environment" id=1]
+background_mode = 1
+
+[node name="BOILEROOM" type="Spatial"]
+script = ExtResource( 17 )
+
+[node name="Triles" type="GridMap" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, 0.5 )
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+collision_layer = 0
+collision_mask = 0
+data = {
+"cells": PoolIntArray( 393222, 7, 194, 393229, 7, 1441986, 458758, 7, 192, 458765, 7, 1441984, 524294, 7, 193, 524301, 7, 1441985, 589830, 7, 192, 589837, 7, 1441984, 655366, 7, 193, 655373, 7, 1441985, 720902, 7, 193, 720909, 7, 1441985, 786438, 7, 195, 786445, 7, 1441987, 393223, 8, 198, 393224, 8, 197, 393225, 8, 198, 393226, 8, 197, 393227, 8, 198, 393228, 8, 197, 458759, 8, 159, 458760, 8, 159, 458761, 8, 159, 524295, 8, 159, 524296, 8, 159, 524297, 8, 159, 589831, 8, 159, 589832, 8, 159, 589833, 8, 159, 655367, 8, 159, 655368, 8, 159, 655369, 8, 159, 851975, 8, 655556, 851976, 8, 655551, 851977, 8, 655556, 851978, 8, 655556, 851979, 8, 655551, 851980, 8, 655556, 393223, 9, 197, 393224, 9, 197, 393225, 9, 197, 393226, 9, 197, 393227, 9, 197, 393228, 9, 198, 458759, 9, 159, 458760, 9, 159, 458761, 9, 159, 524295, 9, 159, 524296, 9, 159, 524297, 9, 159, 589831, 9, 159, 589832, 9, 159, 589833, 9, 159, 655367, 9, 159, 655368, 9, 159, 655369, 9, 159, 851975, 9, 655551, 851976, 9, 655556, 851977, 9, 655556, 851978, 9, 655556, 851979, 9, 655556, 851980, 9, 655556, 393223, 10, 198, 393224, 10, 197, 393225, 10, 197, 393226, 10, 197, 393227, 10, 197, 393228, 10, 197, 458759, 10, 159, 458760, 10, 159, 458761, 10, 159, 524295, 10, 159, 524296, 10, 159, 524297, 10, 159, 589831, 10, 159, 589832, 10, 159, 589833, 10, 159, 655367, 10, 159, 655368, 10, 159, 655369, 10, 159, 851975, 10, 655556, 851976, 10, 655556, 851977, 10, 655556, 851978, 10, 655556, 851979, 10, 655556, 851980, 10, 655551, 393223, 11, 197, 393224, 11, 197, 393225, 11, 197, 393226, 11, 197, 393227, 11, 197, 393228, 11, 198, 589832, 11, 159, 655368, 11, 159, 720904, 11, 159, 786440, 11, 159, 851975, 11, 655551, 851976, 11, 655556, 851977, 11, 655556, 851978, 11, 655556, 851979, 11, 655556, 851980, 11, 655551, 393223, 12, 197, 393224, 12, 197, 393225, 12, 197, 393226, 12, 197, 393227, 12, 197, 393228, 12, 197, 458759, 12, 160, 851975, 12, 655556, 851976, 12, 655556, 851977, 12, 655556, 851978, 12, 655556, 851979, 12, 655556, 851980, 12, 655556, 393223, 13, 197, 393224, 13, 197, 393225, 13, 197, 393226, 13, 197, 393227, 13, 197, 393228, 13, 197, 720906, 13, 159, 720907, 13, 159, 720908, 13, 159, 786444, 13, 159, 851975, 13, 655551, 851976, 13, 655556, 851977, 13, 655556, 851978, 13, 655556, 851979, 13, 655556, 851980, 13, 655556, 393223, 14, 197, 393224, 14, 197, 393225, 14, 197, 393226, 14, 197, 393227, 14, 197, 393228, 14, 198, 720906, 14, 159, 851975, 14, 655556, 851976, 14, 655556, 851977, 14, 655556, 851978, 14, 655556, 851979, 14, 655556, 851980, 14, 655551, 393223, 15, 198, 393224, 15, 197, 393225, 15, 197, 393226, 15, 198, 393227, 15, 197, 393228, 15, 197, 720906, 15, 159, 851975, 15, 655556, 851976, 15, 655551, 851977, 15, 655556, 851978, 15, 655551, 851979, 15, 655556, 851980, 15, 655556, 393222, 16, 1048770, 393229, 16, 655554, 458758, 16, 1048768, 458765, 16, 655553, 524294, 16, 1048769, 524301, 16, 655552, 589830, 16, 1048768, 589837, 16, 655553, 655366, 16, 1048768, 655373, 16, 655553, 720902, 16, 1048769, 720909, 16, 655552, 786438, 16, 1048771, 786445, 16, 655555 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 7, 0 )
+}
+
+[node name="Gomez" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 7.5, 14.5 )
+
+[node name="GameCamera" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 10, 10, 12 )
+PixelsPerTrixel = 4
+CanFollow = false
+TargetPath = NodePath("../Gomez")
+
+[node name="Groups" type="Spatial" parent="."]
+
+[node name="Arts" type="Spatial" parent="."]
+
+[node name="3" parent="Arts" instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.125, 8.5, 11.375 )
+
+[node name="1" parent="Arts" instance=ExtResource( 11 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 7.75, 9, 12 )
+
+[node name="2" parent="Arts" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.1875, 7.5, 11.6875 )
+
+[node name="0" parent="Arts" instance=ExtResource( 10 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 11, 9.5 )
+
+[node name="4" parent="Arts" instance=ExtResource( 7 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 7.875, 8.5, 11.9375 )
+
+[node name="5" parent="Arts" instance=ExtResource( 4 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 12, 11, 14 )
+
+[node name="6" parent="Arts" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 12, 8, 14.9375 )
+
+[node name="AntiCube" parent="Arts" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5, 10, 12 )
+
+[node name="Planes" type="Spatial" parent="."]
+
+[node name="boileroom_d" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, -1, 0, 1, 0, 1, 0, 0, 13, 10, 12 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 13 )
+
+[node name="boileroom_b" type="Sprite3D" parent="Planes"]
+transform = Transform( -1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 10, 16 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 14 )
+
+[node name="boileroom_a" type="Sprite3D" parent="Planes"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 7, 10, 12 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 12 )
+
+[node name="boileroom_c" type="Sprite3D" parent="Planes"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 10, 8 )
+pixel_size = 0.0625
+shaded = true
+double_sided = false
+alpha_cut = 2
+texture = ExtResource( 15 )
+
+[node name="Volumes" type="Spatial" parent="."]
+
+[node name="0" parent="Volumes" instance=ExtResource( 16 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.5, 8, 14.5 )
+VolumeId = 2
+NextLevel = "villageville_3d"
+
+[node name="Npcs" type="Spatial" parent="."]
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
+
+[node name="Sun" type="DirectionalLight" parent="."]
+transform = Transform( 0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 10, 10, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0
+
+[node name="Sun2" type="DirectionalLight" parent="Sun"]
+transform = Transform( 0.883022, -0.321394, 0.34202, -0.34202, -0.939693, 0, 0.321394, -0.116978, -0.939692, 0, 0, 0 )
+light_energy = 1.25
+light_specular = 0.0
+light_bake_mode = 2
+directional_shadow_mode = 0

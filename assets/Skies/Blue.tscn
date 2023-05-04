@@ -1,0 +1,110 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://assets/Skies/blue/cloud4.png" type="Texture" id=1]
+[ext_resource path="res://assets/Skies/blue/cloud3.png" type="Texture" id=2]
+[ext_resource path="res://assets/Skies/blue/cloud2.png" type="Texture" id=3]
+[ext_resource path="res://assets/Skies/blue/stars.png" type="Texture" id=4]
+[ext_resource path="res://assets/Skies/blue/shadows.png" type="Texture" id=5]
+[ext_resource path="res://assets/Skies/blue/cloud1.png" type="Texture" id=6]
+[ext_resource path="res://assets/Skies/blue/cloud0.png" type="Texture" id=7]
+[ext_resource path="res://assets/Shaders/invert.shader" type="Shader" id=8]
+[ext_resource path="res://src/Components/SkyHandler.cs" type="Script" id=9]
+[ext_resource path="res://assets/Skies/blue/skyback.png" type="Texture" id=10]
+
+[sub_resource type="Gradient" id=1]
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+width = 720
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = ExtResource( 8 )
+
+[sub_resource type="CanvasItemMaterial" id=4]
+blend_mode = 2
+
+[sub_resource type="CanvasItemMaterial" id=5]
+blend_mode = 1
+
+[node name="SkyHandler" type="CanvasLayer"]
+layer = -2
+script = ExtResource( 9 )
+Background = ExtResource( 10 )
+
+[node name="SkyRect" type="Sprite" parent="."]
+rotation = 1.5708
+scale = Vector2( 1, -1280 )
+z_index = -1
+texture = SubResource( 2 )
+centered = false
+
+[node name="Clouds" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Cloud0" type="Sprite" parent="Clouds"]
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 88, 72 )
+texture = ExtResource( 7 )
+centered = false
+
+[node name="Cloud1" type="Sprite" parent="Clouds"]
+visible = false
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 376, 216 )
+texture = ExtResource( 6 )
+centered = false
+
+[node name="Cloud2" type="Sprite" parent="Clouds"]
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 840, 48 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="Cloud3" type="Sprite" parent="Clouds"]
+visible = false
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 576, 112 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Cloud4" type="Sprite" parent="Clouds"]
+visible = false
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 976, 160 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Cloud5" type="Sprite" parent="Clouds"]
+modulate = Color( 1, 1, 1, 0.498039 )
+material = SubResource( 3 )
+position = Vector2( 656, 176 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 6 )
+centered = false
+
+[node name="Shadows" type="CanvasLayer" parent="."]
+
+[node name="Texture" type="Sprite" parent="Shadows"]
+modulate = Color( 1, 1, 1, 0.33 )
+material = SubResource( 4 )
+position = Vector2( 8, 8.00006 )
+scale = Vector2( 2.5, 2.5 )
+z_index = 8
+texture = ExtResource( 5 )
+centered = false
+
+[node name="Stars" type="Sprite" parent="."]
+material = SubResource( 5 )
+position = Vector2( 656, 360 )
+scale = Vector2( 2.8, 2.8 )
+texture = ExtResource( 4 )
+
+[node name="Layers" type="Node" parent="."]
+
+[node name="Layer1" type="ParallaxBackground" parent="Layers"]
+layer = 2

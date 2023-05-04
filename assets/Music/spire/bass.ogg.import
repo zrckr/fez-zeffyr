@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bass.ogg-23c4f5c971aab119e952853275b08d64.oggstr"
+
+[deps]
+
+source_file="res://assets/Music/spire/bass.ogg"
+dest_files=[ "res://.import/bass.ogg-23c4f5c971aab119e952853275b08d64.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
